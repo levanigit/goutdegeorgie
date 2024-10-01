@@ -17,7 +17,7 @@ export default function Second() {
           const localizedUrl =
             item.url === "/" ? `/${locale}` : `/${locale}${item.url}`;
           return (
-            <Link className="link" href={localizedUrl}>
+            <Link key={item.title} className="link" href={localizedUrl}>
               {item.title}
             </Link>
           );

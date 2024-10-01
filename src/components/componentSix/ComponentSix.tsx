@@ -11,9 +11,10 @@ export default function ComponentSix() {
         <div className={styles.mapAndTimesWrapper}>
           <div className={styles.textMapWrap}>
             <Text />
-            <div className={styles.mapSide}>
-              <iframe className={styles.mapSide} src={mapLocation}></iframe>
-            </div>
+            <Text />
+            {/* <div className={styles.mapSide}> */}
+            {/* <iframe className={styles.mapSide} src={mapLocation}></iframe> */}
+            {/* </div> */}
           </div>
           <Hours />
         </div>

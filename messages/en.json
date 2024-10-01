@@ -1,8 +1,55 @@
 {
   "homePage": {
     "metadata": {
-      "title": "Welcome to Our Sushi Haven",
+      "title": "ChaCha Restaurant",
       "description": "Discover an unforgettable dining experience, crafted with love and sustainability in mind. Enjoy the finest sushi in Genève, Switzerland."
+    },
+    "hero": {
+      "title1": "Welcome to",
+      "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos optio earum reiciendis placeat quis iusto doloremque facere eaque. Deleniti corrupti fugiat nesciunt dolore officia aperiam ipsam accusantium, debitis nisi unde?",
+      "button1": "View Menu",
+      "button2": "Book a Table"
+    },
+    "componentOne": {
+      "title1": "Leader's Word",
+      "title2": "Made for future",
+      "text": "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo cumbeatae, sapiente dolorem veniam doloribus eum harum rerum nemopariatur numquam repellat dicta non architecto voluptas quasimolestiae! Commodi, molestiae?"
+    },
+    "componentTwo": {
+      "title1": "Leader's Word",
+      "title2": "Made for future",
+      "text1": "Fish is one of the most wholesome foods that man can eat. Infact, people have been eating fish throughout human history.These days, many cooks yearn to add fish to their repertoire,but the whole process of cleaning and",
+      "text2": "Filleting fresh fish is a little scary to them. The process ofcleaning and filleting fresh fish is relatively simple once thesteps are understood. To begin, you must clean your fresh fish properly in order to maintain it’s quality."
+    },
+    "componentThree": {
+      "title1": "WE ARE EXPERT IN",
+      "title2": "What we love to do",
+      "caption": "Read more",
+      "services": {
+        "ser1": "Chef's Specials",
+        "ser2": "Our Story",
+        "ser3": "Menu",
+        "ser4": "Reservations",
+        "ser5": "Catering Services",
+        "ser6": "Contact Us"
+      }
+    },
+    "componentFour": {
+      "1": {
+        "title": "The Secret of Oliv Oil",
+        "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta quidem, modi sapiente sed perspiciatis fuga facilis laboriosam, necessitatibus accusamus temporibus id minima, doloremque tempora neque illo qui eveniet nobis optio?"
+      },
+      "2": {
+        "title": "Sectet of The Dough  ",
+        "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta quidem, modi sapiente sed perspiciatis fuga facilis laboriosam, necessitatibus accusamus temporibus id minima, doloremque tempora neque illo qui eveniet nobis optio?"
+      }
+    },
+    "componentFive": {
+      "title4": "Get In Touch"
+    },
+    "testimonials": {
+      "title1": "Little Love",
+      "title2": "What our customers say about us"
     }
   },
   "menuPage": {

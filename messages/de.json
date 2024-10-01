@@ -1,51 +1,61 @@
 {
   "homePage": {
     "metadata": {
-      "title": "Willkommen in Unserem Sushi-Paradies",
-      "description": "Entdecken Sie ein unvergessliches kulinarisches Erlebnis, das mit Liebe und Nachhaltigkeit gestaltet wurde. Genießen Sie das beste Sushi in Genf, Schweiz."
+      "title": "Restaurant ChaCha",
+      "description": "Entdecken Sie ein unvergessliches kulinarisches Erlebnis, das mit Liebe und Nachhaltigkeit zubereitet wird. Genießen Sie die besten italienischen Spezialitäten in Genf, Schweiz."
     },
     "hero": {
-      "days": "Di-So",
-      "hours": "8:00am - 9:00pm",
-      "address1": "Rue Leschot 10, 1205",
-      "address2": "Genf, Schweiz"
+      "title1": "Willkommen bei",
+      "text": "Tauchen Sie ein in eine einzigartige kulinarische Welt, in der jedes Gericht mit Sorgfalt und den besten lokalen und italienischen Zutaten zubereitet wird.",
+      "button1": "Speisekarte Ansehen",
+      "button2": "Tisch Reservieren"
+    },
+    "componentOne": {
+      "title1": "Worte des Küchenchefs",
+      "title2": "Für die Zukunft Gemacht",
+      "text": "Unser Engagement für Qualität und Nachhaltigkeit steht im Mittelpunkt jedes Gerichts. Jedes Gericht verspricht Frische und Authentizität."
     },
     "componentTwo": {
-      "title": "Mit Liebe",
-      "text": "Wir sind leidenschaftlich darum bemüht, ein nachhaltiges und unvergessliches kulinarisches Erlebnis zu bieten, mit Gerichten aus regionalen Zutaten, die das Wesen unserer Gemeinschaft widerspiegeln."
-    },
-    "testimonials": {
-      "title1": "Etwas Liebe",
-      "title2": "von unseren Kunden"
+      "title1": "Worte des Küchenchefs",
+      "title2": "Für die Zukunft Gemacht",
+      "text1": "Italienische Zutaten von höchster Qualität stehen im Mittelpunkt unserer Küche. Unsere Köche arbeiten leidenschaftlich daran, Gerichte anzubieten, die Tradition mit modernem Flair verbinden.",
+      "text2": "Ob Sie eine frisch gebackene Pizza oder hausgemachte Pasta genießen möchten, unser Menü überrascht Sie mit neuen Aromen in einer gemütlichen Atmosphäre."
     },
     "componentThree": {
-      "title": "Unsere Reise",
-      "text": "Von einer Leidenschaft für hausgemachtes Sushi bis hin zu einem geliebten Lokal, sind wir ein zweites Zuhause für Sushi-Enthusiasten in der Region geworden."
+      "title1": "Wir sind Experten in",
+      "title2": "Was wir lieben zu tun",
+      "caption": "Mehr Lesen",
+      "services": {
+        "ser1": "Chef-Spezialitäten",
+        "ser2": "Unsere Geschichte",
+        "ser3": "Speisekarte",
+        "ser4": "Reservierungen",
+        "ser5": "Catering-Services",
+        "ser6": "Kontaktieren Sie uns"
+      }
     },
     "componentFour": {
-      "title": "Mit Liebe"
-    },
-    "componentSix": {
-      "title": "Tisch Reservieren",
-      "name": "Name",
-      "email": "E-Mail",
-      "phone": "Telefonnummer",
-      "date": "Datum",
-      "time": "Zeit",
-      "quantity": "Anzahl der Gäste",
-      "message": "Spezielle Wünsche oder diätetische Einschränkungen?",
-      "send": "Reservierungsanfrage Senden",
-      "thankYou": "Vielen Dank für Ihre Reservierung!",
-      "comfirmation": "Bitte warten Sie auf die Bestätigung"
+      "1": {
+        "title": "Das Geheimnis des Olivenöls",
+        "text": "Entdecken Sie das hochwertigste Olivenöl, das in all unseren Gerichten verwendet wird und unseren italienischen Rezepten eine authentische Note verleiht."
+      },
+      "2": {
+        "title": "Das Geheimnis des Teigs",
+        "text": "Der perfekte Teig ist die Basis unserer Pizzen. Täglich mit frischen und authentischen Zutaten zubereitet, garantiert er einen unvergleichlichen Geschmack."
+      }
     },
     "componentFive": {
-      "title": "Treten Sie Unserer Gemeinschaft Bei"
+      "title4": "Kontaktieren Sie Uns"
+    },
+    "testimonials": {
+      "title1": "Ein Bisschen Liebe",
+      "title2": "Was unsere Kunden über uns sagen"
     }
   },
   "menuPage": {
     "metadata": {
       "title": "Entdecken Sie Unser Menü",
-      "description": "Blättern Sie durch unser Menü und genießen Sie unsere besten Sushi-Kreationen, die mit frischen Zutaten und einem lokalen Touch zubereitet werden."
+      "description": "Blättern Sie durch unser Menü und genießen Sie das Beste unserer italienischen Kreationen, zubereitet mit frischen Zutaten und einer Prise lokaler Liebe."
     },
     "menu": {
       "underCategory": "menu"
@@ -54,58 +64,58 @@
   "storyPage": {
     "metadata": {
       "title": "Unsere Geschichte",
-      "description": "Erfahren Sie mehr über die Wurzeln unserer Sushi-Leidenschaft und wie wir zu einem beliebten Restaurant in Genf geworden sind, das Tradition und Innovation vereint."
+      "description": "Erfahren Sie mehr über die Wurzeln unserer Leidenschaft für italienische Küche und wie wir zu einem beliebten Restaurant in Genf geworden sind, das Tradition und Innovation vereint."
     },
     "componentSeven": {
-      "title": "Ein Einzigartiges Erlebnis",
+      "title": "Erfahrung",
       "caption": "Geduld",
-      "text": "Unser Ziel ist es, ein einzigartiges, nachhaltiges kulinarisches Erlebnis zu bieten, das einen bleibenden Eindruck hinterlässt. Wir servieren Gerichte, die mit regionalen Zutaten zubereitet werden."
+      "text": "Unser Ziel ist es, ein einzigartiges und nachhaltiges kulinarisches Erlebnis zu bieten, bei dem Gerichte aus lokalen und italienischen Zutaten zubereitet werden."
     },
     "componentEight": {
-      "title": "25 Jahre Leidenschaft",
-      "text": "Seit 25 Jahren perfektionieren wir unser Handwerk und bieten Sushi-Liebhabern und der lokalen Gemeinschaft ein unvergessliches kulinarisches Erlebnis."
+      "title": "25 Jahre",
+      "text": "Seit 25 Jahren perfektionieren wir unser Handwerk und bieten ein unvergessliches kulinarisches Erlebnis für Liebhaber der italienischen Küche in Genf."
     }
   },
   "reservationPage": {
     "metadata": {
       "title": "Tisch Reservieren",
-      "description": "Reservieren Sie noch heute einen Tisch bei uns, um das beste Sushi und eine unvergessliche kulinarische Atmosphäre im Herzen von Genf zu erleben."
+      "description": "Reservieren Sie noch heute einen Tisch bei uns und erleben Sie die besten italienischen Spezialitäten in einer warmen Atmosphäre im Herzen von Genf."
     },
     "componentNine": {
       "title": "Reservieren Sie Ihren Tisch",
-      "text": "Sichern Sie sich Ihren Platz und genießen Sie unser nachhaltiges Sushi, das mit Liebe zubereitet wird. Wir freuen uns darauf, Sie zu begrüßen!"
+      "text": "Sichern Sie sich Ihren Platz und genießen Sie unsere nachhaltige Küche, die mit Liebe zubereitet wird. Wir freuen uns auf Ihren Besuch!"
     }
   },
   "forms": {
     "reservationForm": {
       "name": "Vollständiger Name",
-      "email": "E-Mail",
+      "email": "Email",
       "phone": "Telefonnummer",
       "date": "Datum",
       "time": "Zeit",
       "quantity": "Anzahl der Gäste",
       "message": "Besondere Wünsche?",
       "send": "Reservierungsanfrage Senden",
-      "thankYou": "Vielen Dank für Ihre Reservierung!",
-      "comfirmation": "Bitte warten Sie auf die Bestätigung"
+      "thankYou": "Danke für Ihre Reservierung!",
+      "comfirmation": "Bitte warten Sie auf unsere Bestätigung"
     }
   },
   "errorPage": {
     "metadata": {
-      "title": "Fehler - Etwas Ist Schiefgelaufen",
-      "description": "Es scheint, dass etwas schiefgelaufen ist. Die Seite, die Sie suchen, existiert nicht oder wurde verschoben. Kehren wir zur Startseite zurück."
+      "title": "Fehler - Etwas ist Schiefgelaufen",
+      "description": "Es scheint, dass etwas schiefgelaufen ist. Die gesuchte Seite existiert nicht oder wurde verschoben. Kehren Sie zur Startseite zurück."
     },
-    "errorTitle": "Ups! Etwas ist schiefgelaufen",
-    "errorDescription": "Die Seite, die Sie suchen, existiert nicht oder wurde verschoben. Bitte kehren Sie zur Startseite zurück und setzen Sie Ihre Erkundung fort.",
+    "errorTitle": "Oops! Etwas ist Schiefgelaufen",
+    "errorDescription": "Die Seite, die Sie suchen, existiert nicht oder wurde verschoben. Bitte kehren Sie zur Startseite zurück, um weiter zu stöbern.",
     "errorButton": "Zurück zur Startseite"
   },
   "notFoundPage": {
     "metadata": {
       "title": "404 - Seite Nicht Gefunden",
-      "description": "Die Seite, die Sie suchen, konnte nicht gefunden werden. Kehren Sie zu unserer Startseite zurück, um das beste Sushi in Genf zu entdecken."
+      "description": "Die von Ihnen gesuchte Seite konnte nicht gefunden werden. Kehren Sie zu unserer Startseite zurück, um die besten italienischen Spezialitäten in Genf zu entdecken."
     },
     "title": "Seite Nicht Gefunden",
-    "description": "Die Seite, die Sie suchen, existiert nicht oder wurde verschoben. Kehren wir zur Startseite zurück.",
+    "description": "Die von Ihnen gesuchte Seite existiert nicht oder wurde verschoben. Kehren wir zur Startseite zurück.",
     "button": "Zurück zur Startseite"
   }
 }

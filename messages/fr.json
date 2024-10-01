@@ -1,51 +1,61 @@
 {
   "homePage": {
     "metadata": {
-      "title": "Bienvenue dans notre Havre de Sushi",
-      "description": "Découvrez une expérience culinaire inoubliable, conçue avec amour et durabilité. Savourez les meilleurs sushis à Genève, Suisse."
+      "title": "Restaurant ChaCha",
+      "description": "Découvrez une expérience culinaire inoubliable, élaborée avec amour et en tenant compte de la durabilité. Savourez les meilleures spécialités italiennes à Genève, Suisse."
     },
     "hero": {
-      "days": "Mar-Dim",
-      "hours": "8:00am - 9:00pm",
-      "address1": "Rue Leschot 10, 1205",
-      "address2": "Genève, Suisse"
+      "title1": "Bienvenue chez",
+      "text": "Plongez dans un univers gastronomique exceptionnel où chaque plat est préparé avec soin à partir des meilleurs ingrédients locaux et italiens.",
+      "button1": "Voir le Menu",
+      "button2": "Réserver une Table"
+    },
+    "componentOne": {
+      "title1": "Le Mot du Chef",
+      "title2": "Fait pour le Futur",
+      "text": "Notre engagement envers la qualité et la durabilité est au cœur de tout ce que nous faisons. Chaque plat est une promesse de fraîcheur et d'authenticité."
     },
     "componentTwo": {
-      "title": "Avec Amour",
-      "text": "Nous sommes passionnés par l'idée d'offrir une expérience culinaire durable et inoubliable, en servant des plats issus de produits locaux qui reflètent l'essence de notre communauté."
-    },
-    "testimonials": {
-      "title1": "Quelques témoignages",
-      "title2": "de nos clients"
+      "title1": "Le Mot du Chef",
+      "title2": "Fait pour le Futur",
+      "text1": "Les ingrédients italiens de qualité sont au centre de notre cuisine. Nos chefs travaillent sans relâche pour offrir des plats qui respectent les traditions tout en y apportant une touche moderne.",
+      "text2": "Que ce soit pour déguster une pizza fraîche ou une pasta maison, notre menu vous fera découvrir de nouvelles saveurs dans un cadre chaleureux."
     },
     "componentThree": {
-      "title": "Notre Histoire",
-      "text": "D'une passion pour les sushis faits maison à un restaurant local adoré, nous sommes devenus une seconde maison pour les amateurs de sushis de la région."
+      "title1": "Nous sommes Experts en",
+      "title2": "Ce que nous aimons faire",
+      "caption": "Lire plus",
+      "services": {
+        "ser1": "Spécialités du Chef",
+        "ser2": "Notre Histoire",
+        "ser3": "Menu",
+        "ser4": "Réservations",
+        "ser5": "Services de Traiteur",
+        "ser6": "Nous Contacter"
+      }
     },
     "componentFour": {
-      "title": "Avec Amour"
-    },
-    "componentSix": {
-      "title": "Réserver une Table",
-      "name": "Nom",
-      "email": "Email",
-      "phone": "Numéro de Téléphone",
-      "date": "Date",
-      "time": "Heure",
-      "quantity": "Nombre de Convives",
-      "message": "Demandes spéciales ou restrictions alimentaires?",
-      "send": "Envoyer une Demande de Réservation",
-      "thankYou": "Merci pour votre réservation!",
-      "comfirmation": "Veuillez attendre la confirmation"
+      "1": {
+        "title": "Le Secret de l'Huile d'Olive",
+        "text": "Découvrez l'huile d'olive de la plus haute qualité utilisée dans chacun de nos plats, apportant une touche authentique à nos recettes italiennes."
+      },
+      "2": {
+        "title": "Le Secret de la Pâte",
+        "text": "La pâte parfaite est la base de nos pizzas. Préparée quotidiennement avec des ingrédients frais et authentiques, elle garantit un goût inégalé."
+      }
     },
     "componentFive": {
-      "title": "Rejoignez Notre Communauté"
+      "title4": "Entrer en Contact"
+    },
+    "testimonials": {
+      "title1": "Un peu d'Amour",
+      "title2": "Ce que nos clients disent de nous"
     }
   },
   "menuPage": {
     "metadata": {
       "title": "Découvrez Notre Menu",
-      "description": "Parcourez notre menu et savourez nos meilleures créations de sushi, préparées avec des ingrédients frais et une touche locale."
+      "description": "Parcourez notre menu et savourez le meilleur de nos créations italiennes, préparées avec des ingrédients frais et une touche de saveur locale."
     },
     "menu": {
       "underCategory": "menu"
@@ -54,26 +64,26 @@
   "storyPage": {
     "metadata": {
       "title": "Notre Histoire",
-      "description": "Découvrez les racines de notre passion pour les sushis et comment nous sommes devenus un lieu de restauration adoré à Genève, alliant tradition et innovation."
+      "description": "Découvrez les racines de notre passion pour la cuisine italienne et comment nous sommes devenus un restaurant emblématique à Genève, alliant tradition et innovation."
     },
     "componentSeven": {
-      "title": "Une Expérience Unique",
+      "title": "Expérience",
       "caption": "Patience",
-      "text": "Notre objectif est d'offrir une expérience culinaire durable et unique qui laisse une impression durable, en servant des plats issus de produits locaux."
+      "text": "Notre objectif est d'offrir une expérience culinaire durable et unique, en servant des plats préparés avec des ingrédients locaux et italiens."
     },
     "componentEight": {
-      "title": "25 Ans de Passion",
-      "text": "Depuis 25 ans, nous perfectionnons notre savoir-faire en offrant une expérience culinaire inoubliable aux amateurs de sushi et à la communauté locale."
+      "title": "25 Ans",
+      "text": "Depuis 25 ans, nous perfectionnons notre art, offrant une expérience culinaire mémorable aux amateurs de gastronomie italienne à Genève."
     }
   },
   "reservationPage": {
     "metadata": {
       "title": "Réserver une Table",
-      "description": "Réservez une table chez nous aujourd'hui pour découvrir les meilleurs sushis et une atmosphère culinaire inoubliable au cœur de Genève."
+      "description": "Réservez une table chez nous aujourd'hui et profitez des meilleures spécialités italiennes dans une atmosphère chaleureuse au cœur de Genève."
     },
     "componentNine": {
       "title": "Réservez Votre Table",
-      "text": "Réservez votre place et savourez nos sushis durables préparés avec amour. Nous sommes impatients de vous accueillir!"
+      "text": "Réservez votre place et savourez notre cuisine durable préparée avec amour. Nous avons hâte de vous accueillir !"
     }
   },
   "forms": {
@@ -83,26 +93,26 @@
       "phone": "Numéro de Téléphone",
       "date": "Date",
       "time": "Heure",
-      "quantity": "Nombre de Convives",
-      "message": "Demandes spéciales?",
-      "send": "Envoyer une Demande de Réservation",
-      "thankYou": "Merci pour votre réservation!",
-      "comfirmation": "Veuillez attendre la confirmation"
+      "quantity": "Nombre de Personnes",
+      "message": "Des demandes spéciales ?",
+      "send": "Envoyer la Demande de Réservation",
+      "thankYou": "Merci pour votre réservation !",
+      "comfirmation": "Veuillez attendre notre confirmation"
     }
   },
   "errorPage": {
     "metadata": {
-      "title": "Erreur - Quelque Chose a Mal Tourné",
-      "description": "Il semble que quelque chose ait mal tourné. La page que vous recherchez n'existe pas ou a été déplacée. Revenons à la page d'accueil."
+      "title": "Erreur - Quelque chose s'est mal passé",
+      "description": "Il semble que quelque chose se soit mal passé. La page que vous recherchez n'existe pas ou a été déplacée. Revenez à la page d'accueil."
     },
-    "errorTitle": "Oups! Quelque chose a mal tourné",
-    "errorDescription": "La page que vous recherchez n'existe pas ou a été déplacée. Veuillez retourner à la page d'accueil pour continuer votre exploration.",
+    "errorTitle": "Oups ! Quelque chose s'est mal passé",
+    "errorDescription": "La page que vous recherchez n'existe pas ou a été déplacée. Veuillez retourner à la page d'accueil pour continuer à explorer.",
     "errorButton": "Retour à la Page d'Accueil"
   },
   "notFoundPage": {
     "metadata": {
       "title": "404 - Page Non Trouvée",
-      "description": "La page que vous recherchez n'a pas pu être trouvée. Retournez à notre page d'accueil pour découvrir les meilleurs sushis à Genève."
+      "description": "La page que vous recherchez est introuvable. Revenez à notre page d'accueil pour découvrir les meilleures spécialités italiennes à Genève."
     },
     "title": "Page Non Trouvée",
     "description": "La page que vous recherchez n'existe pas ou a été déplacée. Revenons à la page d'accueil.",

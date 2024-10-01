@@ -1,51 +1,61 @@
 {
   "homePage": {
     "metadata": {
-      "title": "Benvenuti nel Nostro Rifugio di Sushi",
-      "description": "Scoprite un'esperienza culinaria indimenticabile, creata con amore e sostenibilità. Gustate il miglior sushi a Ginevra, Svizzera."
+      "title": "Ristorante ChaCha",
+      "description": "Scopri un'esperienza culinaria indimenticabile, creata con amore e con un occhio alla sostenibilità. Gusta le migliori specialità italiane a Ginevra, Svizzera."
     },
     "hero": {
-      "days": "Mar-Dom",
-      "hours": "8:00am - 9:00pm",
-      "address1": "Rue Leschot 10, 1205",
-      "address2": "Ginevra, Svizzera"
+      "title1": "Benvenuti da",
+      "text": "Immergiti in un mondo gastronomico unico, dove ogni piatto è preparato con cura utilizzando ingredienti freschi locali e italiani.",
+      "button1": "Vedi il Menu",
+      "button2": "Prenota un Tavolo"
+    },
+    "componentOne": {
+      "title1": "La Parola del Capo",
+      "title2": "Fatto per il Futuro",
+      "text": "Il nostro impegno per la qualità e la sostenibilità è al centro di ogni piatto che serviamo. Ogni piatto è una promessa di freschezza e autenticità."
     },
     "componentTwo": {
-      "title": "Con Amore",
-      "text": "Siamo appassionati di offrire un'esperienza culinaria sostenibile e indimenticabile, servendo piatti locali che riflettono l'essenza della nostra comunità."
-    },
-    "testimonials": {
-      "title1": "Un po' d'amore",
-      "title2": "dai nostri clienti"
+      "title1": "La Parola del Capo",
+      "title2": "Fatto per il Futuro",
+      "text1": "Gli ingredienti italiani di alta qualità sono alla base della nostra cucina. I nostri chef lavorano con passione per offrire piatti che rispettano la tradizione con un tocco moderno.",
+      "text2": "Che tu voglia gustare una pizza appena sfornata o una pasta fatta in casa, il nostro menu ti sorprenderà con nuovi sapori in un ambiente accogliente."
     },
     "componentThree": {
-      "title": "Il Nostro Viaggio",
-      "text": "Dalla passione per il sushi fatto in casa a un locale amato, siamo diventati una seconda casa per gli appassionati di sushi della regione."
+      "title1": "Siamo Esperti in",
+      "title2": "Ciò che Amiamo Fare",
+      "caption": "Leggi di più",
+      "services": {
+        "ser1": "Specialità dello Chef",
+        "ser2": "La Nostra Storia",
+        "ser3": "Menu",
+        "ser4": "Prenotazioni",
+        "ser5": "Servizi di Catering",
+        "ser6": "Contattaci"
+      }
     },
     "componentFour": {
-      "title": "Con Amore"
-    },
-    "componentSix": {
-      "title": "Prenota un Tavolo",
-      "name": "Nome",
-      "email": "Email",
-      "phone": "Numero di Telefono",
-      "date": "Data",
-      "time": "Ora",
-      "quantity": "Numero di Ospiti",
-      "message": "Richieste speciali o restrizioni alimentari?",
-      "send": "Invia Richiesta di Prenotazione",
-      "thankYou": "Grazie per la tua prenotazione!",
-      "comfirmation": "Attendi la conferma"
+      "1": {
+        "title": "Il Segreto dell'Olio d'Oliva",
+        "text": "Scopri l'olio d'oliva della migliore qualità utilizzato in ciascuno dei nostri piatti, che dona un tocco autentico alle nostre ricette italiane."
+      },
+      "2": {
+        "title": "Il Segreto dell'Impasto",
+        "text": "L'impasto perfetto è la base delle nostre pizze. Preparato quotidianamente con ingredienti freschi e autentici, garantisce un sapore incomparabile."
+      }
     },
     "componentFive": {
-      "title": "Unisciti alla Nostra Comunità"
+      "title4": "Contattaci"
+    },
+    "testimonials": {
+      "title1": "Un Po' d'Amore",
+      "title2": "Cosa Dicono di Noi i Nostri Clienti"
     }
   },
   "menuPage": {
     "metadata": {
       "title": "Esplora il Nostro Menu",
-      "description": "Esplora il nostro menu e assapora le nostre migliori creazioni di sushi, preparate con ingredienti freschi e un tocco locale."
+      "description": "Sfoglia il nostro menu e gusta il meglio delle nostre creazioni italiane, preparate con ingredienti freschi e un tocco di amore locale."
     },
     "menu": {
       "underCategory": "menu"
@@ -54,26 +64,26 @@
   "storyPage": {
     "metadata": {
       "title": "La Nostra Storia",
-      "description": "Scopri le radici della nostra passione per il sushi e come siamo diventati un locale amato a Ginevra, unendo tradizione e innovazione."
+      "description": "Scopri le radici della nostra passione per la cucina italiana e come siamo diventati un punto di riferimento a Ginevra, unendo tradizione e innovazione."
     },
     "componentSeven": {
-      "title": "Un'Esperienza Unica",
+      "title": "Esperienza",
       "caption": "Pazienza",
-      "text": "Il nostro obiettivo è offrire un'esperienza culinaria sostenibile e unica che lasci un'impressione duratura, servendo piatti preparati con ingredienti locali."
+      "text": "Il nostro obiettivo è offrire un'esperienza culinaria sostenibile e unica, servendo piatti preparati con ingredienti locali e italiani."
     },
     "componentEight": {
-      "title": "25 Anni di Passione",
-      "text": "Da 25 anni perfezioniamo il nostro mestiere, offrendo un'esperienza culinaria memorabile per gli amanti del sushi e la comunità locale."
+      "title": "25 Anni",
+      "text": "Da 25 anni perfezioniamo la nostra arte, offrendo un'esperienza culinaria indimenticabile agli amanti della gastronomia italiana a Ginevra."
     }
   },
   "reservationPage": {
     "metadata": {
       "title": "Prenota un Tavolo",
-      "description": "Prenota un tavolo da noi oggi per vivere il miglior sushi e un'atmosfera culinaria indimenticabile nel cuore di Ginevra."
+      "description": "Prenota un tavolo da noi oggi e vivi le migliori specialità italiane in un'atmosfera accogliente nel cuore di Ginevra."
     },
     "componentNine": {
       "title": "Prenota il Tuo Tavolo",
-      "text": "Prenota il tuo posto e goditi il nostro sushi sostenibile preparato con amore. Non vediamo l'ora di darti il benvenuto!"
+      "text": "Riserva il tuo posto e gusta la nostra cucina sostenibile preparata con amore. Non vediamo l'ora di accoglierti!"
     }
   },
   "forms": {
@@ -82,30 +92,30 @@
       "email": "Email",
       "phone": "Numero di Telefono",
       "date": "Data",
-      "time": "Ora",
+      "time": "Orario",
       "quantity": "Numero di Ospiti",
       "message": "Richieste speciali?",
       "send": "Invia Richiesta di Prenotazione",
       "thankYou": "Grazie per la tua prenotazione!",
-      "comfirmation": "Attendi la conferma"
+      "comfirmation": "Attendi la nostra conferma"
     }
   },
   "errorPage": {
     "metadata": {
       "title": "Errore - Qualcosa è Andato Storto",
-      "description": "Sembra che qualcosa sia andato storto. La pagina che stai cercando non esiste o è stata spostata. Torniamo alla homepage."
+      "description": "Sembra che qualcosa sia andato storto. La pagina che stai cercando non esiste o è stata spostata. Torna alla home page."
     },
-    "errorTitle": "Ops! Qualcosa è andato storto",
-    "errorDescription": "La pagina che stai cercando non esiste o è stata spostata. Torna alla homepage per continuare l'esplorazione.",
-    "errorButton": "Torna alla Homepage"
+    "errorTitle": "Oops! Qualcosa è Andato Storto",
+    "errorDescription": "La pagina che stai cercando non esiste o è stata spostata. Per favore, torna alla home page per continuare a esplorare.",
+    "errorButton": "Torna alla Home"
   },
   "notFoundPage": {
     "metadata": {
       "title": "404 - Pagina Non Trovata",
-      "description": "La pagina che stai cercando non è stata trovata. Torna alla nostra homepage per scoprire il miglior sushi a Ginevra."
+      "description": "La pagina che stai cercando non è stata trovata. Torna alla nostra home page per scoprire le migliori specialità italiane a Ginevra."
     },
     "title": "Pagina Non Trovata",
-    "description": "La pagina che stai cercando non esiste o è stata spostata. Torniamo alla homepage.",
-    "button": "Torna alla Homepage"
+    "description": "La pagina che stai cercando non esiste o è stata spostata. Torniamo alla home page.",
+    "button": "Torna alla Home"
   }
 }

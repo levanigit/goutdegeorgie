@@ -3,31 +3,31 @@ import { getTranslations } from "next-intl/server";
 import { Analytics } from "@vercel/analytics/react";
 
 // SEO Metadata
-// import { companyDomain, companyName } from "@/Manager/info";
-// export async function generateMetadata() {
-//   const t = await getTranslations("homePage.metadata");
-//   return {
-//     metadataBase: new URL(companyDomain),
-//     title: {
-//       default: t("title"),
-//       template: `%s | ${t("title")}`,
-//     },
-//     description: t("description"),
-//     openGraph: {
-//       title: companyName,
-//       description: t("description"),
-//       url: companyDomain,
-//       images: [
-//         {
-//           // url: "@/public/images/opengraph-image.jpg",
-//           width: 800,
-//           height: 600,
-//           alt: companyName + companyDomain,
-//         },
-//       ],
-//     },
-//   };
-// }
+import { companyDomain, companyName } from "@/Manager/info";
+export async function generateMetadata() {
+  const t = await getTranslations("homePage.metadata");
+  return {
+    metadataBase: new URL(companyDomain),
+    title: {
+      default: t("title"),
+      template: `%s | ${t("title")}`,
+    },
+    description: t("description"),
+    openGraph: {
+      title: companyName,
+      description: t("description"),
+      url: companyDomain,
+      images: [
+        {
+          // url: "@/public/images/opengraph-image.jpg",
+          width: 800,
+          height: 600,
+          alt: companyName + companyDomain,
+        },
+      ],
+    },
+  };
+}
 
 //fonts
 import { Oswald, Gabriela, Great_Vibes, Inter } from "next/font/google";
@@ -77,7 +77,7 @@ export default function LangLayout({
       >
         <div className="flex flex-col min-h-screen max-w-4xl mx-auto">
           <Header />
-          <div>{children}</div>
+          {children}
           <Analytics />
           <Footer />
           <LowerFoot />

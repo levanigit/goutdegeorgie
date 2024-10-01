@@ -19,10 +19,6 @@ export default function LowerFoot() {
         <Link href="https://www.levanidze.com/" target="_blank">
           <p className={`font2 ${styles.lighted}`}>Levanidze.com</p>
         </Link>
-        <div className={styles.divider}></div>
-        <p className={styles.dimmed}> Style Guide</p>
-        <div className={styles.divider}></div>
-        <p className={styles.dimmed}>Licenses</p>
       </div>
     </div>
   );

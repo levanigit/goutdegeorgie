@@ -5,10 +5,6 @@ import ComponentFive from "@/src/components/ComponentFive/ComponentFive";
 import Hero from "@/src/components/Hero/Hero";
 import { getTranslations } from "next-intl/server";
 import {
-  heroMain,
-  croisant,
-  pizza,
-  pizza2,
   instagram1,
   instagram2,
   instagram3,
@@ -20,6 +16,7 @@ import ComponentSix from "@/src/components/ComponentSix/ComponentSix";
 import ComponentOne from "@/src/components/ComponentOne/ComponentOne";
 import ComponentThree from "@/src/components/ComponentThree/ComponentThree";
 import Testimonials from "@/src/components/Testimonials/Testimonials";
+import { useTranslations } from "next-intl";
 
 export async function generateMetadata() {
   const t = await getTranslations("homePage.metadata");
@@ -31,20 +28,12 @@ export async function generateMetadata() {
       title: companyName,
       description: t("description"),
       url: companyDomain,
-      images: [
-        {
-          // url: "@/public/images/opengraph-image.jpg", MUST
-          width: 800,
-          height: 600,
-          alt: `${companyName} ${companyDomain}`,
-        },
-      ],
     },
   };
 }
 
-export default async function Home() {
-  const t = await getTranslations("homePage");
+export default function Home() {
+  const t = useTranslations("homePage");
 
   return (
     <div className="fadeOut">
@@ -52,13 +41,24 @@ export default async function Home() {
       <ComponentOne image={chefImage} />
       <ComponentTwo />
       <ComponentThree image={womanChef} />
-      <ComponentFour icon={instagram1} image={instagram2} />
-      <ComponentFour icon={instagram2} image={instagram1} reverse />
-      <ComponentFive image={instagram3} />
+      <ComponentFour
+        icon={instagram1}
+        image={instagram2}
+        title={t("componentFour.1.title")}
+        text={t("componentFour.1.text")}
+      />
+      <ComponentFour
+        icon={instagram2}
+        image={instagram1}
+        title={t("componentFour.2.title")}
+        text={t("componentFour.2.text")}
+        reverse
+      />
+      <ComponentFive />
 
       <Testimonials
-        title1={t("homePage.testimonials.title1")}
-        title2={t("homePage.testimonials.title2")}
+        title1={t("testimonials.title1")}
+        title2={t("testimonials.title2")}
       />
       <ComponentSix />
     </div>

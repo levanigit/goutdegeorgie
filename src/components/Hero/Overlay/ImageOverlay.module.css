@@ -48,6 +48,11 @@
   font-size: 22px;
   margin-right: 5px;
   padding-top: 5px;
+  color: var(--white);
+}
+.number:hover {
+  color: var(--color2);
+  transition: all 0.3s;
 }
 
 @media (max-width: 950px) {

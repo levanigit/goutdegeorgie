@@ -28,8 +28,8 @@ export default function Header() {
                 alt={`${companyName} logo`}
               />
             </Link>
-            <StandartNav />
             <LanguageSwitcher />
+            <StandartNav />
             <BurgerNav
               navClose={navClose}
               navToggler={navToggler}

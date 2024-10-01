@@ -13,7 +13,7 @@ export default function Footer() {
           <div className={styles.footWrapper}>
             <First />
             <Second />
-            <Third />
+            {/* <Third /> */}
             <Fourth />
           </div>
         </div>

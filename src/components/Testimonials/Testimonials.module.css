@@ -1,7 +1,11 @@
 .titlesWrapper {
-  align-items: left;
   display: inline-block;
-  text-align: right;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+}
+.titlesWrapper h3 {
+  padding-bottom: 20px;
 }
 
 .reviewsWrapper {

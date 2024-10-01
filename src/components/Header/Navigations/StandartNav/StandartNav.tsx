@@ -24,9 +24,9 @@ export default function StandartNav() {
             <li key={item.url} className={styles.navItem}>
               <Link
                 href={localizedUrl}
-                className={`${item.button ? "button" : "link"} ${
-                  isActive && !item.button ? "active-link" : ""
-                }`}
+                className={`${
+                  item.button ? "button button-small button-reverse" : "link"
+                } ${isActive && !item.button ? "active-link" : ""}`}
               >
                 {item.title}
               </Link>

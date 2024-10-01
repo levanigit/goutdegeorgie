@@ -16,6 +16,9 @@
   font-weight: 700;
   text-transform: uppercase;
 }
+.button-small {
+  padding: 5px 10px;
+}
 
 /* button1 START */
 .button:hover {

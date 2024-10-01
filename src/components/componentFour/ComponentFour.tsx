@@ -6,9 +6,13 @@ interface TextIntoPhotoProps {
   reverse?: boolean;
   icon: StaticImageData;
   image: StaticImageData;
+  title: string;
+  text: string;
 }
 
 export default function ComponentFour({
+  title,
+  text,
   reverse,
   icon,
   image,
@@ -31,14 +35,9 @@ export default function ComponentFour({
           <div className={`${styles.slideSide} ${styles.textDivWrapper}`}>
             <div className={` ${styles.textDiv}`}>
               <Image src={icon} alt="chair" width={60} height={60}></Image>
-              <h2 className="heading3 font1 ">The Secret of Oliv Oil</h2>
+              <h2 className="heading3 font1 ">{title}</h2>
               <p className="twoLines"></p>
-              <h5 className="paragraph gray7 textMedium">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta
-                quidem, modi sapiente sed perspiciatis fuga facilis laboriosam,
-                necessitatibus accusamus temporibus id minima, doloremque
-                tempora neque illo qui eveniet nobis optio?
-              </h5>
+              <h5 className="paragraph gray7 textMedium">{text}</h5>
             </div>
           </div>
         </div>
