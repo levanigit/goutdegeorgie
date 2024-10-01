@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Custom404() {
   return (
-    <section className={`section section-dark `}>
+    <section className={`section section-dark`}>
       <div className="container">
         <div
           style={{
@@ -12,12 +12,12 @@ export default function Custom404() {
             maxWidth: "600px",
           }}
         >
-          <h1 className="heading3">"404 - Page Not Found"</h1>
+          <h1 className="heading3">404 - Page Not Found</h1>
           <p className="paragraph">
-            The page you're looking for could not be found. Return to our
+            The page you are looking for could not be found. Return to our
             homepage to discover the finest Italian specialties in Geneva.
           </p>
-          <Link href="/" className={`button `}>
+          <Link href="/" className={`button`}>
             Back To Home Page
           </Link>
         </div>
