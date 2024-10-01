@@ -10,10 +10,10 @@ import {
   chefImage,
   womanChef,
 } from "@/public/image";
-import ComponentOne from "@/src/components/ComponentOne/ComponentOne";
+import ComponentOne from "@/public/One/ComponentOne";
 import Testimonials from "@/src/components/Testimonials/Testimonials";
 import { useTranslations } from "next-intl";
-import ComponentFour from "@/src/components/ComponentFour/ComponentFour";
+import ComponentFour from "@/src/components/Four/ComponentFour";
 import ComponentTwo from "@/src/components/Two/ComponentTwo";
 import ComponentSix from "@/src/components/Six/ComponentSix";
 import ComponentThree from "@/src/components/Three/ComponentThree";
