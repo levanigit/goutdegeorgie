@@ -57,7 +57,6 @@ import Footer from "@/src/components/Footer/Footer";
 import LowerFoot from "@/src/components/LowerFooter/LowerFoot";
 import { redirect } from "next/navigation";
 import { defaultLocale, supportedLocales } from "@/Manager/navigation"; // Import supported locales
-import { usePathname } from "next/navigation"; // For handling redirects
 
 interface RootLayoutProps {
   children: React.ReactNode;

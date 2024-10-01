@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import "@/src/app/globals.css";
 
 // Error boundaries must be Client Components
 
@@ -25,8 +26,8 @@ export default function GlobalError({
           margin: 0,
         }}
       >
-        <h2 style={{ color: "var(--color2)" }}>Something went wrong!</h2>
-        <div style={{ display: "flex", gap: "20px" }}>
+        <h2 className="heading4 color2">Oops, Something went wrong!</h2>
+        <div style={{ display: "flex", gap: "20px", marginTop: "40px" }}>
           <button className="button" onClick={() => reset()}>
             Try again
           </button>
