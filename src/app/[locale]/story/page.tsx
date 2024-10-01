@@ -2,8 +2,8 @@ import Testimonials from "@/src/components/Testimonials/Testimonials";
 import { getTranslations } from "next-intl/server";
 import PageHeadImage from "@/src/components/PageHeadImage/PageHeadImage";
 import { chroisant2, womanChef } from "@/public/image";
-import ComponentThree from "@/src/components/ComponentThree/ComponentThree";
 import ComponentTwo from "@/src/components/ComponentTwo/ComponentTwo";
+import ComponentThree from "@/src/components/ComponentThree/ComponentThree";
 
 export async function generateMetadata() {
   const t = await getTranslations("storyPage.metadata");
