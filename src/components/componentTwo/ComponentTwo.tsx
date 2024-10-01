@@ -23,7 +23,7 @@ export default function ComponentTwo() {
             </div>
           </div>
           <Link href="/about" className={` button  `}>
-            More About Us
+            {t("button")}
           </Link>
         </div>
       </div>
