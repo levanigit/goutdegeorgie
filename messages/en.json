@@ -100,23 +100,5 @@
       "thankYou": "Thank you for your reservation!",
       "comfirmation": "Please wait for our confirmation"
     }
-  },
-  "errorPage": {
-    "metadata": {
-      "title": "Error - Something Went Wrong",
-      "description": "It seems something went wrong. The page you're looking for doesn't exist or has been moved. Let's get you back to the homepage."
-    },
-    "errorTitle": "Oops! Something Went Wrong",
-    "errorDescription": "The page you're looking for doesn't exist or has been moved. Please return to the homepage and continue exploring.",
-    "errorButton": "Back to Homepage"
-  },
-  "notFoundPage": {
-    "metadata": {
-      "title": "404 - Page Not Found",
-      "description": "The page you're looking for could not be found. Return to our homepage to discover the finest Italian specialties in Geneva."
-    },
-    "title": "Page Not Found",
-    "description": "The page you're looking for doesn't exist or has been moved. Let's get you back to the homepage.",
-    "button": "Back to Homepage"
   }
 }

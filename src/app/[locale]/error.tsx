@@ -1,20 +1,9 @@
 "use client";
-import { useTranslations } from "next-intl";
-import { getTranslations } from "next-intl/server";
 import Link from "next/link";
 
 // Static metadata
-export async function generateMetadata() {
-  const t = await getTranslations("errorPage.metadata");
-  return {
-    title: t("title"),
-    description: t("description"),
-  };
-}
 
 export default function Error() {
-  const t = useTranslations("errorPage");
-
   return (
     <section className={`section section-dark`}>
       <div className="container">
@@ -27,10 +16,13 @@ export default function Error() {
           }}
         >
           <h1 className="heading2">404</h1>
-          <h2 className="heading3">{t("errorTitle")}</h2>
-          <p className="paragraph">{t("errorDescription")}</p>
+          <h2 className="heading3">Oops! Something Went Wrong</h2>
+          <p className="paragraph">
+            The page you're looking for doesn't exist or has been moved. Please
+            return to the homepage and continue exploring.
+          </p>
           <Link href="/" className={`button`}>
-            {t("errorButton")}
+            Back To Home Page
           </Link>
         </div>
       </div>

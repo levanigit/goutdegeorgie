@@ -100,23 +100,5 @@
       "thankYou": "Danke für Ihre Reservierung!",
       "comfirmation": "Bitte warten Sie auf unsere Bestätigung"
     }
-  },
-  "errorPage": {
-    "metadata": {
-      "title": "Fehler - Etwas ist Schiefgelaufen",
-      "description": "Es scheint, dass etwas schiefgelaufen ist. Die gesuchte Seite existiert nicht oder wurde verschoben. Kehren Sie zur Startseite zurück."
-    },
-    "errorTitle": "Oops! Etwas ist Schiefgelaufen",
-    "errorDescription": "Die Seite, die Sie suchen, existiert nicht oder wurde verschoben. Bitte kehren Sie zur Startseite zurück, um weiter zu stöbern.",
-    "errorButton": "Zurück zur Startseite"
-  },
-  "notFoundPage": {
-    "metadata": {
-      "title": "404 - Seite Nicht Gefunden",
-      "description": "Die von Ihnen gesuchte Seite konnte nicht gefunden werden. Kehren Sie zu unserer Startseite zurück, um die besten italienischen Spezialitäten in Genf zu entdecken."
-    },
-    "title": "Seite Nicht Gefunden",
-    "description": "Die von Ihnen gesuchte Seite existiert nicht oder wurde verschoben. Kehren wir zur Startseite zurück.",
-    "button": "Zurück zur Startseite"
   }
 }

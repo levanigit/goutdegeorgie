@@ -100,23 +100,5 @@
       "thankYou": "Merci pour votre réservation !",
       "comfirmation": "Veuillez attendre notre confirmation"
     }
-  },
-  "errorPage": {
-    "metadata": {
-      "title": "Erreur - Quelque chose s'est mal passé",
-      "description": "Il semble que quelque chose se soit mal passé. La page que vous recherchez n'existe pas ou a été déplacée. Revenez à la page d'accueil."
-    },
-    "errorTitle": "Oups ! Quelque chose s'est mal passé",
-    "errorDescription": "La page que vous recherchez n'existe pas ou a été déplacée. Veuillez retourner à la page d'accueil pour continuer à explorer.",
-    "errorButton": "Retour à la Page d'Accueil"
-  },
-  "notFoundPage": {
-    "metadata": {
-      "title": "404 - Page Non Trouvée",
-      "description": "La page que vous recherchez est introuvable. Revenez à notre page d'accueil pour découvrir les meilleures spécialités italiennes à Genève."
-    },
-    "title": "Page Non Trouvée",
-    "description": "La page que vous recherchez n'existe pas ou a été déplacée. Revenons à la page d'accueil.",
-    "button": "Retour à la Page d'Accueil"
   }
 }

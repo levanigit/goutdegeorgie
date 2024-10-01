@@ -100,23 +100,5 @@
       "thankYou": "Grazie per la tua prenotazione!",
       "comfirmation": "Attendi la nostra conferma"
     }
-  },
-  "errorPage": {
-    "metadata": {
-      "title": "Errore - Qualcosa è Andato Storto",
-      "description": "Sembra che qualcosa sia andato storto. La pagina che stai cercando non esiste o è stata spostata. Torna alla home page."
-    },
-    "errorTitle": "Oops! Qualcosa è Andato Storto",
-    "errorDescription": "La pagina che stai cercando non esiste o è stata spostata. Per favore, torna alla home page per continuare a esplorare.",
-    "errorButton": "Torna alla Home"
-  },
-  "notFoundPage": {
-    "metadata": {
-      "title": "404 - Pagina Non Trovata",
-      "description": "La pagina che stai cercando non è stata trovata. Torna alla nostra home page per scoprire le migliori specialità italiane a Ginevra."
-    },
-    "title": "Pagina Non Trovata",
-    "description": "La pagina che stai cercando non esiste o è stata spostata. Torniamo alla home page.",
-    "button": "Torna alla Home"
   }
 }
