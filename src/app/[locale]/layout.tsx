@@ -1,4 +1,4 @@
-import "@/src/app/[locale]/globals.css";
+import "@/src/app/globals.css";
 import { getTranslations } from "next-intl/server";
 import { Analytics } from "@vercel/analytics/react";
 
