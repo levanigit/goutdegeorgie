@@ -33,9 +33,13 @@ export default function ComponentThree({ image }: { image: StaticImageData }) {
               <EachService
                 icon={story}
                 title={t("services.ser2")}
-                url="/story"
+                url={`${locale}/story`}
               />
-              <EachService icon={menu} title={t("services.ser3")} url="/menu" />
+              <EachService
+                icon={menu}
+                title={t("services.ser3")}
+                url={`${locale}/menu`}
+              />
             </div>
             <Image
               className={styles.image}
@@ -53,12 +57,12 @@ export default function ComponentThree({ image }: { image: StaticImageData }) {
               <EachService
                 icon={catering}
                 title={t("services.ser5")}
-                url="/menu"
+                url={`/${locale}/menu`}
               />
               <EachService
                 icon={contact}
                 title={t("services.ser6")}
-                url="/reservation"
+                url={`${locale}/reservation`}
               />
             </div>
           </div>

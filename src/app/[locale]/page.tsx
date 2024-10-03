@@ -1,12 +1,12 @@
 import ComponentFive from "@/src/components/Five/ComponentFive";
 import Hero from "@/src/components/Hero/Hero";
-import { instagram1, instagram2, chefImage, womanChef } from "@/public/image";
+import { instagram1, instagram2, chefImage } from "@/public/image";
 import Testimonials from "@/src/components/Testimonials/Testimonials";
 import { useTranslations } from "next-intl";
 import ComponentFour from "@/src/components/Four/ComponentFour";
 import ComponentTwo from "@/src/components/Two/ComponentTwo";
 import ComponentSix from "@/src/components/Six/ComponentSix";
-import ComponentThree from "@/src/components/Three/ComponentThree";
+
 import ComponentOne from "@/src/components/One/ComponentOne";
 
 export default function Home() {
@@ -17,7 +17,6 @@ export default function Home() {
       <Hero />
       <ComponentOne image={chefImage} />
       <ComponentTwo />
-      <ComponentThree image={womanChef} />
       <ComponentFour
         icon={instagram1}
         image={instagram2}

@@ -30,7 +30,7 @@ export default function EachFourBox({
               {title}
             </Link>
           ) : phone ? (
-            <Link href={`tel:${title}`} className="paragraph  font1 gray7">
+            <Link href={`tel:${title}`} className="paragraph  gray7">
               {title}
             </Link>
           ) : (

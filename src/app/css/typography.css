@@ -121,28 +121,28 @@
 /* Break point 1200px */
 @media (max-width: 1200px) {
   .heading1 {
-    font-size: 50;
+    font-size: 50px;
   }
 }
 
 /* Break point 992px */
 @media (max-width: 992px) {
   .heading1 {
-    font-size: 45;
+    font-size: 45px;
   }
 }
 
 /* Break point 768px */
 @media (max-width: 768px) {
   .heading1 {
-    font-size: 40;
+    font-size: 40px;
   }
 }
 
 /* Break point 576px */
 @media (max-width: 576px) {
   .heading1 {
-    font-size: 35;
+    font-size: 35px;
   }
   .heading2 {
     font-size: 50px;
@@ -152,6 +152,6 @@
 /* Break point 400px */
 @media (max-width: 400px) {
   .heading1 {
-    font-size: 30;
+    font-size: 30px;
   }
 }
