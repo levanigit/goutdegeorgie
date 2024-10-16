@@ -100,5 +100,10 @@
       "thankYou": "Thank you for your reservation!",
       "comfirmation": "Please wait for our confirmation"
     }
+  },
+  "notFoundPage": {
+    "title1": "404 - Page Not Found",
+    "title2": "We could not find the requested resource",
+    "button": "Return Home"
   }
 }

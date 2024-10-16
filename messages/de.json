@@ -100,5 +100,10 @@
       "thankYou": "Danke für Ihre Reservierung!",
       "comfirmation": "Bitte warten Sie auf unsere Bestätigung"
     }
+  },
+  "notFoundPage": {
+    "title1": "de page you are lookingfor does not exists 1",
+    "title2": "de page you are lookingfor does not exists 2",
+    "button": "de Home Page"
   }
 }

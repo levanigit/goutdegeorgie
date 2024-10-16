@@ -99,6 +99,11 @@
       "send": "Invia Richiesta di Prenotazione",
       "thankYou": "Grazie per la tua prenotazione!",
       "comfirmation": "Attendi la nostra conferma"
+    },
+    "notFoundPage": {
+      "title1": "it page you are lookingfor does not exists 1",
+      "title2": "it page you are lookingfor does not exists 2",
+      "button": "it Home Page"
     }
   }
 }
