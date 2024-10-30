@@ -1,30 +1,87 @@
 {
   "homePage": {
     "metadata": {
-      "title": "Ristorante ChaCha",
-      "description": "Scopri un'esperienza culinaria indimenticabile, creata con amore e con un occhio alla sostenibilità. Gusta le migliori specialità italiane a Ginevra, Svizzera."
+      "title": "Vello d'Oro",
+      "description": "Scopri un'esperienza culinaria indimenticabile, creata con amore e radicata nella tradizione georgiana. Gusta le migliori specialità georgiane a Ginevra, Svizzera."
     },
     "hero": {
-      "title1": "Benvenuti da",
-      "text": "Immergiti in un mondo gastronomico unico, dove ogni piatto è preparato con cura utilizzando ingredienti freschi locali e italiani.",
-      "button1": "Vedi il Menu",
+      "title1": "Benvenuti a",
+      "title2": "Caffè e Ristorante Georgiano",
+      "text": "Immergiti in un mondo culinario georgiano unico dove ogni piatto è preparato con cura utilizzando i migliori ingredienti, portando i sapori della Georgia a Ginevra.",
+      "button1": "Visualizza il Menu",
       "button2": "Prenota un Tavolo"
     },
     "componentOne": {
-      "title1": "La Parola del Capo",
-      "title2": "Fatto per il Futuro",
-      "text": "Il nostro impegno per la qualità e la sostenibilità è al centro di ogni piatto che serviamo. Ogni piatto è una promessa di freschezza e autenticità."
+      "title1": "La Parola dello Chef",
+      "title2": "Creato per il Futuro",
+      "text": "Il nostro impegno per la qualità e la sostenibilità è al centro di tutto ciò che facciamo. Ogni piatto riflette la freschezza e l'autenticità della cucina georgiana."
     },
     "componentTwo": {
-      "title1": "La Parola del Capo",
-      "title2": "Fatto per il Futuro",
-      "text1": "Gli ingredienti italiani di alta qualità sono alla base della nostra cucina. I nostri chef lavorano con passione per offrire piatti che rispettano la tradizione con un tocco moderno.",
-      "text2": "Che tu voglia gustare una pizza appena sfornata o una pasta fatta in casa, il nostro menu ti sorprenderà con nuovi sapori in un ambiente accogliente.",
-      "button": "More About Us"
+      "title1": "La Parola dello Chef",
+      "title2": "Creato per il Futuro",
+      "text1": "Gli ingredienti georgiani di alta qualità sono al centro della nostra cucina. I nostri chef lavorano instancabilmente per creare piatti che onorano le tradizioni georgiane con un tocco moderno.",
+      "text2": "Che si tratti di gustare un khachapuri appena sfornato o di uno stufato georgiano classico, il nostro menu ti farà scoprire nuovi sapori in un ambiente accogliente.",
+      "button": "Scopri di più su di noi"
+    },
+    "componentFour": {
+      "1": {
+        "title": "Il Segreto dell'Olio d'Oliva Georgiano",
+        "text": "Scopri l'olio d'oliva della massima qualità utilizzato in ciascuno dei nostri piatti, aggiungendo un tocco autentico alle nostre ricette georgiane."
+      },
+      "2": {
+        "title": "Il Segreto dell'Impasto",
+        "text": "Un impasto perfetto è la base dei nostri pani e dolci georgiani. Preparato quotidianamente con ingredienti freschi e autentici, garantisce un gusto ineguagliabile."
+      }
+    },
+    "componentFive": {
+      "title4": "Contattaci"
+    },
+    "componentSix": {
+      "title1": "Benvenuti",
+      "title2": "Orari di Apertura",
+      "monday": "Lunedì",
+      "tusday": "Martedì",
+      "wednsday": "Mercoledì",
+      "thursday": "Giovedì",
+      "friday": "Venerdì",
+      "saturday": "Sabato",
+      "sunday": "Domenica",
+      "closed": "Chiuso",
+      "button": "Prenota un Tavolo"
+    },
+    "testimonials": {
+      "title1": "Un po' d'Amore",
+      "title2": "Cosa dicono di noi i nostri clienti"
+    }
+  },
+  "menuPage": {
+    "metadata": {
+      "title": "Scopri il Nostro Menu",
+      "description": "Sfoglia il nostro menu e gusta il meglio delle nostre creazioni georgiane, preparate con ingredienti freschi e sapori tradizionali."
+    },
+    "headComponent": {
+      "title": "Il Nostro Delizioso Menu"
+    },
+    "menu": {
+      "underCategory": "menu"
+    }
+  },
+  "storyPage": {
+    "metadata": {
+      "title": "La Nostra Storia",
+      "description": "Scopri le radici della nostra passione per la cucina georgiana e come siamo diventati un ristorante iconico a Ginevra, unendo tradizione e innovazione."
+    },
+    "headComponent": {
+      "title": "La Nostra Storia"
+    },
+    "componentSeven": {
+      "title": "Esperienza",
+      "caption": "Pazienza",
+      "text": "Il nostro obiettivo è offrire un'esperienza culinaria sostenibile e unica, servendo piatti preparati con ingredienti autentici georgiani."
     },
     "componentThree": {
       "title1": "Siamo Esperti in",
-      "title2": "Ciò che Amiamo Fare",
+      "title2": "Cosa Amiamo Fare",
       "caption": "Leggi di più",
       "services": {
         "ser1": "Specialità dello Chef",
@@ -34,76 +91,55 @@
         "ser5": "Servizi di Catering",
         "ser6": "Contattaci"
       }
-    },
-    "componentFour": {
-      "1": {
-        "title": "Il Segreto dell'Olio d'Oliva",
-        "text": "Scopri l'olio d'oliva della migliore qualità utilizzato in ciascuno dei nostri piatti, che dona un tocco autentico alle nostre ricette italiane."
-      },
-      "2": {
-        "title": "Il Segreto dell'Impasto",
-        "text": "L'impasto perfetto è la base delle nostre pizze. Preparato quotidianamente con ingredienti freschi e autentici, garantisce un sapore incomparabile."
-      }
-    },
-    "componentFive": {
-      "title4": "Contattaci"
-    },
-    "testimonials": {
-      "title1": "Un Po' d'Amore",
-      "title2": "Cosa Dicono di Noi i Nostri Clienti"
-    }
-  },
-  "menuPage": {
-    "metadata": {
-      "title": "Esplora il Nostro Menu",
-      "description": "Sfoglia il nostro menu e gusta il meglio delle nostre creazioni italiane, preparate con ingredienti freschi e un tocco di amore locale."
-    },
-    "menu": {
-      "underCategory": "menu"
-    }
-  },
-  "storyPage": {
-    "metadata": {
-      "title": "La Nostra Storia",
-      "description": "Scopri le radici della nostra passione per la cucina italiana e come siamo diventati un punto di riferimento a Ginevra, unendo tradizione e innovazione."
-    },
-    "componentSeven": {
-      "title": "Esperienza",
-      "caption": "Pazienza",
-      "text": "Il nostro obiettivo è offrire un'esperienza culinaria sostenibile e unica, servendo piatti preparati con ingredienti locali e italiani."
-    },
-    "componentEight": {
-      "title": "25 Anni",
-      "text": "Da 25 anni perfezioniamo la nostra arte, offrendo un'esperienza culinaria indimenticabile agli amanti della gastronomia italiana a Ginevra."
     }
   },
   "reservationPage": {
     "metadata": {
       "title": "Prenota un Tavolo",
-      "description": "Prenota un tavolo da noi oggi e vivi le migliori specialità italiane in un'atmosfera accogliente nel cuore di Ginevra."
+      "description": "Prenota un tavolo da noi oggi e gusta le migliori specialità georgiane in un'atmosfera calda nel cuore di Ginevra."
+    },
+    "reservationForm": {
+      "name": "Inserisci il tuo nome completo",
+      "email": "E-mail",
+      "phone": "Numero di telefono",
+      "people": "Numero di persone",
+      "text": "Richieste speciali?",
+      "button": "INVIA",
+      "thank": "Grazie per la tua richiesta",
+      "wait": "Attendere la nostra conferma"
+    },
+    "headComponent": {
+      "title": "Prenota il Tuo Tavolo"
     },
     "componentNine": {
       "title": "Prenota il Tuo Tavolo",
-      "text": "Riserva il tuo posto e gusta la nostra cucina sostenibile preparata con amore. Non vediamo l'ora di accoglierti!"
+      "text": "Prenota il tuo posto e goditi la nostra cucina georgiana sostenibile preparata con amore. Non vediamo l'ora di accoglierti!"
     }
   },
   "forms": {
     "reservationForm": {
       "name": "Nome Completo",
-      "email": "Email",
+      "email": "E-mail",
       "phone": "Numero di Telefono",
       "date": "Data",
       "time": "Orario",
-      "quantity": "Numero di Ospiti",
+      "quantity": "Numero di Persone",
       "message": "Richieste speciali?",
       "send": "Invia Richiesta di Prenotazione",
       "thankYou": "Grazie per la tua prenotazione!",
-      "comfirmation": "Attendi la nostra conferma"
-    },
-    "notFoundPage": {
-      "title1": "it page you are lookingfor does not exists 1",
-      "title2": "it page you are lookingfor does not exists 2",
-      "button": "it Home Page"
+      "comfirmation": "Attendere la nostra conferma"
     }
+  },
+  "notFoundPage": {
+    "title1": "La pagina che stai cercando non esiste",
+    "title2": "La pagina che stai cercando non esiste",
+    "button": "Home"
+  },
+  "footer": {
+    "title1": "Informazioni di Contatto",
+    "title2": "Navigazione",
+    "title3": "Eventi",
+    "title4": "Instagram",
+    "title5": "Vedi Altro"
   }
 }

@@ -8,7 +8,7 @@ export default getRequestConfig(async ({ locale }) => {
     return { messages };
   } catch (error) {
     // Fallback to default locale if messages file is not found
-    const fallbackMessages = (await import(`../messages/en.json`)).default;
+    const fallbackMessages = (await import(`../messages/fr.json`)).default;
     return { messages: fallbackMessages };
   }
 });

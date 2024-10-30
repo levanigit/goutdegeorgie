@@ -1,109 +1,145 @@
 {
   "homePage": {
     "metadata": {
-      "title": "Restaurant ChaCha",
-      "description": "Entdecken Sie ein unvergessliches kulinarisches Erlebnis, das mit Liebe und Nachhaltigkeit zubereitet wird. Genießen Sie die besten italienischen Spezialitäten in Genf, Schweiz."
+      "title": "Goldenes Vlies",
+      "description": "Erleben Sie ein unvergessliches kulinarisches Erlebnis, das mit Liebe und georgischer Tradition gestaltet wurde. Genießen Sie die besten georgischen Spezialitäten in Genf, Schweiz."
     },
     "hero": {
       "title1": "Willkommen bei",
-      "text": "Tauchen Sie ein in eine einzigartige kulinarische Welt, in der jedes Gericht mit Sorgfalt und den besten lokalen und italienischen Zutaten zubereitet wird.",
-      "button1": "Speisekarte Ansehen",
-      "button2": "Tisch Reservieren"
+      "title2": "Georgisches Café und Restaurant",
+      "text": "Tauchen Sie ein in eine einzigartige georgische kulinarische Welt, in der jedes Gericht mit den besten Zutaten sorgfältig zubereitet wird und die Aromen Georgiens nach Genf bringt.",
+      "button1": "Menü ansehen",
+      "button2": "Tisch reservieren"
     },
     "componentOne": {
-      "title1": "Worte des Küchenchefs",
-      "title2": "Für die Zukunft Gemacht",
-      "text": "Unser Engagement für Qualität und Nachhaltigkeit steht im Mittelpunkt jedes Gerichts. Jedes Gericht verspricht Frische und Authentizität."
+      "title1": "Das Wort des Küchenchefs",
+      "title2": "Für die Zukunft geschaffen",
+      "text": "Unser Engagement für Qualität und Nachhaltigkeit steht im Mittelpunkt all dessen, was wir tun. Jedes Gericht spiegelt die Frische und Authentizität der georgischen Küche wider."
     },
     "componentTwo": {
-      "title1": "Worte des Küchenchefs",
-      "title2": "Für die Zukunft Gemacht",
-      "text1": "Italienische Zutaten von höchster Qualität stehen im Mittelpunkt unserer Küche. Unsere Köche arbeiten leidenschaftlich daran, Gerichte anzubieten, die Tradition mit modernem Flair verbinden.",
-      "text2": "Ob Sie eine frisch gebackene Pizza oder hausgemachte Pasta genießen möchten, unser Menü überrascht Sie mit neuen Aromen in einer gemütlichen Atmosphäre.",
-      "button": "More About Us"
-    },
-    "componentThree": {
-      "title1": "Wir sind Experten in",
-      "title2": "Was wir lieben zu tun",
-      "caption": "Mehr Lesen",
-      "services": {
-        "ser1": "Chef-Spezialitäten",
-        "ser2": "Unsere Geschichte",
-        "ser3": "Speisekarte",
-        "ser4": "Reservierungen",
-        "ser5": "Catering-Services",
-        "ser6": "Kontaktieren Sie uns"
-      }
+      "title1": "Das Wort des Küchenchefs",
+      "title2": "Für die Zukunft geschaffen",
+      "text1": "Hochwertige georgische Zutaten stehen im Mittelpunkt unserer Küche. Unsere Köche arbeiten unermüdlich daran, Gerichte zu kreieren, die georgische Traditionen ehren und eine moderne Note hinzufügen.",
+      "text2": "Ob frisches Khachapuri oder ein klassisches georgisches Eintopfgericht – unser Menü lädt Sie ein, neue Aromen in einer warmen Umgebung zu entdecken.",
+      "button": "Erfahren Sie mehr über uns"
     },
     "componentFour": {
       "1": {
-        "title": "Das Geheimnis des Olivenöls",
-        "text": "Entdecken Sie das hochwertigste Olivenöl, das in all unseren Gerichten verwendet wird und unseren italienischen Rezepten eine authentische Note verleiht."
+        "title": "Das Geheimnis des georgischen Olivenöls",
+        "text": "Entdecken Sie das hochwertigste Olivenöl, das in jedem unserer Gerichte verwendet wird und unseren georgischen Rezepten eine authentische Note verleiht."
       },
       "2": {
         "title": "Das Geheimnis des Teigs",
-        "text": "Der perfekte Teig ist die Basis unserer Pizzen. Täglich mit frischen und authentischen Zutaten zubereitet, garantiert er einen unvergleichlichen Geschmack."
+        "text": "Perfekter Teig ist die Basis für unser georgisches Brot und Gebäck. Täglich frisch und mit authentischen Zutaten zubereitet, garantiert er einen unvergleichlichen Geschmack."
       }
     },
     "componentFive": {
-      "title4": "Kontaktieren Sie Uns"
+      "title4": "Kontaktieren Sie uns"
+    },
+    "componentSix": {
+      "title1": "Willkommen",
+      "title2": "Öffnungszeiten",
+      "monday": "Montag",
+      "tusday": "Dienstag",
+      "wednsday": "Mittwoch",
+      "thursday": "Donnerstag",
+      "friday": "Freitag",
+      "saturday": "Samstag",
+      "sunday": "Sonntag",
+      "closed": "Geschlossen",
+      "button": "Tisch reservieren"
     },
     "testimonials": {
-      "title1": "Ein Bisschen Liebe",
-      "title2": "Was unsere Kunden über uns sagen"
+      "title1": "Ein wenig Liebe",
+      "title2": "Was unsere Gäste über uns sagen"
     }
   },
   "menuPage": {
     "metadata": {
-      "title": "Entdecken Sie Unser Menü",
-      "description": "Blättern Sie durch unser Menü und genießen Sie das Beste unserer italienischen Kreationen, zubereitet mit frischen Zutaten und einer Prise lokaler Liebe."
+      "title": "Entdecken Sie unser Menü",
+      "description": "Durchstöbern Sie unser Menü und genießen Sie das Beste unserer georgischen Kreationen, zubereitet mit frischen Zutaten und einem Hauch traditioneller Aromen."
+    },
+    "headComponent": {
+      "title": "Unser Köstliches Menü"
     },
     "menu": {
-      "underCategory": "menu"
+      "underCategory": "menü"
     }
   },
   "storyPage": {
     "metadata": {
       "title": "Unsere Geschichte",
-      "description": "Erfahren Sie mehr über die Wurzeln unserer Leidenschaft für italienische Küche und wie wir zu einem beliebten Restaurant in Genf geworden sind, das Tradition und Innovation vereint."
+      "description": "Entdecken Sie die Wurzeln unserer Leidenschaft für die georgische Küche und wie wir in Genf zu einem ikonischen Restaurant geworden sind, das Tradition und Innovation vereint."
+    },
+    "headComponent": {
+      "title": "Unsere Geschichte"
     },
     "componentSeven": {
       "title": "Erfahrung",
       "caption": "Geduld",
-      "text": "Unser Ziel ist es, ein einzigartiges und nachhaltiges kulinarisches Erlebnis zu bieten, bei dem Gerichte aus lokalen und italienischen Zutaten zubereitet werden."
+      "text": "Unser Ziel ist es, ein nachhaltiges und einzigartiges kulinarisches Erlebnis zu bieten, indem wir Gerichte mit authentischen georgischen Zutaten servieren."
     },
-    "componentEight": {
-      "title": "25 Jahre",
-      "text": "Seit 25 Jahren perfektionieren wir unser Handwerk und bieten ein unvergessliches kulinarisches Erlebnis für Liebhaber der italienischen Küche in Genf."
+    "componentThree": {
+      "title1": "Wir sind Experten in",
+      "title2": "Was wir lieben zu tun",
+      "caption": "Mehr lesen",
+      "services": {
+        "ser1": "Spezialitäten des Küchenchefs",
+        "ser2": "Unsere Geschichte",
+        "ser3": "Menü",
+        "ser4": "Reservierungen",
+        "ser5": "Catering-Dienste",
+        "ser6": "Kontaktieren Sie uns"
+      }
     }
   },
   "reservationPage": {
     "metadata": {
-      "title": "Tisch Reservieren",
-      "description": "Reservieren Sie noch heute einen Tisch bei uns und erleben Sie die besten italienischen Spezialitäten in einer warmen Atmosphäre im Herzen von Genf."
+      "title": "Tisch reservieren",
+      "description": "Reservieren Sie noch heute einen Tisch bei uns und genießen Sie die besten georgischen Spezialitäten in einer warmen Atmosphäre im Herzen von Genf."
+    },
+    "reservationForm": {
+      "name": "Geben Sie Ihren vollständigen Namen ein",
+      "email": "E-Mail",
+      "phone": "Telefonnummer",
+      "people": "Anzahl der Personen",
+      "text": "Besondere Anforderungen?",
+      "button": "SENDEN",
+      "thank": "Vielen Dank für Ihre Anfrage",
+      "wait": "Bitte warten Sie auf unsere Bestätigung"
+    },
+    "headComponent": {
+      "title": "Reservieren Sie Ihren Tisch"
     },
     "componentNine": {
       "title": "Reservieren Sie Ihren Tisch",
-      "text": "Sichern Sie sich Ihren Platz und genießen Sie unsere nachhaltige Küche, die mit Liebe zubereitet wird. Wir freuen uns auf Ihren Besuch!"
+      "text": "Reservieren Sie Ihren Platz und genießen Sie unsere nachhaltige georgische Küche, die mit Liebe zubereitet wird. Wir freuen uns auf Ihren Besuch!"
     }
   },
   "forms": {
     "reservationForm": {
       "name": "Vollständiger Name",
-      "email": "Email",
+      "email": "E-Mail",
       "phone": "Telefonnummer",
       "date": "Datum",
-      "time": "Zeit",
-      "quantity": "Anzahl der Gäste",
+      "time": "Uhrzeit",
+      "quantity": "Anzahl der Personen",
       "message": "Besondere Wünsche?",
-      "send": "Reservierungsanfrage Senden",
-      "thankYou": "Danke für Ihre Reservierung!",
+      "send": "Reservierungsanfrage senden",
+      "thankYou": "Vielen Dank für Ihre Reservierung!",
       "comfirmation": "Bitte warten Sie auf unsere Bestätigung"
     }
   },
   "notFoundPage": {
-    "title1": "de page you are lookingfor does not exists 1",
-    "title2": "de page you are lookingfor does not exists 2",
-    "button": "de Home Page"
+    "title1": "Die gesuchte Seite existiert nicht",
+    "title2": "Die gesuchte Seite existiert nicht",
+    "button": "Startseite"
+  },
+  "footer": {
+    "title1": "Kontaktinformationen",
+    "title2": "Navigation",
+    "title3": "Veranstaltungen",
+    "title4": "Instagram",
+    "title5": "Mehr anzeigen"
   }
 }

@@ -1,63 +1,66 @@
 {
   "homePage": {
     "metadata": {
-      "title": "ChaCha Restaurant",
-      "description": "Discover an unforgettable dining experience, crafted with love and sustainability. Enjoy the finest Italian specialties in Geneva, Switzerland."
+      "title": "Golden Fleece",
+      "description": "Discover an unforgettable culinary experience, crafted with love and rooted in Georgian tradition. Savor the finest Georgian specialties in Geneva, Switzerland."
     },
     "hero": {
       "title1": "Welcome to",
-      "title2": "Georgian Cafe & Restaurant",
-      "text": "Immerse yourself in an exceptional culinary world where every dish is carefully prepared using the finest local and Italian ingredients.",
-      "button1": "View Menu",
+      "title2": "Georgian Café & Restaurant",
+      "text": "Immerse yourself in a unique Georgian culinary world where each dish is prepared with care using the finest ingredients, bringing the flavors of Georgia to Geneva.",
+      "button1": "View the Menu",
       "button2": "Book a Table"
     },
     "componentOne": {
       "title1": "Chef's Word",
-      "title2": "Made for the Future",
-      "text": "Our commitment to quality and sustainability is at the heart of everything we do. Every dish is a promise of freshness and authenticity."
+      "title2": "Crafted for the Future",
+      "text": "Our commitment to quality and sustainability is at the heart of everything we do. Each dish reflects the freshness and authenticity of Georgian cuisine."
     },
     "componentTwo": {
       "title1": "Chef's Word",
-      "title2": "Made for the Future",
-      "text1": "Italian ingredients of the highest quality are at the center of our cuisine. Our chefs work tirelessly to offer dishes that honor tradition while adding a modern touch.",
-      "text2": "Whether you're enjoying a freshly baked pizza or homemade pasta, our menu will surprise you with new flavors in a cozy setting.",
-      "button": "More About us"
-    },
-    "componentThree": {
-      "title1": "We are Experts in",
-      "title2": "What We Love to Do",
-      "caption": "Read more",
-      "services": {
-        "ser1": "Chef's Specials",
-        "ser2": "Our Story",
-        "ser3": "Menu",
-        "ser4": "Reservations",
-        "ser5": "Catering Services",
-        "ser6": "Contact Us"
-      }
+      "title2": "Crafted for the Future",
+      "text1": "High-quality Georgian ingredients are central to our cuisine. Our chefs work tirelessly to create dishes that honor Georgian traditions while bringing a modern twist.",
+      "text2": "Whether enjoying a freshly baked khachapuri or a classic Georgian stew, our menu introduces you to new flavors in a warm setting.",
+      "button": "Learn More About Us"
     },
     "componentFour": {
       "1": {
-        "title": "The Secret of Olive Oil",
-        "text": "Discover the highest quality olive oil used in each of our dishes, adding an authentic touch to our Italian recipes."
+        "title": "The Secret of Georgian Olive Oil",
+        "text": "Discover the highest quality olive oil used in each of our dishes, adding an authentic touch to our Georgian recipes."
       },
       "2": {
-        "title": "The Secret of the Dough",
-        "text": "The perfect dough is the foundation of our pizzas. Prepared daily with fresh and authentic ingredients, it guarantees an unparalleled taste."
+        "title": "The Secret of Dough",
+        "text": "Perfect dough is the foundation of our Georgian breads and pastries. Prepared daily with fresh, authentic ingredients, it guarantees an unmatched taste."
       }
     },
     "componentFive": {
-      "title4": "Get in Touch"
+      "title4": "Contact Us"
+    },
+    "componentSix": {
+      "title1": "Welcome",
+      "title2": "Opening Hours",
+      "monday": "Monday",
+      "tusday": "Tuesday",
+      "wednsday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday",
+      "sunday": "Sunday",
+      "closed": "Closed",
+      "button": "Book a Table"
     },
     "testimonials": {
       "title1": "A Little Love",
-      "title2": "What Our Customers Say About Us"
+      "title2": "What our guests say about us"
     }
   },
   "menuPage": {
     "metadata": {
-      "title": "Explore Our Menu",
-      "description": "Browse through our menu and enjoy the best of our Italian creations, crafted with fresh ingredients and a touch of local love."
+      "title": "Discover Our Menu",
+      "description": "Browse our menu and enjoy the best of our Georgian creations, crafted with fresh ingredients and a touch of traditional flavors."
+    },
+    "headComponent": {
+      "title": "Our Delicious Menu"
     },
     "menu": {
       "underCategory": "menu"
@@ -66,26 +69,51 @@
   "storyPage": {
     "metadata": {
       "title": "Our Story",
-      "description": "Learn about the roots of our passion for Italian cuisine and how we have become a beloved restaurant in Geneva, combining tradition and innovation."
+      "description": "Discover the roots of our passion for Georgian cuisine and how we became an iconic restaurant in Geneva, blending tradition and innovation."
+    },
+    "headComponent": {
+      "title": "Our Story"
     },
     "componentSeven": {
       "title": "Experience",
       "caption": "Patience",
-      "text": "Our goal is to offer a unique and sustainable dining experience, serving dishes prepared with local and Italian ingredients."
+      "text": "Our goal is to offer a sustainable and unique culinary experience by serving dishes prepared with authentic Georgian ingredients."
     },
-    "componentEight": {
-      "title": "25 Years",
-      "text": "For 25 years, we have been perfecting our craft, offering a memorable dining experience for lovers of Italian cuisine in Geneva."
+    "componentThree": {
+      "title1": "We are Experts in",
+      "title2": "What We Love to Do",
+      "caption": "Read more",
+      "services": {
+        "ser1": "Chef's Specialties",
+        "ser2": "Our Story",
+        "ser3": "Menu",
+        "ser4": "Reservations",
+        "ser5": "Catering Services",
+        "ser6": "Contact Us"
+      }
     }
   },
   "reservationPage": {
     "metadata": {
       "title": "Book a Table",
-      "description": "Book a table with us today and enjoy the finest Italian specialties in a warm atmosphere in the heart of Geneva."
+      "description": "Reserve a table with us today and enjoy the finest Georgian specialties in a warm atmosphere at the heart of Geneva."
+    },
+    "reservationForm": {
+      "name": "Enter your full name",
+      "email": "Email",
+      "phone": "Phone number",
+      "people": "Number of people",
+      "text": "Any special requirements?",
+      "button": "SEND",
+      "thank": "Thank you for your request",
+      "wait": "Please wait for our confirmation"
+    },
+    "headComponent": {
+      "title": "Book Your Table"
     },
     "componentNine": {
-      "title": "Reserve Your Table",
-      "text": "Secure your spot and enjoy our sustainable cuisine prepared with love. We look forward to welcoming you!"
+      "title": "Book Your Table",
+      "text": "Reserve your seat and enjoy our sustainable Georgian cuisine prepared with love. We look forward to welcoming you!"
     }
   },
   "forms": {
@@ -95,16 +123,23 @@
       "phone": "Phone Number",
       "date": "Date",
       "time": "Time",
-      "quantity": "Number of Guests",
-      "message": "Any Special Requests?",
+      "quantity": "Number of People",
+      "message": "Any special requests?",
       "send": "Send Reservation Request",
       "thankYou": "Thank you for your reservation!",
       "comfirmation": "Please wait for our confirmation"
     }
   },
   "notFoundPage": {
-    "title1": "404 - Page Not Found",
-    "title2": "We could not find the requested resource",
-    "button": "Return Home"
+    "title1": "The page you are looking for does not exist",
+    "title2": "The page you are looking for does not exist",
+    "button": "Home Page"
+  },
+  "footer": {
+    "title1": "Contact Information",
+    "title2": "Navigation",
+    "title3": "Events",
+    "title4": "Instagram",
+    "title5": "View More"
   }
 }
