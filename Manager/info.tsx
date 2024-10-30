@@ -1,12 +1,12 @@
-export const companyDomain = "https://rest-21.vercel.app/";
-export const companyName = "ChaCha Restaurant";
+export const companyDomain = "http://localhost:3000";
+export const companyName = "Toison d'or ";
+export const phoneNumber: string = "+41 79 566 69 16";
+export const phoneNumber2: string = "+41 79 913 70 44";
+export const instagramUrl: string = "";
+export const facebookUrl: string = "";
+export const linkedinUrl: string = "";
+export const address: string = "Square des Nénuphars 1, 1219 Vernier";
+export const addressLink: string = "https://maps.app.goo.gl/R8rEehPaT3jrJM5o9";
 
-export const phoneNumber: string = "+46 70 717 40 30";
-export const instagramUrl: string = "https://instagram.com/artoflevanidze";
-export const facebookUrl: string = "https://fb.com/levanidze";
-export const linkedinUrl: string = "https://linkedin.com/in/levanidze";
-export const address: string = "Geneva. Switzerland";
-export const addressLink: string = "https://maps.app.goo.gl/GtQfsBYBCWswiZbU6";
-
-export const email: string = "levanydze@gmail.com";
+export const email: string = "toisondor@gmail.com";
 //must fix

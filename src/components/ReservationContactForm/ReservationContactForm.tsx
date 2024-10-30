@@ -3,6 +3,7 @@ import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser"; //  npm install --save @emailjs/browser
 
 import styles from "./ReservationContactForm.module.css";
+import { useTranslations } from "next-intl";
 
 interface FormValues {
   user_name: string;
@@ -14,14 +15,32 @@ interface FormValues {
   message: string;
 }
 
-export default function ReservationContactForm() {
+interface reservProps {
+  name: string;
+  email: string;
+  phone: string;
+  people: string;
+  text: string;
+  button: string;
+  thank: string;
+  wait: string;
+}
+
+export default function ReservationContactForm({
+  name,
+  email,
+  phone,
+  people,
+  text,
+  button,
+  thank,
+  wait,
+}: reservProps) {
   const [nameValue, setNameValue] = useState<string>("");
   const [nameError, setNameError] = useState<boolean>(false);
   const [emailValue, setEmailValue] = useState<string>("");
   const [emailError, setEmailError] = useState<boolean>(false);
-
   const [buttonDisable, setButtonDisable] = useState<boolean>(false);
-
   const form = useRef<HTMLFormElement>(null);
   const [emailSent, setEmailSent] = useState(false);
 
@@ -84,7 +103,7 @@ export default function ReservationContactForm() {
               }`}
               type="text"
               name="user_name"
-              placeholder="Enter your full name"
+              placeholder={name}
               value={nameValue}
               onChange={(e) => setNameValue(e.target.value)}
             />
@@ -95,7 +114,7 @@ export default function ReservationContactForm() {
                 }`}
                 type="email"
                 name="user_email"
-                placeholder="Email"
+                placeholder={email}
                 value={emailValue}
                 onChange={(e) => setEmailValue(e.target.value)}
               />
@@ -103,7 +122,7 @@ export default function ReservationContactForm() {
                 className={`${styles.input}`}
                 type="tel"
                 name="user_phone"
-                placeholder="Phone number"
+                placeholder={phone}
               />
             </div>
             <div>
@@ -124,12 +143,12 @@ export default function ReservationContactForm() {
               className={`${styles.input}`}
               type="text"
               name="user_quantity"
-              placeholder="Number of people"
+              placeholder={people}
             />
             <textarea
               className={`${styles.textArea} ${styles.input}`}
               name="message"
-              placeholder="Any special requirements?"
+              placeholder={text}
             />
             <button
               type={nameValue && emailValue ? "submit" : "button"}
@@ -144,12 +163,12 @@ export default function ReservationContactForm() {
                   : () => setButtonDisable(true)
               }
             >
-              SEND
+              {button}
             </button>
           </form>
           <div className={emailSent ? styles.formSent : styles.hide}>
-            <h6> Thank you for your request</h6>
-            <h5>Wait for our confirmation</h5>
+            <h6> {thank}</h6>
+            <h5>{wait}</h5>
           </div>
         </div>
       </div>

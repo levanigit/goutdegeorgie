@@ -15,6 +15,7 @@ export default function ImageOverlay() {
           <div className={styles.empty}></div>
           <div className={styles.middle}>
             <h2 className="heading5 color2">{t("title1")}</h2>
+            <h2 className={`heading3 font2 ${styles.title2}`}>{t("title2")}</h2>
             <h1 className="heading1 ">{companyName}</h1>
             <div className="twoLines"></div>
             <p className="paragraph white">{t("text")}</p>

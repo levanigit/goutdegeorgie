@@ -24,6 +24,10 @@
   justify-content: center;
   margin-top: -10%;
 }
+.title2 {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
 
 .buttons {
   display: flex;

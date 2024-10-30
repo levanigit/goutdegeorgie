@@ -13,7 +13,7 @@ import {
 import { useLocale, useTranslations } from "next-intl";
 
 export default function ComponentThree({ image }: { image: StaticImageData }) {
-  const t = useTranslations("homePage.componentThree");
+  const t = useTranslations("storyPage.componentThree");
   const locale = useLocale();
   return (
     <section className="section">

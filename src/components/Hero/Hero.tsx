@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import styles from "./Hero.module.css";
 import ImageOverlay from "./Overlay/ImageOverlay";
-import { dumplings } from "@/public/image";
+import { acharuli } from "@/public/image";
 
 export default function MainImage() {
   return (
@@ -11,7 +11,7 @@ export default function MainImage() {
       <div className={styles.imageDarkLayer}></div>
       <Image
         className={styles.mainImage}
-        src={dumplings}
+        src={acharuli}
         alt=""
         width={1200}
         height={800}

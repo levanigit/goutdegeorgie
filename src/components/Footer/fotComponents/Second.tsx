@@ -4,13 +4,15 @@ import styles from "./Second.module.css";
 import Link from "next/link";
 import { navItems } from "@/Manager/navigation";
 import { NavItemProps } from "@/Manager/navigation";
-
-export default function Second() {
+interface props {
+  title: string;
+}
+export default function Second({ title }: props) {
   const locale = useLocale(); // Get the current locale
   const items: NavItemProps[] = navItems[locale]; // Get items for the current locale
   return (
     <section>
-      <h2 className="heading4">Navigation</h2>
+      <h2 className="heading4">{title}</h2>
 
       <div className={styles.menuWrap}>
         {items.map((item: NavItemProps) => {

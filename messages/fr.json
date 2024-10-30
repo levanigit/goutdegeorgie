@@ -1,26 +1,84 @@
 {
   "homePage": {
     "metadata": {
-      "title": "Restaurant ChaCha",
+      "title": "Toison d'or",
       "description": "Découvrez une expérience culinaire inoubliable, élaborée avec amour et en tenant compte de la durabilité. Savourez les meilleures spécialités italiennes à Genève, Suisse."
     },
     "hero": {
       "title1": "Bienvenue chez",
-      "text": "Plongez dans un univers gastronomique exceptionnel où chaque plat est préparé avec soin à partir des meilleurs ingrédients locaux et italiens.",
+      "title2": "Café et Restaurant Géorgien",
+      "text": "TEXT N1 Plongez dans un univers gastronomique exceptionnel où chaque plat est préparé avec soin à partir des meilleurs ingrédients locaux et italiens.",
       "button1": "Voir le Menu",
       "button2": "Réserver une Table"
     },
     "componentOne": {
-      "title1": "Le Mot du Chef",
-      "title2": "Fait pour le Futur",
-      "text": "Notre engagement envers la qualité et la durabilité est au cœur de tout ce que nous faisons. Chaque plat est une promesse de fraîcheur et d'authenticité."
+      "title1": "TEXT N2 Le Mot du Chef",
+      "title2": "TEXT N3 Fait pour le Futur",
+      "text": "TEXT N4 Notre engagement envers la qualité et la durabilité est au cœur de tout ce que nous faisons. Chaque plat est une promesse de fraîcheur et d'authenticité."
     },
     "componentTwo": {
-      "title1": "Le Mot du Chef",
-      "title2": "Fait pour le Futur",
-      "text1": "Les ingrédients italiens de qualité sont au centre de notre cuisine. Nos chefs travaillent sans relâche pour offrir des plats qui respectent les traditions tout en y apportant une touche moderne.",
-      "text2": "Que ce soit pour déguster une pizza fraîche ou une pasta maison, notre menu vous fera découvrir de nouvelles saveurs dans un cadre chaleureux.",
-      "button": "More About Us"
+      "title1": "TEXT N5 Le Mot du Chef",
+      "title2": "TEXT N6 Fait pour le Futur",
+      "text1": "TEXT N7 Les ingrédients italiens de qualité sont au centre de notre cuisine. Nos chefs travaillent sans relâche pour offrir des plats qui respectent les traditions tout en y apportant une touche moderne.",
+      "text2": "TEXT N8 Que ce soit pour déguster une pizza fraîche ou une pasta maison, notre menu vous fera découvrir de nouvelles saveurs dans un cadre chaleureux.",
+      "button": "En Savoir Plus Sur Nous"
+    },
+
+    "componentFour": {
+      "1": {
+        "title": "TEXT N9 Le Secret de l'Huile d'Olive",
+        "text": "TEXT N10 Découvrez l'huile d'olive de la plus haute qualité utilisée dans chacun de nos plats, apportant une touche authentique à nos recettes italiennes."
+      },
+      "2": {
+        "title": "TEXT N11 Le Secret de la Pâte",
+        "text": "TEXT N12 La pâte parfaite est la base de nos pizzas. Préparée quotidiennement avec des ingrédients frais et authentiques, elle garantit un goût inégalé."
+      }
+    },
+    "componentFive": {
+      "title4": "Entrer en Contact"
+    },
+    "componentSix": {
+      "title1": "Bienvenue",
+      "title2": "Heures d'Ouverture",
+      "monday": "Lundi",
+      "tusday": "Mardi",
+      "wednsday": "Mercredi",
+      "thursday": "Jeudi",
+      "friday": "Vendredi",
+      "saturday": "Samedi",
+      "sunday": "Dimanche",
+      "closed": "Fermé",
+      "button": "Réserver une Table"
+    },
+    "testimonials": {
+      "title1": "Un peu d'Amour",
+      "title2": "Ce que nos clients disent de nous"
+    }
+  },
+  "menuPage": {
+    "metadata": {
+      "title": "Découvrez Notre Menu",
+      "description": "Parcourez notre menu et savourez le meilleur de nos créations italiennes, préparées avec des ingrédients frais et une touche de saveur locale."
+    },
+    "headComponent": {
+      "title": "Notre Délicieux Menu"
+    },
+    "menu": {
+      "underCategory": "menu"
+    }
+  },
+  "storyPage": {
+    "metadata": {
+      "title": "Notre Histoire",
+      "description": "Découvrez les racines de notre passion pour la cuisine italienne et comment nous sommes devenus un restaurant emblématique à Genève, alliant tradition et innovation."
+    },
+    "headComponent": {
+      "title": "Notre Histoire"
+    },
+    "componentSeven": {
+      "title": "Expérience",
+      "caption": "Patience",
+      "text": "Notre objectif est d'offrir une expérience culinaire durable et unique, en servant des plats préparés avec des ingrédients locaux et italiens."
     },
     "componentThree": {
       "title1": "Nous sommes Experts en",
@@ -34,53 +92,25 @@
         "ser5": "Services de Traiteur",
         "ser6": "Nous Contacter"
       }
-    },
-    "componentFour": {
-      "1": {
-        "title": "Le Secret de l'Huile d'Olive",
-        "text": "Découvrez l'huile d'olive de la plus haute qualité utilisée dans chacun de nos plats, apportant une touche authentique à nos recettes italiennes."
-      },
-      "2": {
-        "title": "Le Secret de la Pâte",
-        "text": "La pâte parfaite est la base de nos pizzas. Préparée quotidiennement avec des ingrédients frais et authentiques, elle garantit un goût inégalé."
-      }
-    },
-    "componentFive": {
-      "title4": "Entrer en Contact"
-    },
-    "testimonials": {
-      "title1": "Un peu d'Amour",
-      "title2": "Ce que nos clients disent de nous"
-    }
-  },
-  "menuPage": {
-    "metadata": {
-      "title": "Découvrez Notre Menu",
-      "description": "Parcourez notre menu et savourez le meilleur de nos créations italiennes, préparées avec des ingrédients frais et une touche de saveur locale."
-    },
-    "menu": {
-      "underCategory": "menu"
-    }
-  },
-  "storyPage": {
-    "metadata": {
-      "title": "Notre Histoire",
-      "description": "Découvrez les racines de notre passion pour la cuisine italienne et comment nous sommes devenus un restaurant emblématique à Genève, alliant tradition et innovation."
-    },
-    "componentSeven": {
-      "title": "Expérience",
-      "caption": "Patience",
-      "text": "Notre objectif est d'offrir une expérience culinaire durable et unique, en servant des plats préparés avec des ingrédients locaux et italiens."
-    },
-    "componentEight": {
-      "title": "25 Ans",
-      "text": "Depuis 25 ans, nous perfectionnons notre art, offrant une expérience culinaire mémorable aux amateurs de gastronomie italienne à Genève."
     }
   },
   "reservationPage": {
     "metadata": {
       "title": "Réserver une Table",
       "description": "Réservez une table chez nous aujourd'hui et profitez des meilleures spécialités italiennes dans une atmosphère chaleureuse au cœur de Genève."
+    },
+    "reservationForm": {
+      "name": "Entrez votre nom complet",
+      "email": "E-mail",
+      "phone": "Numéro de téléphone",
+      "people": "Nombre de personnes",
+      "text": "Besoins particuliers?",
+      "button": "ENVOYER",
+      "thank": " Merci pour votre demande",
+      "wait": "Veuillez attendre notre confirmation"
+    },
+    "headComponent": {
+      "title": "Réservez Votre Table"
     },
     "componentNine": {
       "title": "Réservez Votre Table",
@@ -102,8 +132,15 @@
     }
   },
   "notFoundPage": {
-    "title1": "fr page you are lookingfor does not exists 1",
-    "title2": "fr page you are lookingfor does not exists 2",
-    "button": "fr Home Page"
+    "title1": "in french fr - page you are lookingfor does not exists 1",
+    "title2": "ni french page you are lookingfor does not exists 2",
+    "button": "in french Home Page"
+  },
+  "footer": {
+    "title1": "Informations de Contact",
+    "title2": "Navigation",
+    "title3": "Événements",
+    "title4": "Instagram",
+    "title5": "Voir Plus"
   }
 }

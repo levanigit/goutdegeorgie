@@ -17,8 +17,20 @@ export default async function StoryPage() {
   const t = await getTranslations("");
   return (
     <div className="fadeOut">
-      <PageHeadImage image={chroisant2} value="Our Story" />
-      <ReservationContactForm />
+      <PageHeadImage
+        image={chroisant2}
+        value={t("reservationPage.headComponent.title")}
+      />
+      <ReservationContactForm
+        name={t("reservationPage.reservationForm.name")}
+        email={t("reservationPage.reservationForm.email")}
+        phone={t("reservationPage.reservationForm.phone")}
+        people={t("reservationPage.reservationForm.people")}
+        text={t("reservationPage.reservationForm.text")}
+        button={t("reservationPage.reservationForm.button")}
+        thank={t("reservationPage.reservationForm.thank")}
+        wait={t("reservationPage.reservationForm.wait")}
+      />
 
       <Testimonials
         title1={t("homePage.testimonials.title1")}

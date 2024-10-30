@@ -2,12 +2,21 @@ import React from "react";
 import styles from "./First.module.css";
 import SocialMedia from "./SocialMedia/SocialMedia";
 import Link from "next/link";
-import { address, email, phoneNumber, addressLink } from "@/Manager/info";
+import {
+  address,
+  email,
+  phoneNumber,
+  addressLink,
+  phoneNumber2,
+} from "@/Manager/info";
+interface props {
+  title: string;
+}
 
-export default function First() {
+export default function First({ title }: props) {
   return (
     <section>
-      <h2 className="heading4">Contact info</h2>
+      <h2 className="heading4">{title}</h2>
       <address className={styles.contactInfo}>
         <Link target="_blank" href={addressLink} className="paragraph ">
           {address}
@@ -17,6 +26,9 @@ export default function First() {
         </Link>
         <Link className="caption pargrapht-bold" href={`tel:${phoneNumber}`}>
           {phoneNumber}
+        </Link>
+        <Link className="caption pargrapht-bold" href={`tel:${phoneNumber2}`}>
+          {phoneNumber2}
         </Link>
       </address>
       <SocialMedia />

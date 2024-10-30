@@ -3,7 +3,8 @@ import { Analytics } from "@vercel/analytics/react";
 
 // SEO Metadata
 import { getTranslations } from "next-intl/server";
-import { companyDomain, companyName } from "@/Manager/info";
+import { companyDomain } from "@/Manager/info";
+
 export async function generateMetadata() {
   const t = await getTranslations("homePage.metadata");
   return {
@@ -16,6 +17,14 @@ export async function generateMetadata() {
     openGraph: {
       description: t("description"),
       url: companyDomain,
+      images: [
+        {
+          url: `${companyDomain}/images/openGraph/red.jpg`,
+          width: 1200,
+          height: 630,
+          alt: t("title"),
+        },
+      ],
     },
   };
 }

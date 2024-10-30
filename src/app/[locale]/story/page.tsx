@@ -18,7 +18,11 @@ export default async function StoryPage() {
   const t = await getTranslations("");
   return (
     <div className="fadeOut">
-      <PageHeadImage image={chroisant2} value="Our Story" short />
+      <PageHeadImage
+        image={chroisant2}
+        value={t("storyPage.headComponent.title")}
+        short
+      />
       <ComponentTwo />
 
       <ComponentThree image={womanChef} />

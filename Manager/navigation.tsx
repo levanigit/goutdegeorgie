@@ -1,5 +1,5 @@
-export const supportedLocales = ["en", "fr", "de", "it"];
-export const defaultLocale = "en";
+export const supportedLocales = ["fr", "en", "de", "it"];
+export const defaultLocale = "fr";
 export const dynamicPageRoute = "menu"; // [slug]
 export const fireBaseRoute = "chachaab"; //firebase route
 export const menuCarPlaceHoldImg =

@@ -20,11 +20,13 @@ const events = [
     title: "Big pizza party",
   },
 ];
-
-export default function Third() {
+interface props {
+  title: string;
+}
+export default function Third({ title }: props) {
   return (
     <section>
-      <h2 className="heading4">Events</h2>
+      <h2 className="heading4">{title}</h2>
       <ul>
         {events.slice(0, 3).map((event) => (
           <li className={styles.eventWrap} key={`${event.date}-${event.title}`}>
