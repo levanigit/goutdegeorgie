@@ -1,9 +1,9 @@
 export const supportedLocales = ["fr", "en", "de", "it"];
 export const defaultLocale = "fr";
 export const dynamicPageRoute = "menu"; // [slug]
-export const fireBaseRoute = "chachaab"; //firebase route
+export const fireBaseRoute = "toisondor"; //firebase route
 export const menuCarPlaceHoldImg =
-  "https://github.com/levanydze/restaurant2024support/blob/main/highResolution/olivOilandCake.jpg?raw=true";
+  "https://github.com/levanydze/SUP/blob/main/Geneva-Restaurant-Assets/Placeholders/menuItemPlaceholder.jpg?raw=true";
 
 export interface NavItemProps {
   title: string;
