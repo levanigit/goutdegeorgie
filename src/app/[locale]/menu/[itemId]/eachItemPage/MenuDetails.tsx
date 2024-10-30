@@ -27,10 +27,10 @@ export default function MenuDetails({ item }: MenuDetailsProps) {
     // <p>Error: Item not found</p>;
   }
 
-  const itemName = item.names[locale] || item.names["en"] || "Unnamed Item";
+  const itemName = item.names[locale] || item.names["fr"] || "Unnamed Item";
   const itemDescription =
     item.descriptions[locale] ||
-    item.descriptions["en"] ||
+    item.descriptions["fr"] ||
     "No description available";
 
   return (

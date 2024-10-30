@@ -23,9 +23,9 @@ export const generateMetadata = async ({
     }
 
     // Use params.lang instead of `useLocale` hook
-    const itemName = data.names?.[params.lang] || data.names?.["en"];
+    const itemName = data.names?.[params.lang] || data.names?.["fr"];
     const itemDescription =
-      data.descriptions?.[params.lang] || data.descriptions?.["en"];
+      data.descriptions?.[params.lang] || data.descriptions?.["fr"];
 
     return {
       title: itemName,
