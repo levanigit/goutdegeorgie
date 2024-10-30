@@ -1,6 +1,8 @@
 import MenuDetails from "./eachItemPage/MenuDetails";
 import { fetchMenuItem } from "../fetchingData";
 import { Metadata } from "next";
+import { defaultLocale, dynamicPageRoute } from "@/Manager/navigation";
+import { companyDomain } from "@/Manager/info";
 
 type Props = {
   params: {
@@ -23,15 +25,31 @@ export const generateMetadata = async ({
     }
 
     // Use params.lang instead of `useLocale` hook
-    const itemName = data.names?.[params.lang] || data.names?.["fr"];
+    const itemName = data.names?.[params.lang] || data.names?.[defaultLocale];
     const itemDescription =
-      data.descriptions?.[params.lang] || data.descriptions?.["fr"];
+      data.descriptions?.[params.lang] || data.descriptions?.[defaultLocale];
+    const openGraphImage =
+      data.image || `${companyDomain}/images/openGraph/red.jpg`;
+    // Fallback image path
 
     return {
       title: itemName,
       description: itemDescription,
       alternates: {
         canonical: `/${params.lang}/menu/${params.itemId}`,
+      },
+      openGraph: {
+        title: itemName,
+        description: itemDescription,
+        url: `${companyDomain}/${params.lang}/${dynamicPageRoute}/${params.itemId}`,
+        images: [
+          {
+            url: openGraphImage,
+            width: 1200, // Standard Open Graph image width
+            height: 630, // Standard Open Graph image height
+            alt: itemName,
+          },
+        ],
       },
     };
   } catch (error) {
