@@ -5,8 +5,12 @@ import { Analytics } from "@vercel/analytics/react";
 import { getTranslations } from "next-intl/server";
 import { companyDomain } from "@/Manager/info";
 
-export async function generateMetadata() {
-  const locale = useLocale();
+export async function generateMetadata({
+  params,
+}: {
+  params: { locale: string };
+}) {
+  const { locale } = params;
   const t = await getTranslations("homePage.metadata");
   const canonicalUrl = `${companyDomain}/${locale}`;
 
