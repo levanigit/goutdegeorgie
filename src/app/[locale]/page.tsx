@@ -1,12 +1,6 @@
 import ComponentFive from "@/src/components/Five/ComponentFive";
 import Hero from "@/src/components/Hero/Hero";
-import {
-  instagram1,
-  instagram2,
-  chefImage,
-  khachapuri1,
-  dishIcon,
-} from "@/public/image";
+import { instagram1, chefImage, khachapuri1, dishIcon } from "@/public/image";
 import Testimonials from "@/src/components/Testimonials/Testimonials";
 import { useTranslations } from "next-intl";
 import ComponentFour from "@/src/components/Four/ComponentFour";

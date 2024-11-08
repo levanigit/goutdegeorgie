@@ -13,7 +13,7 @@
   padding-top: 50px;
 }
 
-.FourBoxMainWrapper div,
+.FourBoxMainWrapper a,
 .FourBoxMainWrapper :nth-child(4) {
   width: 25%;
   display: flex;
