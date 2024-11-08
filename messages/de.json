@@ -13,8 +13,8 @@
     },
     "componentOne": {
       "title1": "Das Wort des Küchenchefs",
-      "title2": "Für die Zukunft geschaffen",
-      "text": "Unser Engagement für Qualität und Nachhaltigkeit steht im Mittelpunkt all dessen, was wir tun. Jedes Gericht spiegelt die Frische und Authentizität der georgischen Küche wider."
+      "title2": "Mit Herz gemacht",
+      "text": "Lernen Sie Chefkoch, ihre Gerichte bringen die Wärme hausgemachter georgischer Aromen auf jeden Teller. Jedes Rezept, mit Sorgfalt und einer Prise Nostalgie zubereitet, schmeckt, als hätte es eine liebevolle Großmutter gemacht. Ihre Hingabe an Frische und Authentizität macht jede Mahlzeit zu einem gemütlichen, unvergesslichen Erlebnis."
     },
     "componentTwo": {
       "title1": "Das Wort des Küchenchefs",
@@ -25,12 +25,12 @@
     },
     "componentFour": {
       "1": {
-        "title": "Das Geheimnis des georgischen Olivenöls",
-        "text": "Entdecken Sie das hochwertigste Olivenöl, das in jedem unserer Gerichte verwendet wird und unseren georgischen Rezepten eine authentische Note verleiht."
+        "title": " Ihr Bester Freund am Morgen: Ein Warmer Croissant",
+        "text": "Frisch gebacken, goldbraun, buttrig und herrlich zart. Beginnen Sie den Tag mit einem Croissant, das Wärme und Freude in jedem köstlichen Bissen schenkt und die Sinne verwöhnt."
       },
       "2": {
-        "title": "Das Geheimnis des Teigs",
-        "text": "Perfekter Teig ist die Basis für unser georgisches Brot und Gebäck. Täglich frisch und mit authentischen Zutaten zubereitet, garantiert er einen unvergleichlichen Geschmack."
+        "title": "Imeruli Khachapuri",
+        "text": "Goldbraun und gefüllt mit würzigem Käse, ist das Imeruli Khachapuri ein georgischer Klassiker. Warm, weich und einfach köstlich – dieses traditionelle Brot bringt georgisches Flair auf Ihren Teller."
       }
     },
     "componentFive": {

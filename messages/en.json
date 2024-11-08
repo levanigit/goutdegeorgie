@@ -13,8 +13,8 @@
     },
     "componentOne": {
       "title1": "Chef's Word",
-      "title2": "Crafted for the Future",
-      "text": "Our commitment to quality and sustainability is at the heart of everything we do. Each dish reflects the freshness and authenticity of Georgian cuisine."
+      "title2": "Crafted with Heart",
+      "text": "Meet Chef, her dishes bring the warmth of home-cooked Georgian flavors to every plate. Each recipe, crafted with care and a touch of nostalgia, tastes like it was made by a loving grandmother. Her dedication to freshness and authenticity turns every meal into a comforting, unforgettable experience."
     },
     "componentTwo": {
       "title1": "Chef's Word",
@@ -25,12 +25,12 @@
     },
     "componentFour": {
       "1": {
-        "title": "The Secret of Georgian Olive Oil",
-        "text": "Discover the highest quality olive oil used in each of our dishes, adding an authentic touch to our Georgian recipes."
+        "title": "Your Morning Best Friend: A Warm Croissant",
+        "text": "Freshly baked to golden perfection, buttery, flaky, and irresistibly soft inside. Start your day with the comforting warmth of a croissant that brings a little bit of joy with each delicious bite."
       },
       "2": {
-        "title": "The Secret of Dough",
-        "text": "Perfect dough is the foundation of our Georgian breads and pastries. Prepared daily with fresh, authentic ingredients, it guarantees an unmatched taste."
+        "title": "Imeruli Khachapuri",
+        "text": "Golden and filled with savory cheese, Imeruli Khachapuri is a Georgian classic. Soft, warm, and irresistibly delicious, this traditional bread brings the heart of Georgia to your table, creating joy with every bite."
       }
     },
     "componentFive": {

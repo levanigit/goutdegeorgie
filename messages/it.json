@@ -13,8 +13,8 @@
     },
     "componentOne": {
       "title1": "La Parola dello Chef",
-      "title2": "Creato per il Futuro",
-      "text": "Il nostro impegno per la qualità e la sostenibilità è al centro di tutto ciò che facciamo. Ogni piatto riflette la freschezza e l'autenticità della cucina georgiana."
+      "title2": "Fatto con il Cuore",
+      "text": "Incontra la Chef, i suoi piatti portano il calore dei sapori georgiani fatti in casa in ogni portata. Ogni ricetta, preparata con cura e un tocco di nostalgia, ha il sapore di un piatto cucinato da una nonna amorevole. La sua dedizione alla freschezza e all'autenticità rende ogni pasto un'esperienza confortante e indimenticabile."
     },
     "componentTwo": {
       "title1": "La Parola dello Chef",
@@ -25,12 +25,12 @@
     },
     "componentFour": {
       "1": {
-        "title": "Il Segreto dell'Olio d'Oliva Georgiano",
-        "text": "Scopri l'olio d'oliva della massima qualità utilizzato in ciascuno dei nostri piatti, aggiungendo un tocco autentico alle nostre ricette georgiane."
+        "title": "Il Tuo Amico del Mattino: Un Croissant Caldo",
+        "text": "Appena sfornato, dorato e burroso, croccante fuori e morbido dentro. Inizia la giornata con la calda bontà di un croissant che regala un attimo di gioia ad ogni morso."
       },
       "2": {
-        "title": "Il Segreto dell'Impasto",
-        "text": "Un impasto perfetto è la base dei nostri pani e dolci georgiani. Preparato quotidianamente con ingredienti freschi e autentici, garantisce un gusto ineguagliabile."
+        "title": "Imeruli Khachapuri",
+        "text": "Dorato e ripieno di formaggio saporito, l'Imeruli Khachapuri è un classico della cucina georgiana. Morbido, caldo e delizioso, questo pane tradizionale porta il cuore della Georgia sulla tua tavola."
       }
     },
     "componentFive": {

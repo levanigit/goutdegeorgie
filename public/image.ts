@@ -14,6 +14,7 @@ import acharuli from "@/public/images/heros/AtcharuliHero.jpg";
 import croisant from "@/public/images/heros/heroHome.jpg";
 import pizza from "@/public/images/ComponentThree.jpg";
 import pizza2 from "@/public/images/ComponentSix.jpg";
+import khachapuri1 from "@/public/images/componentFour.jpg";
 
 import instagram1 from "@/public/images/heros/heroHome.jpg";
 import instagram2 from "@/public/images/heros/heroMenu.jpg";
@@ -24,7 +25,7 @@ import instagram4 from "@/public/images/heros/heroStory.jpg";
 //
 //images story page
 import womanChef from "@/public/images/womanChef.webp";
-import chefImage from "@/public/images/sushiChef.png";
+import chefImage from "@/public/images/componentOne.jpg";
 import chroisant2 from "@/public/images/heros/heroReservation.jpg";
 import logo from "@/public/images/logo.svg";
 import logoDark from "@/public/assets/svg/Puki-dark.svg";
@@ -34,6 +35,7 @@ import mapImage from "@/public/images/componentSix2.png";
 //
 // assets
 import newItem from "@/public/assets/svg/new.svg";
+import dishIcon from "@/public/assets/icons/dish-icon.png";
 export {
   heroMain,
   heroMenu,
@@ -55,4 +57,6 @@ export {
   dumplings,
   womanChef,
   mapImage,
+  khachapuri1,
+  dishIcon,
 };

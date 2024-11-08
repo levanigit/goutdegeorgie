@@ -13,8 +13,8 @@
     },
     "componentOne": {
       "title1": "Le Mot du Chef",
-      "title2": "Créé pour l'Avenir",
-      "text": "Notre engagement envers la qualité et la durabilité est au cœur de tout ce que nous faisons. Chaque plat reflète la fraîcheur et l'authenticité de la cuisine géorgienne."
+      "title2": "Préparé avec Cœur",
+      "text": "Découvrez la Chef, ses plats apportent la chaleur des saveurs géorgiennes maison à chaque assiette. Chaque recette, élaborée avec soin et une touche de nostalgie, a le goût d'un repas préparé par une grand-mère aimante. Son engagement envers la fraîcheur et l'authenticité transforme chaque repas en une expérience réconfortante et inoubliable."
     },
     "componentTwo": {
       "title1": "Le Mot du Chef",
@@ -25,12 +25,12 @@
     },
     "componentFour": {
       "1": {
-        "title": "Le Secret de l'Huile d'Olive Géorgienne",
-        "text": "Découvrez l'huile d'olive de la plus haute qualité utilisée dans chacun de nos plats, ajoutant une touche authentique à nos recettes géorgiennes."
+        "title": "Votre Meilleur Ami du Matin : Un Croissant Chaud",
+        "text": "Fraîchement cuit, doré à la perfection, beurré et délicatement feuilleté. Commencez votre journée avec la chaleur d'un croissant qui apporte un peu de bonheur à chaque bouchée savoureuse."
       },
       "2": {
-        "title": "Le Secret de la Pâte",
-        "text": "La pâte parfaite est la base de nos pains et pâtisseries géorgiens. Préparée quotidiennement avec des ingrédients frais et authentiques, elle garantit un goût inégalé."
+        "title": "Imeruli Khachapuri",
+        "text": "Doré et garni de fromage savoureux, l'Imeruli Khachapuri est un classique géorgien. Moelleux, chaud et irrésistible, ce pain traditionnel apporte un peu de Géorgie à votre table, et du bonheur à chaque bouchée."
       }
     },
     "componentFive": {
