@@ -18,27 +18,27 @@ export default function Hours() {
           <div className={styles.timesDay}>
             <p className={styles.day}>{t("monday")}</p>
             <div className={styles.dotted}></div>
-            <p className={styles.hours}>07:00 - 10:00</p>
+            <p className={styles.hours}>07:00 - 22:00</p>
           </div>
           <div className={styles.timesDay}>
             <p className={styles.day}>{t("tusday")}</p>
             <div className={styles.dotted}></div>
-            <p className={styles.hours}>07:00 - 10:00</p>
+            <p className={styles.hours}>07:00 - 22:00</p>
           </div>
           <div className={styles.timesDay}>
             <p className={styles.day}>{t("wednsday")}</p>
             <div className={styles.dotted}></div>
-            <p className={styles.hours}>07:00 - 10:00</p>
+            <p className={styles.hours}>07:00 - 22:00</p>
           </div>
           <div className={styles.timesDay}>
             <p className={styles.day}>{t("thursday")}</p>
             <div className={styles.dotted}></div>
-            <p className={styles.hours}>07:00 - 10:00</p>
+            <p className={styles.hours}>07:00 - 22:00</p>
           </div>
           <div className={styles.timesDay}>
             <p className={styles.day}>{t("friday")}</p>
             <div className={styles.dotted}></div>
-            <p className={styles.hours}>07:00 - 10:00</p>
+            <p className={styles.hours}>07:00 - 22:00</p>
           </div>
           <div className={styles.timesDay}>
             <p className={styles.day}>{t("saturday")}</p>
