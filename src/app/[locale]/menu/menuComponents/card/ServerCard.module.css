@@ -9,10 +9,11 @@
   border-radius: 8px; */
   background-color: var(--color2-10);
   border-radius: 12px;
+  overflow: hidden;
 }
 
 .cardWrapper img {
-  border-radius: 6px;
+  /* border-radius: 6px; */
   object-fit: cover;
   height: 200px;
   object-fit: cover;

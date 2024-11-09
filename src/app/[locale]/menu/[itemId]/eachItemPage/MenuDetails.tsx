@@ -75,7 +75,7 @@ export default function MenuDetails({ item }: MenuDetailsProps) {
           </div>
 
           <div className={styles.priceWrap}>
-            <p className={styles.price}>{item.price} </p>
+            <p className={styles.price}>{item.price.toFixed(2)}</p>
             <span>CHF</span>
           </div>
         </div>

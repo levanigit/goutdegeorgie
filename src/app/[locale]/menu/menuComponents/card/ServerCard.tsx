@@ -44,7 +44,8 @@ export default function ServerCard({
                   : displayName}
               </h2>{" "}
               <div className={styles.priceWrap}>
-                <p className={styles.price}>{price} </p>
+                <p className={styles.price}>{price.toFixed(2)}</p>
+
                 <span>CHF</span>
               </div>
             </div>

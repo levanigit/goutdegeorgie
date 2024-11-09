@@ -87,7 +87,8 @@
 }
 
 .priceWrap {
-  width: 90px;
+  /* width: 90px; */
+  padding: 0 10px;
   height: 52px;
   background-color: var(--color2);
   display: flex;
