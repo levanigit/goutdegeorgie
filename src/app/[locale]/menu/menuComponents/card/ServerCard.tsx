@@ -21,9 +21,8 @@ export default function ServerCard({
   const locale = useLocale();
 
   // Safely handle the display of names and descriptions with fallbacks
-  const displayName = names?.[locale] || "Unnamed Item"; // Try multilingual names, fallback to single name
-  const displayDescription =
-    descriptions?.[locale] || "No description available"; // Multilingual descriptions, fallback to single description
+  const displayName = names?.[locale] || ""; // Try multilingual names, fallback to single name
+  const displayDescription = descriptions?.[locale] || ""; // Multilingual descriptions, fallback to single description
 
   return (
     <Link href={`/${locale}/${dynamicPageRoute}/${id}`}>
