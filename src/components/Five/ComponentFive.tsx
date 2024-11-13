@@ -26,28 +26,30 @@ export default function ComponentFive() {
                 height={70}
                 alt="Location Icon"
               />
-              <p className="twoLines"></p>
+              <span className="twoLines"></span>
               <h4 className="paragraph gray7">{address}</h4>
             </Link>
 
             {/* phone number box */}
             <Link href={`tel: ${phoneNumber}`}>
               <Image src={phoneIcon} width={70} height={70} alt="Mobile Icon" />
-              <p className="twoLines"></p>
+              <span className="twoLines"></span>
+
               <p className="paragraph gray7">{phoneNumber}</p>
             </Link>
 
             {/* Email Box */}
             <Link href={`mailto: ${email}`}>
               <Image src={emailIcon} width={70} height={70} alt="Email Icon" />
-              <p className="twoLines"></p>
+              <span className="twoLines"></span>
+
               <p className="paragraph gray7">{email}</p>
             </Link>
 
             {/* Chat with Us Box */}
             <Link href={`${locale}/contact `}>
               <Image src={chatIcon} width={70} height={70} alt="Chat Icon" />
-              <p className="twoLines"></p>
+              <span className="twoLines"></span>
               <p className="paragraph gray7">Chat with Us</p>
             </Link>
           </div>
