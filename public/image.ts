@@ -5,7 +5,6 @@ import heroMain from "@/public/images/heros/heroHome.jpg";
 import heroMenu from "@/public/images/heros/heroMenu.jpg";
 import heroStory from "@/public/images/heros/heroStory.jpg";
 import heroReservation from "@/public/images/heros/heroReservation.jpg";
-import dumplings from "@/public/images/heros/dumplings.webp";
 import acharuli from "@/public/images/heros/AtcharuliHero.jpg";
 
 //
@@ -15,6 +14,7 @@ import croisant from "@/public/images/heros/heroHome.jpg";
 import pizza from "@/public/images/ComponentThree.jpg";
 import pizza2 from "@/public/images/ComponentSix.jpg";
 import khachapuri1 from "@/public/images/componentFour.jpg";
+import mapImage from "@/public/images/componentSix2.png";
 
 import instagram1 from "@/public/images/heros/heroHome.jpg";
 import instagram2 from "@/public/images/heros/heroMenu.jpg";
@@ -29,7 +29,9 @@ import chefImage from "@/public/images/componentOne.jpg";
 import chroisant2 from "@/public/images/heros/heroReservation.jpg";
 import logo from "@/public/images/logo.svg";
 import logoDark from "@/public/assets/svg/Puki-dark.svg";
-import mapImage from "@/public/images/componentSix2.png";
+import dumplings from "@/public/images/ComponentFourImages/toison-dumplings.jpg";
+import khachapuri2 from "@/public/images/ComponentFourImages/khachapuri2.jpg";
+import badrijani from "@/public/images/ComponentFourImages/badrijani.jpg";
 
 //
 //
@@ -58,5 +60,7 @@ export {
   womanChef,
   mapImage,
   khachapuri1,
+  khachapuri2,
+  badrijani,
   dishIcon,
 };

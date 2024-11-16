@@ -64,7 +64,7 @@
     width: 80%;
   }
 
-  .middle h3 {
+  .middle p {
     letter-spacing: 2px;
     padding-bottom: 25px;
   }
@@ -77,7 +77,7 @@
 }
 
 @media (max-width: 570px) {
-  .middle h2 {
+  .middle p {
     display: none;
   }
 }

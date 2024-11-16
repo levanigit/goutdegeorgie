@@ -2,14 +2,13 @@ import Testimonials from "@/src/components/Testimonials/Testimonials";
 import { getTranslations } from "next-intl/server";
 import PageHeadImage from "@/src/components/PageHeadImage/PageHeadImage";
 import {
-  chroisant2,
+  badrijani,
   dishIcon,
   dumplings,
-  heroMain,
   heroMenu,
   heroReservation,
   heroStory,
-  instagram1,
+  khachapuri2,
   womanChef,
 } from "@/public/image";
 import ComponentTwo from "@/src/components/Two/ComponentTwo";
@@ -45,24 +44,17 @@ export default async function StoryPage() {
       />
       <ComponentFour
         icon={dishIcon}
-        image={heroMain}
+        image={dumplings}
         title={t("componentFour.2.title")}
         text={t("componentFour.2.text")}
         reverse
       />
-      <ComponentThree image={womanChef} />
+      {/* <ComponentThree image={womanChef} /> */}
       <ComponentFour
         icon={dishIcon}
         image={heroStory}
         title={t("componentFour.3.title")}
         text={t("componentFour.3.text")}
-      />
-      <ComponentFour
-        icon={dishIcon}
-        image={heroReservation}
-        title={t("componentFour.4.title")}
-        text={t("componentFour.4.text")}
-        reverse
       />
       <ComponentTwo
         title1={t("componentTwo.title1")}
@@ -73,13 +65,20 @@ export default async function StoryPage() {
       />
       <ComponentFour
         icon={dishIcon}
-        image={heroStory}
+        image={heroReservation}
+        title={t("componentFour.4.title")}
+        text={t("componentFour.4.text")}
+        reverse
+      />
+      <ComponentFour
+        icon={dishIcon}
+        image={khachapuri2}
         title={t("componentFour.5.title")}
         text={t("componentFour.5.text")}
       />
       <ComponentFour
         icon={dishIcon}
-        image={heroReservation}
+        image={badrijani}
         title={t("componentFour.6.title")}
         text={t("componentFour.6.text")}
         reverse

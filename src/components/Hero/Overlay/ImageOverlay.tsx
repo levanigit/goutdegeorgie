@@ -14,11 +14,11 @@ export default function ImageOverlay() {
         <div className={styles.overlayWrapper}>
           <div className={styles.empty}></div>
           <div className={styles.middle}>
-            <h2 className="heading5 color2">{t("title1")}</h2>
-            <h2 className={`heading3 font2 ${styles.title2}`}>{t("title2")}</h2>
+            <p className="heading5 color2">{t("title1")}</p>
+            <p className={`heading3 font2 ${styles.title2}`}>{t("title2")}</p>
             <h1 className="heading1 ">{companyName}</h1>
             <div className="twoLines"></div>
-            <p className="paragraph white">{t("text")}</p>
+            <h2 className="paragraph white">{t("text")}</h2>
             <div className={styles.buttons}>
               <Link className="button" href={`./${locale}/menu`}>
                 {t("button1")}
