@@ -38,6 +38,7 @@ export async function generateMetadata({
     },
   };
 }
+import image from "@/public/images/openGraph/mainOpenGraph.jpg";
 
 //fonts
 import {
