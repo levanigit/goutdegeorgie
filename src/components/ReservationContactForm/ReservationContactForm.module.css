@@ -64,12 +64,12 @@
   margin: 0 auto;
   justify-content: center;
   height: 100%;
-  font-size: 50px;
+  font-size: 40px;
   color: var(--color2);
   text-align: center;
   width: 70%;
+  transition: 1s ease-in-out;
   opacity: 1;
-  transition: all 1s ease;
 }
 .formSent h5 {
   color: var(--red);
@@ -80,6 +80,7 @@
 .hide {
   opacity: 0;
   pointer-events: none;
+  font-size: 40px;
 }
 .none {
   display: none;
