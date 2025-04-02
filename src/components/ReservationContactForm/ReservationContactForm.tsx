@@ -103,9 +103,9 @@ export default function ReservationContactForm({
               }`}
               type="text"
               name="user_name"
-              placeholder={name}
+              // placeholder={name}
               value={nameValue}
-              onChange={(e) => setNameValue(e.target.value)}
+              // onChange={(e) => setNameValue(e.target.value)}
             />
             <div>
               <input
@@ -114,15 +114,15 @@ export default function ReservationContactForm({
                 }`}
                 type="email"
                 name="user_email"
-                placeholder={email}
+                // placeholder={email}
                 value={emailValue}
-                onChange={(e) => setEmailValue(e.target.value)}
+                // onChange={(e) => setEmailValue(e.target.value)}
               />
               <input
                 className={`${styles.input}`}
                 type="tel"
                 name="user_phone"
-                placeholder={phone}
+                // placeholder={phone}
               />
             </div>
             <div>
@@ -130,27 +130,29 @@ export default function ReservationContactForm({
                 className={`${styles.input}`}
                 type="date"
                 name="user_date"
-                placeholder="Date"
+                // placeholder="Date"
               />
               <input
                 className={`${styles.input}`}
                 type="time"
                 name="user_time"
-                placeholder="Time"
+                // placeholder="Time"
               />
             </div>
             <input
               className={`${styles.input}`}
               type="text"
               name="user_quantity"
-              placeholder={people}
+              // placeholder={people}
             />
             <textarea
               className={`${styles.textArea} ${styles.input}`}
               name="message"
-              placeholder={text}
+              // placeholder={text}
+              value=""
             />
-            <button
+
+            {/* <button
               type={nameValue && emailValue ? "submit" : "button"}
               className={`button ${styles.button} ${
                 !buttonDisable ? "button" : "button1Disabled"
@@ -164,7 +166,7 @@ export default function ReservationContactForm({
               }
             >
               {button}
-            </button>
+            </button> */}
           </form>
           <div className={emailSent ? styles.formSent : styles.hide}>
             <h6> {thank}</h6>
