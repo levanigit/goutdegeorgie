@@ -11,7 +11,6 @@ export async function generateMetadata() {
   };
 }
 
-export const pageRoute = "menu"; // Page name to dinamically set it up
 export default async function ProjectsPage() {
   const t = await getTranslations("menuPage");
   return (

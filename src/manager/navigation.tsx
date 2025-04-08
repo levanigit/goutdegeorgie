@@ -1,9 +1,5 @@
 export const supportedLocales = ["fr", "en", "de", "it"];
-export const defaultLocale = "fr";
-export const dynamicPageRoute = "menu"; // [slug]
-export const fireBaseRoute = "toisondor"; //firebase route
-export const menuCarPlaceHoldImg =
-  "https://github.com/levanydze/SUP/blob/main/Geneva-Restaurant-Assets/Placeholders/menuItemPlaceholder.jpg?raw=true";
+export const defaultLocale = supportedLocales[0];
 
 export interface NavItemProps {
   title: string;

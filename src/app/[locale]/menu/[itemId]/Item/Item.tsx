@@ -1,7 +1,6 @@
+import { menuItemPlaceHolder } from "@/public/image";
 import styles from "./Item.module.css";
 import type { ReturnTypeOfExtract } from "@/src/lib/firebase/types";
-import { menuCarPlaceHoldImg } from "@/src/manager/navigation";
-import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 
 export default async function ItemJsx({ item }: { item: ReturnTypeOfExtract }) {
@@ -11,7 +10,7 @@ export default async function ItemJsx({ item }: { item: ReturnTypeOfExtract }) {
         <div className={styles.imgWrapper}>
           <Image
             priority
-            src={item.images[0] || menuCarPlaceHoldImg}
+            src={item.images[0] || menuItemPlaceHolder}
             alt={item.transOption1}
             height={1000}
             width={1000}

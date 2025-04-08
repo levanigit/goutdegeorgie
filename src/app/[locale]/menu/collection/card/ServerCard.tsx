@@ -4,8 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { ReturnTypeOfExtract } from "@/src/lib/firebase/types";
 import { getLocale } from "next-intl/server";
-import { menuCarPlaceHoldImg } from "@/src/manager/navigation";
-import { pageRoute } from "../../page";
+import { route1 } from "@/src/manager/info";
+import { menuItemPlaceHolder } from "@/public/image";
 
 export default async function ServerCard({
   id,
@@ -20,10 +20,10 @@ export default async function ServerCard({
   const locale = await getLocale();
 
   return (
-    <Link href={`/${locale}/${pageRoute}/${id}`}>
+    <Link href={`/${locale}/${route1}/${id}`}>
       <div className={` ${styles.cardWrapper}`}>
         <Image
-          src={images[0] || menuCarPlaceHoldImg}
+          src={images[0] || menuItemPlaceHolder}
           width={1000}
           height={700}
           alt={transOption1}

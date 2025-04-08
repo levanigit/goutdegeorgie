@@ -4,11 +4,11 @@ import {
   collectionRoute1,
   companyRoute,
   companyDomain,
+  route1,
 } from "@/src/manager/info";
 import { defaultLocale } from "@/src/manager/navigation";
 import { extractCollectionFields } from "@/src/lib/firebase/types";
 import ItemJsx from "./Item/Item";
-import { pageRoute } from "../page";
 
 // ✅ SEO Metadata
 export async function generateMetadata({
@@ -38,12 +38,12 @@ export async function generateMetadata({
     title: extracted.transOption1 || defaultLocale,
     description: extracted.transOption2 || defaultLocale,
     alternates: {
-      canonical: `/${locale}/${pageRoute}/${itemId}`,
+      canonical: `/${locale}/${route1}/${itemId}`,
     },
     openGraph: {
       title: extracted.transOption1,
       description: extracted.transOption2,
-      url: `${companyDomain}/${locale}/${pageRoute}/${itemId}`,
+      url: `${companyDomain}/${locale}/${route1}/${itemId}`,
       images: [
         {
           url:

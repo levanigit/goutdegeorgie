@@ -32,6 +32,7 @@ import logoDark from "@/public/assets/svg/Puki-dark.svg";
 import dumplings from "@/public/images/ComponentFourImages/toison-dumplings.jpg";
 import khachapuri2 from "@/public/images/ComponentFourImages/khachapuri2.jpg";
 import badrijani from "@/public/images/ComponentFourImages/badrijani.jpg";
+import menuItemPlaceHolder from ".@/public/images/menuItemPlaceholder.jpg";
 
 //
 //
@@ -39,6 +40,7 @@ import badrijani from "@/public/images/ComponentFourImages/badrijani.jpg";
 import newItem from "@/public/assets/svg/new.svg";
 import dishIcon from "@/public/assets/icons/dish-icon.png";
 export {
+  menuItemPlaceHolder,
   heroMain,
   heroMenu,
   heroReservation,
