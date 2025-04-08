@@ -11,7 +11,7 @@ import {
   khachapuri2,
   womanChef,
 } from "@/public/image";
-import ComponentTwo from "@/src/components/Two/ComponentTwo";
+import ComponentTwo from "@/src/components/components/Two/ComponentTwo";
 import ComponentThree from "@/src/components/components/Three/ComponentThree";
 import ComponentFour from "@/src/components/components/Four/ComponentFour";
 import ComponentSeven from "@/src/components/components/Seven/ComponentSeven";
