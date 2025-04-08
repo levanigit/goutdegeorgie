@@ -4,22 +4,28 @@ import styles from "./Header.module.css";
 import Link from "next/link";
 import Image from "next/image";
 import { logo } from "@/public/image";
-import LanguageSwitcher from "./Navigations/LanguageSwitcher/LanguageSwitcher";
-import { companyName } from "../../../manager/info";
+import LanguageFlag from "./Navigations/LanguageSwitcher/LanguageFlag";
+import { companyName } from "@/src/manager/info";
 import StandartNav from "./Navigations/StandartNav/StandartNav";
 import BurgerNav from "./Navigations/BurgerNav/BurgerNav";
+import { useLocale } from "next-intl";
+// import LanguageAlphabet from "./Navigations/LanguageSwitcher/LanguageAlphabet";
 
 export default function Header() {
+  const locale = useLocale();
   const [isNavOpen, setIsNavOpen] = useState(false);
   const navToggler = () => setIsNavOpen((prev) => !prev);
   const navClose = () => setIsNavOpen(false);
-
   return (
     <header className={styles.headWrapper}>
       <section className="section header">
         <div className="container">
           <div className={styles.navigationWrapper}>
-            <Link href={`/`} onClick={navClose} className={styles.logoWrapper}>
+            <Link
+              href={`/${locale}/`}
+              onClick={navClose}
+              className={styles.logoWrapper}
+            >
               <Image
                 className="logo"
                 src={logo}
@@ -29,7 +35,8 @@ export default function Header() {
               />
             </Link>
             <StandartNav />
-            <LanguageSwitcher />
+            <LanguageFlag />
+            {/* <LanguageAlphabet /> */}
             <BurgerNav
               navClose={navClose}
               navToggler={navToggler}

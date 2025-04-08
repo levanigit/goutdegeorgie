@@ -10,11 +10,16 @@ import {
   reservation,
   story,
 } from "./EachService/icons/importIcons";
-import { useLocale, useTranslations } from "next-intl";
+import { getLocale, getTranslations } from "next-intl/server";
+getLocale;
 
-export default function ComponentThree({ image }: { image: StaticImageData }) {
-  const t = useTranslations("storyPage.componentThree");
-  const locale = useLocale();
+export default async function ComponentThree({
+  image,
+}: {
+  image: StaticImageData;
+}) {
+  const t = await getTranslations("storyPage.componentThree");
+  const locale = await getLocale();
   return (
     <section className="section">
       <div className="container">

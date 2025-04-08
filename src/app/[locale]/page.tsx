@@ -1,23 +1,17 @@
 import ComponentFive from "@/src/components/components/Five/ComponentFive";
 import Hero from "@/src/components/components/Hero/Hero";
-import {
-  instagram1,
-  chefImage,
-  khachapuri1,
-  dishIcon,
-  dumplings,
-} from "@/public/image";
+import { chefImage, khachapuri1, dishIcon, dumplings } from "@/public/image";
 import Testimonials from "@/src/components/packages/Testimonials/Testimonials";
-import { useTranslations } from "next-intl";
 import ComponentFour from "@/src/components/components/Four/ComponentFour";
 import ComponentTwo from "@/src/components/components/Two/ComponentTwo";
 import ComponentSix from "@/src/components/components/Six/ComponentSix";
 
 import ComponentOne from "@/src/components/components/One/ComponentOne";
 import ComponentSeven from "@/src/components/components/Seven/ComponentSeven";
+import { getTranslations } from "next-intl/server";
 
-export default function Home() {
-  const t = useTranslations("homePage");
+export default async function Home() {
+  const t = await getTranslations("homePage");
 
   return (
     <div className="fadeOut">

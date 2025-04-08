@@ -12,7 +12,7 @@ export function replacePlaceholders(text: string): string {
     .replace(/\$PHONE/g, phoneNumber);
 }
 
-export default async function Collections() {
+export default async function Collections({ darkBg }: { darkBg?: boolean }) {
   const collectionRoute1 = "privacy-policy-collection";
   const companyRoute = "privacy-policy";
   const locale = await getLocale();
@@ -51,18 +51,21 @@ export default async function Collections() {
                 className={`${index === 0 ? styles.head : styles.cardWrapper}`}
                 key={item.id}
               >
-                <h2 className="gray1 ">
+                <h2 className={` ${darkBg ? "gray1" : "gray7"}`}>
                   {index !== 0 && index + ". "}
                   {replacePlaceholders(item.transOption1)}
                 </h2>
-                <p className="gray3 paragraph ">
+                <p className={`paragraph ${darkBg ? "gray3" : "gray7"}`}>
                   {index !== 0 && "- "}
                   {replacePlaceholders(item.transOption2)}
                 </p>
               </div>
             ))}
           </div>
-          <p className="gray3" style={{ marginTop: "200px" }}>
+          <p
+            className={` ${darkBg ? "gray1" : "gray5"}`}
+            style={{ marginTop: "200px", fontWeight: "600" }}
+          >
             Update: {formattedDate}
           </p>
         </div>

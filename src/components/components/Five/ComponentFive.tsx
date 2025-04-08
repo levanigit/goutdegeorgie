@@ -1,18 +1,16 @@
 import React from "react";
 import styles from "./ComponentFive.module.css";
 import { address, email, phoneNumber } from "@/src/manager/info";
-import { useTranslations } from "next-intl";
 import emailIcon from "./icons/email.png";
 import phoneIcon from "./icons/phone-call.png";
 import chatIcon from "./icons/live-chat.png";
 import addresslIcon from "./icons/address.png";
 import Link from "next/link";
-import Image, { StaticImageData } from "next/image";
-import { useLocale } from "next-intl";
+import { getLocale, getTranslations } from "next-intl/server";
+import Image from "next/image";
 
-export default function ComponentFive() {
-  const locale = useLocale();
-  const t = useTranslations("homePage.componentFive");
+export default async function ComponentFive() {
+  const locale = await getLocale();
   return (
     <section className="section ">
       <div className="container">

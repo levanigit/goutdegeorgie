@@ -1,11 +1,11 @@
 import React from "react";
 import styles from "./Hours.module.css";
 import Link from "next/link";
-import { useLocale, useTranslations } from "next-intl";
+import { getLocale, getTranslations } from "next-intl/server";
 
-export default function Hours() {
-  const locale = useLocale();
-  const t = useTranslations("homePage.componentSix");
+export default async function Hours() {
+  const locale = await getLocale();
+  const t = await getTranslations("homePage.componentSix");
 
   return (
     <div className={styles.hoursMainWrap}>

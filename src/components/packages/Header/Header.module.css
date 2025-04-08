@@ -5,6 +5,7 @@
   position: absolute;
   z-index: 10;
   margin: 0 auto;
+  margin-top: 10px;
 }
 
 .navigationWrapper {
@@ -19,9 +20,12 @@
   flex: 1;
 }
 .logoWrapper img {
-  max-width: 150px;
-  max-height: 32px;
+  max-width: 200px;
+  max-height: 100px;
   object-fit: contain;
+  position: absolute;
+  /* top: 20px; */
+  margin-top: -15px;
 }
 
 .languageSwitcher {
@@ -46,6 +50,7 @@
   text-align: left;
   cursor: pointer;
   border-radius: var(--radius4);
+
   margin-left: -10px;
 }
 

@@ -14,7 +14,7 @@ export default async function ProjectsPage() {
   const t = await getTranslations("privacyPolicyPage");
   return (
     <div className="fadeOut">
-      <Collections />
+      <Collections darkBg={false} />
     </div>
   );
 }

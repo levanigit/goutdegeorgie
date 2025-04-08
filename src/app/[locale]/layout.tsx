@@ -1,5 +1,11 @@
 import "@/src/app/css/globals.css";
 import { Analytics } from "@vercel/analytics/react";
+import Header from "@/src/components/packages/Header/Header";
+import Footer from "@/src/components/packages/Footer/Footer";
+import { redirect } from "next/navigation";
+import { defaultLocale } from "@/src/manager/navigation"; // Import supported locales
+import { NextIntlClientProvider } from "next-intl";
+import { routing, SupportedLocale } from "@/src/i18n/routing";
 
 // SEO Metadata
 import { getMessages, getTranslations } from "next-intl/server";
@@ -73,14 +79,6 @@ const dancingScript = Dancing_Script({
 
 //components
 
-import Header from "@/src/components/packages/Header3/Header";
-import Footer from "@/src/components/components/Footer/Footer";
-import LowerFoot from "@/src/components/packages/LowerFooter/LowerFoot";
-import { redirect } from "next/navigation";
-import { defaultLocale } from "@/src/manager/navigation"; // Import supported locales
-import { NextIntlClientProvider } from "next-intl";
-import { routing, SupportedLocale } from "@/src/i18n/routing";
-
 export default async function LocaleLayout({
   children,
   params,
@@ -103,11 +101,10 @@ export default async function LocaleLayout({
       >
         <NextIntlClientProvider locale={locale} messages={messages}>
           <div className="flex flex-col min-h-screen max-w-4xl mx-auto">
+            <Analytics />
             <Header />
             {children}
-            <Analytics />
             <Footer />
-            <LowerFoot />
           </div>
         </NextIntlClientProvider>
       </body>

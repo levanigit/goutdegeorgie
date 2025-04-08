@@ -1,14 +1,14 @@
 import React from "react";
 import styles from "./ComponentOne.module.css";
 import Image, { StaticImageData } from "next/image";
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 interface ComponentOne {
   image: StaticImageData;
   reverse?: boolean;
 }
 
-export default function ComponentOne({ image, reverse }: ComponentOne) {
-  const t = useTranslations("homePage.componentOne");
+export default async function ComponentOne({ image, reverse }: ComponentOne) {
+  const t = await getTranslations("homePage.componentOne");
 
   return (
     <section className="section section-medium">

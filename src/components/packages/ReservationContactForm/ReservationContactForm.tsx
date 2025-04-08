@@ -3,8 +3,6 @@ import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser"; //  npm install --save @emailjs/browser
 
 import styles from "./ReservationContactForm.module.css";
-import { useTranslations } from "next-intl";
-
 interface FormValues {
   user_name: string;
   user_email: string;

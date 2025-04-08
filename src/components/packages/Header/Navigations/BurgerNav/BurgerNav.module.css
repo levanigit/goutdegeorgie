@@ -4,9 +4,8 @@
   left: 0;
   top: 0;
   width: 100%;
-  height: auto;
+  height: 0;
   padding-top: 80px;
-  width: 100vw;
   margin-top: -460px;
 }
 .burgerActiveNav {
@@ -16,11 +15,14 @@
 .burgerUl {
   display: flex;
   flex-direction: column;
-  background-color: var(--white);
+  background-color: var(--color1);
   width: 100%;
   text-align: center;
   transition: 0.5s cubic-bezier(1, 0.23, 0.59, 1.12);
   z-index: 99;
+}
+.burgerLi span {
+  cursor: pointer;
 }
 .burgerLi {
   padding: 15px 0;
@@ -44,11 +46,26 @@
 .openCloseIconDiv {
 } */
 .openCloseIcon {
-  color: var(--white);
+  color: var(--gray3);
   font-size: 28px;
   cursor: pointer;
-  z-index: 10;
+  z-index: 100;
+  transition: all 0.3s;
   margin-bottom: -12px;
+}
+.openCloseIcon:hover {
+  color: var(--gray5);
+}
+
+.dropdownMenu {
+  text-align: left;
+  margin-left: 40%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.dropdownMenu li {
+  padding: 10px 0;
 }
 
 @media (min-width: 993px) {

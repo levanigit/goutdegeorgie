@@ -156,6 +156,12 @@
       "text": "Réservez votre place et profitez de notre cuisine géorgienne durable préparée avec amour. Nous sommes impatients de vous accueillir!"
     }
   },
+  "privacyPolicyPage": {
+    "metadata": {
+      "title": "Réserver une Table",
+      "description": "Réservez une table chez nous aujourd'hui et profitez des meilleures spécialités géorgiennes dans une ambiance chaleureuse au cœur de Genève."
+    }
+  },
   "reservationForm": {
     "title1": "title here"
   },

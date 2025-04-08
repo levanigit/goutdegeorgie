@@ -4,10 +4,11 @@ import First from "./fotComponents/First";
 import Second from "./fotComponents/Second";
 import Third from "./fotComponents/Third";
 import Fourth from "./fotComponents/Fourth";
-import { useTranslations } from "next-intl";
+import LowerFoot from "../LowerFooter/LowerFoot";
+import { getTranslations } from "next-intl/server";
 
-export default function Footer() {
-  const t = useTranslations("footer");
+export default async function Footer() {
+  const t = await getTranslations("footer");
   return (
     <footer className={styles.footMainWrapper}>
       <section className="section">
@@ -20,6 +21,7 @@ export default function Footer() {
           </div>
         </div>
       </section>
+      <LowerFoot />
     </footer>
   );
 }

@@ -3,11 +3,11 @@ import { FiPhone } from "react-icons/fi";
 import SocialMedia from "./SocialMedia/SocialMedia";
 import Link from "next/link";
 import { companyName, phoneNumber } from "@/src/manager/info";
-import { useLocale, useTranslations } from "next-intl";
+import { getLocale, getTranslations } from "next-intl/server";
 
-export default function ImageOverlay() {
-  const locale = useLocale();
-  const t = useTranslations("homePage.hero");
+export default async function ImageOverlay() {
+  const locale = await getLocale();
+  const t = await getTranslations("homePage.hero");
   return (
     <section className="section no-padding-y">
       <div className="container">

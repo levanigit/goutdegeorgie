@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./ComponentTwo.module.css";
 import Link from "next/link";
-import { useLocale } from "next-intl";
+import { getLocale } from "next-intl/server";
 interface componentTwoProps {
   title1: string;
   title2: string;
@@ -10,14 +10,14 @@ interface componentTwoProps {
   button?: string;
 }
 
-export default function ComponentTwo({
+export default async function ComponentTwo({
   title1,
   title2,
   text1,
   text2,
   button,
 }: componentTwoProps) {
-  const locale = useLocale();
+  const locale = await getLocale();
   return (
     <section className="section ">
       <div className="container">

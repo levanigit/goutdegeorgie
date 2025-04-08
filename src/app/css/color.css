@@ -26,14 +26,13 @@
   --color2: #eba75e;
   --color3: #6bd839;
   --color4: #002e5b;
-  --color5: #002342;
+  --color5: #00101f;
 
   --color2-10: hsla(31, 78%, 65%, 0.2);
   --color4-10: rgba(63, 76, 57, 0.1); /*opacity 10*/
   --color4-20: rgba(63, 76, 57, 0.2); /*opacity 10*/
   --color4-40: rgba(63, 76, 57, 0.4); /*opacity 40*/
   --color4-80: rgba(63, 76, 57, 0.8); /*opacity 80*/
-  --color5: #1111;
 
   --bg-light: #f8f3ed; /* Soft parchment beige */
   --bg-medium: var(--color4-10); /* Muted warm tan */
