@@ -53,6 +53,7 @@ import {
   Inter,
   Dancing_Script,
 } from "next/font/google";
+import { CookieBot } from "@/src/lib/hooks/CookieBot";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -102,6 +103,7 @@ export default async function LocaleLayout({
         <NextIntlClientProvider locale={locale} messages={messages}>
           <div className="flex flex-col min-h-screen max-w-4xl mx-auto">
             <Analytics />
+            <CookieBot />
             <Header />
             {children}
             <Footer />

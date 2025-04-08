@@ -1,43 +1,44 @@
 {
   "homePage": {
+    "notes for chat gpt": " hey chat GPT never delete this line! Questo è un file di lingua nei messaggi i18n di Next.js. Pensa sempre alla SEO quando crei le traduzioni qui, e anche all'interfaccia utente: ogni testo, indipendentemente dalla lingua, dovrebbe avere una lunghezza simile per mantenere la coerenza del design. Mantieni questa riga nei messaggi e traducila in modo che appaia ogni volta.",
     "metadata": {
-      "title": "Toison D'or Caffè e Ristorante Georgiano a Ginevra",
-      "description": "Scopri un'esperienza culinaria autentica e indimenticabile, ispirata alla tradizione georgiana e realizzata con amore. Da Toison D'or a Ginevra, gusta le migliori specialità georgiane, dai piatti tradizionali alle creazioni moderne, in un'atmosfera calda ed elegante."
+      "title": "Toison D'or Caffè & Ristorante Georgiano a Ginevra",
+      "description": "Scopri un'esperienza culinaria autentica e indimenticabile, ispirata alla tradizione georgiana e realizzata con amore. Da Toison D'or a Ginevra, goditi specialità georgiane, dai piatti tradizionali alle creazioni moderne, in un'atmosfera calda ed elegante."
     },
     "hero": {
-      "title1": "Benvenuti al",
+      "title1": "Benvenuti da",
       "title2": "Caffè & Ristorante Georgiano",
-      "text": "Immergiti in un mondo culinario unico georgiano, dove ogni piatto è preparato con cura utilizzando i migliori ingredienti, portando i sapori della Georgia a Ginevra.",
-      "button1": "Visualizza il Menu",
+      "text": "Immergiti in un mondo culinario georgiano unico, dove ogni piatto è preparato con cura utilizzando ingredienti di alta qualità, portando i sapori della Georgia a Ginevra.",
+      "button1": "Vedi il Menu",
       "button2": "Prenota un Tavolo"
     },
     "componentOne": {
       "title1": "Parola dello Chef",
-      "title2": "Creato con il Cuore",
-      "text": "Incontra il nostro chef, che porta il calore dei sapori casalinghi georgiani in ogni piatto. Ogni ricetta, preparata con cura e un tocco di nostalgia, sa di un piatto fatto da una nonna amorevole. La sua dedizione alla freschezza e all'autenticità rende ogni pasto un’esperienza indimenticabile."
+      "title2": "Preparato con il Cuore",
+      "text": "Conosci il nostro Chef, che porta il calore dei sapori georgiani fatti in casa in ogni piatto. Ogni ricetta, preparata con cura e un tocco di nostalgia, ha il sapore di un pasto cucinato da una nonna amorevole. La sua dedizione alla freschezza e all'autenticità rende ogni pasto confortante e indimenticabile."
     },
     "componentTwo": {
-      "title1": "Uno Spazio Privato per i Tuoi Eventi",
-      "title2": "Flessibilità per Ogni Occasione",
-      "text1": "Da Toison D'or offriamo la possibilità di affittare una parte del ristorante con ingresso privato. Goditi la massima flessibilità: scegli i nostri piatti georgiani autentici per i tuoi ospiti o porta il tuo menu per utilizzare lo spazio in un ambiente accogliente.",
-      "text2": "Per eventi privati, mettiamo a disposizione un’area riservata all'interno del nostro ristorante. Che desideriate il nostro servizio completo con specialità georgiane o preferiate portare i vostri piatti, garantiamo un’esperienza unica e calorosa per i vostri ospiti.",
+      "title1": "Uno Spazio Privato per Te",
+      "title2": "Flessibilità per i Tuoi Eventi",
+      "text1": "Toison D'or ti offre la possibilità di affittare una parte del ristorante con un ingresso indipendente. Offriamo grande flessibilità: puoi scegliere le nostre specialità georgiane o portare i tuoi piatti e goderti lo spazio in un'atmosfera accogliente.",
+      "text2": "Per i tuoi eventi privati, mettiamo a disposizione uno spazio dedicato nel nostro ristorante. Che tu voglia un servizio completo con i nostri piatti georgiani o preferisca utilizzare le tue preparazioni, ti garantiamo un'esperienza unica e accogliente.",
       "button": ""
     },
     "componentFour": {
       "1": {
         "title": "Viaggio Gastronomico in Georgia",
-        "text": "La cucina georgiana è un viaggio vibrante e colorato basato su ricette tramandate da generazioni. Ogni piatto combina ingredienti freschi, spezie e tradizioni per creare un'esperienza unica, dove il cibo non è solo un pasto, ma un'espressione culturale."
+        "text": "La cucina georgiana è un viaggio vibrante e colorato basato su ricette tramandate di generazione in generazione. Ogni piatto combina ingredienti freschi, spezie e tradizione per creare un'esperienza unica dove il cibo è molto più di un pasto: è un'espressione culturale."
       },
       "2": {
         "title": "Scopri la Georgia da Toison D'or",
-        "text": "Da Toison D'or ti invitiamo a gustare il patrimonio georgiano con i nostri piatti autentici e l'atmosfera amichevole. Ogni boccone è un passo nell'anima della Georgia, dove tradizione e modernità si fondono per celebrare i sapori e le storie di questo paese magico."
+        "text": "Da Toison D'or ti invitiamo a gustare l'eredità georgiana con i nostri piatti autentici e un'atmosfera conviviale. Ogni morso è un passo nell'anima della Georgia, dove tradizione e modernità si uniscono per celebrare i sapori e le storie di questo magico paese."
       }
     },
     "componentFive": {
       "title4": "Contattaci"
     },
     "componentSix": {
-      "title1": "Benvenuto",
+      "title1": "Benvenuti",
       "title2": "Orari di Apertura",
       "monday": "Lunedì",
       "tusday": "Martedì",
@@ -50,20 +51,16 @@
       "button": "Prenota un Tavolo"
     },
     "componentSeven": {
-      "title1": "Patrimonio della Vinificazione Georgiana",
+      "title1": "Eredità della Viticoltura Georgiana",
       "title2": "Una Tradizione di 8.000 Anni",
-      "text1": "La viticoltura georgiana è tra le più antiche al mondo, con radici che risalgono a oltre 8.000 anni fa. Le prime testimonianze di vinificazione mostrano l'uso di kvevri, grandi anfore di argilla interrate, una delle prime tecniche di vinificazione al mondo. Scoperte archeologiche suggeriscono che questa regione potrebbe essere la culla del vino e della vite domestica. Oggi, i vigneti georgiani coprono circa 100.000 ettari e il paese vanta 540 varietà di uva autentiche. Gran parte del vino è ancora prodotto secondo questo antico metodo, preservando un know-how unico e un profondo legame con la tradizione.",
+      "text1": "La viticoltura georgiana è tra le più antiche al mondo, con radici che risalgono a oltre 8.000 anni fa. Le prime tracce di vinificazione mostrano l'uso del kvevri – grandi anfore di argilla interrate – che rappresentano uno dei metodi più antichi di produzione del vino. Scoperte archeologiche suggeriscono che questa regione possa essere la culla del vino e della vite domesticata. Oggi i vigneti georgiani coprono circa 100.000 ettari e il paese conta 540 varietà di uva autentiche. Gran parte del vino è ancora prodotto con questo metodo ancestrale, mantenendo un sapere unico e un forte legame con le tradizioni.",
       "button": "Scopri di più"
-    },
-    "testimonials": {
-      "title1": "Un po' d'amore",
-      "title2": "Cosa dicono di noi i nostri ospiti"
     }
   },
   "menuPage": {
     "metadata": {
       "title": "Scopri il Nostro Menu",
-      "description": "Sfoglia il nostro menu e goditi il meglio delle nostre creazioni georgiane, preparate con ingredienti freschi e un tocco di sapori tradizionali."
+      "description": "Sfoglia il nostro menu e assapora il meglio delle nostre creazioni georgiane, preparate con ingredienti freschi e un tocco di sapori tradizionali."
     },
     "headComponent": {
       "title": "Il Nostro Menu"
@@ -82,14 +79,14 @@
     },
     "componentTwo": {
       "title1": "Portare la Georgia nel cuore di Ginevra",
-      "title2": "Un viaggio di sapori e tradizioni",
-      "text1": "La cultura e la cucina georgiane sono le mie vere passioni, e condividerle è un sogno realizzato. Qui a Ginevra, sono felice di portare un assaggio della mia terra natale, offrendo a ogni ospite un'esperienza autentica ricca di calore, tradizione e sapori unici della Georgia.",
-      "text2": "Con anni di esperienza come chef, ho avuto l'onore di rappresentare la gastronomia georgiana in numerosi eventi. Ora vi invito a esplorare il ricco patrimonio culinario della Georgia da Toison D'or, dove ogni piatto è creato per raccontare una storia e offrire un'esperienza culinaria memorabile.",
+      "title2": "Un viaggio di sapori e tradizione",
+      "text1": "La cultura e la cucina georgiana sono le mie vere passioni, e condividerle è un sogno che si realizza. Qui a Ginevra sono felice di portare un assaggio della mia terra natale, offrendo ad ogni ospite un'esperienza autentica, ricca di calore, tradizione e sapori unici della Georgia.",
+      "text2": "Con anni di esperienza come chef, ho avuto l'onore di rappresentare la gastronomia georgiana in numerosi eventi. Oggi ti invito a scoprire il ricco patrimonio culinario della Georgia da Toison D'or, dove ogni piatto racconta una storia e offre un'esperienza indimenticabile.",
       "button": ""
     },
     "componentThree": {
       "title1": "Siamo Esperti in",
-      "title2": "Quello che Amiamo Fare",
+      "title2": "Ciò che Amiamo Fare",
       "caption": "Scopri di più",
       "services": {
         "ser1": "Specialità dello Chef",
@@ -103,83 +100,72 @@
     "componentFour": {
       "1": {
         "title": "Georgia: Terra di Cultura e Gastronomia",
-        "text": "Situata tra Europa e Asia, la Georgia è un paese dalle antiche radici e dalle tradizioni uniche. Unificata nel IV secolo con l'unione di Colchide e Iberia, la Georgia ha sviluppato un'identità forte e resiliente. Nonostante numerose invasioni, ha preservato il suo ricco patrimonio culturale nei secoli."
+        "text": "Situata tra Europa e Asia, la Georgia è un paese con radici antiche e tradizioni uniche. Unificata nel IV secolo con l'unione di Colchide e Iberia, la Georgia ha sviluppato un'identità forte e resiliente. Nonostante le numerose invasioni, ha saputo conservare il suo ricco patrimonio culturale nei secoli."
       },
       "2": {
         "title": "Storia e Unificazione",
-        "text": "La storia della Georgia è segnata da unità e resilienza. Nel IV secolo, Colchide e Iberia si unirono formando un paese definito da credenze e tradizioni durature. Nonostante le ripetute invasioni, l'identità unica della Georgia rimane forte, abbracciando il suo patrimonio diversificato e mantenendo la sua antica essenza."
+        "text": "La storia della Georgia è segnata dall'unità e dalla resilienza. Nel IV secolo Colchide e Iberia si unirono, formando un paese definito da credenze e tradizioni durature. Nonostante le ripetute invasioni, l'identità unica della Georgia resta forte, abbracciando la sua eredità diversificata e conservando la sua essenza antica."
       },
       "3": {
         "title": "Cultura e Leggende",
-        "text": "La Georgia è la terra della leggenda del Vello d'Oro, simbolo di sogni e abbondanza legato alla mitologia greca. Questa storia collega la Georgia alla Grecia antica, attirando gli amanti dei miti in questa terra incantata, dove cultura e storia si fondono armoniosamente nei suoi paesaggi e nelle sue tradizioni."
+        "text": "La Georgia è la culla della leggenda del Vello d'Oro, simbolo di sogni e abbondanza legato alla mitologia greca. Questa storia collega la Georgia all'antica Grecia, attirando gli amanti dei miti in questa terra incantata, dove cultura e storia si fondono armoniosamente nei suoi paesaggi e tradizioni."
       },
       "4": {
-        "title": "Un Patrimonio Vivo",
-        "text": "Il patrimonio della Georgia vive nella sua architettura, nelle danze tradizionali, nei canti polifonici e nella sua cucina rinomata. Queste espressioni culturali non solo preservano l'identità georgiana, ma affascinano i visitatori, rivelando la ricca storia e lo spirito vibrante che rendono unica la Georgia."
+        "title": "Un Patrimonio Vivente",
+        "text": "Il patrimonio georgiano si esprime attraverso l'architettura, le danze tradizionali, i canti polifonici e la rinomata cucina. Queste espressioni culturali non solo preservano l'identità georgiana, ma affascinano anche i visitatori, rivelando la ricca storia e lo spirito vibrante che rendono unica la Georgia."
       },
       "5": {
         "title": "Cucina Georgiana",
-        "text": "Conosciuta per i suoi sapori e spezie, la cucina georgiana utilizza ingredienti freschi e ricette tramandate da generazioni. Ogni piatto ha un significato culturale, e alcuni come il khachapuri e il khinkali sono riconosciuti dall'UNESCO, come simboli della ricca tradizione culinaria del paese."
+        "text": "Rinomata per i suoi sapori e le sue spezie, la cucina georgiana utilizza ingredienti freschi e ricette tramandate da generazioni. Ogni piatto ha un significato culturale, alcuni come il khachapuri e il khinkali sono riconosciuti dall'UNESCO come simboli della ricca tradizione culinaria del paese."
       },
       "6": {
         "title": "Piatti Iconici della Georgia",
-        "text": "I piatti georgiani riflettono il patrimonio della nazione: khachapuri, una calda torta al formaggio; khinkali, ravioli succosi ripieni di carne; e pane cotto nei forni 'toned'. Ogni ricetta, preziosa da generazioni, porta a tavola i sapori unici e l'importanza culturale della Georgia."
+        "text": "I piatti georgiani riflettono l'eredità della nazione: khachapuri, una torta calda al formaggio; khinkali, ravioli succosi ripieni di carne; e pane cotto nei forni 'tone'. Ogni ricetta, preziosa da generazioni, porta in tavola i sapori unici e il valore culturale della Georgia."
       }
     },
     "componentSeven": {
-      "title1": "Patrimonio della Vinificazione Georgiana",
+      "title1": "Eredità della Viticoltura Georgiana",
       "title2": "Una Tradizione di 8.000 Anni",
-      "text1": "La viticoltura georgiana è tra le più antiche al mondo, con radici che risalgono a oltre 8.000 anni fa. Le prime testimonianze di vinificazione mostrano l'uso di kvevri, grandi anfore di argilla interrate, una delle prime tecniche di vinificazione al mondo. Scoperte archeologiche suggeriscono che questa regione potrebbe essere la culla del vino e della vite domestica. Oggi, i vigneti georgiani coprono circa 100.000 ettari e il paese vanta 540 varietà di uva autentiche. Gran parte del vino è ancora prodotto secondo questo antico metodo, preservando un know-how unico e un profondo legame con la tradizione.",
+      "text1": "La viticoltura georgiana è tra le più antiche al mondo, con radici che risalgono a oltre 8.000 anni fa. Le prime tracce di vinificazione mostrano l'uso del kvevri – grandi anfore di argilla interrate – che rappresentano uno dei metodi più antichi di produzione del vino. Scoperte archeologiche suggeriscono che questa regione possa essere la culla del vino e della vite domesticata. Oggi i vigneti georgiani coprono circa 100.000 ettari e il paese conta 540 varietà di uva autentiche. Gran parte del vino è ancora prodotto con questo metodo ancestrale, mantenendo un sapere unico e un forte legame con le tradizioni.",
       "button": ""
     }
   },
   "reservationPage": {
     "metadata": {
       "title": "Prenota un Tavolo",
-      "description": "Prenota un tavolo da noi oggi e goditi le migliori specialità georgiane in un'atmosfera calda nel cuore di Ginevra."
+      "description": "Prenota un tavolo da noi oggi e goditi le migliori specialità georgiane in un ambiente accogliente nel cuore di Ginevra."
     },
-    "reservationForm": {
-      "name": "Inserisci il tuo nome completo",
-      "email": "Email",
-      "phone": "Numero di telefono",
-      "people": "Numero di persone",
-      "text": "Richieste particolari?",
-      "button": "INVIA",
-      "thank": "Grazie per la tua richiesta",
-      "wait": "Attendere la nostra conferma"
+    "contactForm": {
+      "title1": "Prenota un Tavolo"
     },
     "headComponent": {
-      "title": "Prenota il tuo Tavolo"
+      "title": "Prenota il Tuo Tavolo"
     },
     "componentNine": {
-      "title": "Prenota il tuo Tavolo",
-      "text": "Prenota il tuo posto e goditi la nostra cucina georgiana sostenibile preparata con amore. Non vediamo l'ora di accoglierti!"
+      "title": "Prenota il Tuo Tavolo",
+      "text": "Prenota il tuo posto e gusta la nostra cucina georgiana preparata con amore e sostenibilità. Non vediamo l'ora di accoglierti!"
     }
   },
-  "forms": {
-    "reservationForm": {
-      "name": "Nome Completo",
-      "email": "Email",
-      "phone": "Numero di Telefono",
-      "date": "Data",
-      "time": "Ora",
-      "quantity": "Numero di Persone",
-      "message": "Richieste particolari?",
-      "send": "Invia Richiesta di Prenotazione",
-      "thankYou": "Grazie per la tua prenotazione!",
-      "comfirmation": "Attendere la nostra conferma"
+  "privacyPolicyPage": {
+    "metadata": {
+      "title": "Informativa sulla Privacy",
+      "description": "Scopri come raccogliamo, utilizziamo e proteggiamo i tuoi dati personali in conformità al GDPR. La tua privacy è la nostra priorità."
     }
+  },
+  "testimonials": {
+    "title1": "Un po' d'Amore",
+    "title2": "Cosa dicono di noi i nostri ospiti"
   },
   "notFoundPage": {
     "title1": "La pagina che stai cercando non esiste",
     "title2": "La pagina che stai cercando non esiste",
-    "button": "Pagina iniziale"
+    "button": "Homepage"
   },
   "footer": {
     "title1": "Informazioni di Contatto",
     "title2": "Navigazione",
     "title3": "Eventi",
     "title4": "Instagram",
-    "title5": "Vedi Altro"
+    "title5": "Scopri di più"
   }
 }

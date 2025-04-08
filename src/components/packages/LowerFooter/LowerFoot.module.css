@@ -1,6 +1,5 @@
 .mainWrapper {
   background-color: rgba(0, 0, 0, 0.268);
-  width: 100vw;
   position: relative;
   z-index: 1;
 }

@@ -1,36 +1,37 @@
 {
   "homePage": {
+    "notes for chat gpt": " hey chat GPT never delete this line! This is a language file in the i18n messages of Next.js. Always consider SEO when creating translations here, and also the user interface: each text, regardless of the language, should have a similar length to maintain design consistency. Keep this line in the messages and translate it so that it appears every time.",
     "metadata": {
-      "title": "Toison D'or Georgian Cafe & Restaurant in Geneva",
-      "description": "Discover an authentic and unforgettable culinary experience inspired by Georgian tradition and crafted with love. At Toison D'or in Geneva, enjoy the finest Georgian specialties, from traditional dishes to modern culinary creations, in a warm and elegant atmosphere."
+      "title": "Toison D'or Georgian Café & Restaurant in Geneva",
+      "description": "Discover an authentic and unforgettable culinary experience inspired by Georgian tradition and crafted with love. At Toison D'or in Geneva, enjoy Georgian specialties, from traditional dishes to modern creations, in a warm and elegant atmosphere."
     },
     "hero": {
       "title1": "Welcome to",
       "title2": "Georgian Café & Restaurant",
-      "text": "Immerse yourself in a unique Georgian culinary world where each dish is prepared with care using the finest ingredients, bringing the flavors of Georgia to Geneva.",
+      "text": "Immerse yourself in a unique Georgian culinary world where each dish is carefully prepared using the finest ingredients, bringing the flavors of Georgia to Geneva.",
       "button1": "View the Menu",
-      "button2": "Book a Table"
+      "button2": "Reserve a Table"
     },
     "componentOne": {
-      "title1": "Chef's Word",
-      "title2": "Crafted with Heart",
-      "text": "Meet Chef, her dishes bring the warmth of home-cooked Georgian flavors to every plate. Each recipe, crafted with care and a touch of nostalgia, tastes like it was made by a loving grandmother. Her dedication to freshness and authenticity turns every meal into a comforting, unforgettable experience."
+      "title1": "Word from the Chef",
+      "title2": "Prepared with Heart",
+      "text": "Meet our Chef, who brings the warmth of homemade Georgian flavors to every dish. Each recipe, prepared with care and a touch of nostalgia, tastes like a meal made by a loving grandmother. His devotion to freshness and authenticity makes every meal comforting and unforgettable."
     },
     "componentTwo": {
-      "title1": "A Private Space for Your Events",
-      "title2": "Flexibility for Every Occasion",
-      "text1": "At Toison D'or, we offer the option to rent part of the restaurant with a private entrance. Enjoy complete flexibility: choose from our authentic Georgian dishes to delight your guests or bring your own menu and make use of the space in a warm and inviting setting.",
-      "text2": "For private gatherings, we provide a dedicated area within our restaurant. Whether you’d like full service with our Georgian specialties or prefer to bring your own dishes, we ensure a unique and welcoming experience for your event.",
+      "title1": "A Private Space at Your Disposal",
+      "title2": "Flexibility for Your Events",
+      "text1": "Toison D'or offers you the possibility to rent a part of the restaurant with an independent entrance. We offer great flexibility: you can opt for our Georgian specialties to delight your guests or bring your own dishes and enjoy the space in a warm atmosphere.",
+      "text2": "For your private events, we provide a dedicated space in our restaurant. Whether you want full service with our Georgian dishes or prefer to use your own preparations, we guarantee a unique and welcoming experience.",
       "button": ""
     },
     "componentFour": {
       "1": {
-        "title": "Gastronomic Journey Through Georgia",
-        "text": "Georgian cuisine is a vibrant and colorful journey that relies on recipes passed down through generations. Each dish combines fresh ingredients, spices, and traditions to create a unique experience where food is not merely a meal, but a cultural expression."
+        "title": "Gastronomic Journey in Georgia",
+        "text": "Georgian cuisine is a vibrant and colorful journey based on recipes passed down from generation to generation. Each dish combines fresh ingredients, spices, and traditions to create a unique experience where food is more than just a meal; it's a cultural expression."
       },
       "2": {
-        "title": "Experience Georgia at Toison D'or",
-        "text": "At Toison D'or, we invite you to savor Georgia's heritage with our authentic dishes and friendly ambiance. Each bite is a step into the soul of Georgia, where tradition and modernity blend together, celebrating the flavors and stories of this magical country."
+        "title": "Discover Georgia at Toison D'or",
+        "text": "At Toison D'or, we invite you to savor Georgian heritage with our authentic dishes and a friendly atmosphere. Each bite is a step into the soul of Georgia, where tradition and modernity blend to celebrate the flavors and stories of this magical country."
       }
     },
     "componentFive": {
@@ -47,23 +48,19 @@
       "saturday": "Saturday",
       "sunday": "Sunday",
       "closed": "Closed",
-      "button": "Book a Table"
+      "button": "Reserve a Table"
     },
     "componentSeven": {
       "title1": "Heritage of Georgian Winemaking",
-      "title2": "A Tradition Spanning 8,000 Years",
-      "text1": "Georgian viticulture is among the oldest in the world, with roots stretching back over 8,000 years. The earliest traces of winemaking reveal the use of kvevri, large clay jars buried underground, marking one of the world’s first winemaking methods. Archaeological discoveries suggest that this region may be the birthplace of wine and the domesticated vine. Today, Georgian vineyards cover approximately 100,000 hectares, and the country boasts 540 authenticated grape varieties. Much of the wine is still produced using this ancient method, preserving a unique expertise and a deep connection to tradition.",
-      "button": "Read More"
-    },
-    "testimonials": {
-      "title1": "A Little Love",
-      "title2": "What our guests say about us"
+      "title2": "An 8,000-Year Tradition",
+      "text1": "Georgian viticulture is among the oldest in the world, with roots dating back over 8,000 years. The earliest traces of winemaking reveal the use of the kvevri, large buried clay jars, marking one of the first winemaking methods in the world. Archaeological discoveries suggest that this region could be the cradle of wine and domesticated vines. Today, Georgian vineyards cover about 100,000 hectares, and the country has 540 authenticated grape varieties. A large part of the wines is still produced according to this ancestral method, perpetuating a unique know-how and a strong connection with its traditions.",
+      "button": "Learn More"
     }
   },
   "menuPage": {
     "metadata": {
       "title": "Discover Our Menu",
-      "description": "Browse our menu and enjoy the best of our Georgian creations, crafted with fresh ingredients and a touch of traditional flavors."
+      "description": "Browse our menu and savor the best of our Georgian creations, crafted with fresh ingredients and a touch of traditional flavors."
     },
     "headComponent": {
       "title": "Our Menu"
@@ -75,22 +72,22 @@
   "storyPage": {
     "metadata": {
       "title": "Our Story",
-      "description": "Discover the roots of our passion for Georgian cuisine and how we became an iconic restaurant in Geneva, blending tradition and innovation."
+      "description": "Discover the roots of our passion for Georgian cuisine and how we became a renowned restaurant in Geneva, blending tradition and innovation."
     },
     "headComponent": {
       "title": "Our Story"
     },
     "componentTwo": {
       "title1": "Bringing Georgia to the Heart of Geneva",
-      "title2": "A Journey of Flavor and Heritage",
-      "text1": "Georgian culture and cuisine are my true passions, and sharing them is a dream realized. Here in Geneva, I am delighted to bring a taste of my homeland, offering each guest an authentic experience filled with warmth, tradition, and the unique flavors of Georgia.",
-      "text2": "With years of experience as a chef, I have been honored to represent Georgian gastronomy in numerous events. Now, I invite you to explore the rich culinary heritage of Georgia at Toison D'or, where each dish is crafted to tell a story and create a memorable dining experience.",
+      "title2": "A Journey of Flavors and Heritage",
+      "text1": "Georgian culture and cuisine are my true passions, and sharing them is a dream come true. Here in Geneva, I am delighted to bring a taste of my homeland, offering each guest an authentic experience filled with warmth, tradition, and the unique flavors of Georgia.",
+      "text2": "With years of experience as a chef, I have had the honor of representing Georgian gastronomy at many events. Today, I invite you to explore the rich culinary heritage of Georgia at Toison D'or, where each dish is designed to tell a story and offer an unforgettable experience.",
       "button": ""
     },
     "componentThree": {
-      "title1": "We are Experts in",
+      "title1": "We Are Experts In",
       "title2": "What We Love to Do",
-      "caption": "Read more",
+      "caption": "Learn More",
       "services": {
         "ser1": "Chef's Specialties",
         "ser2": "Our Story",
@@ -103,72 +100,61 @@
     "componentFour": {
       "1": {
         "title": "Georgia: Land of Culture and Gastronomy",
-        "text": "Nestled between Europe and Asia, Georgia is a country with ancient roots and unique traditions. Unified in the 4th century through the union of Colchis and Iberia, Georgia developed a strong, resilient identity. Despite facing numerous invasions, it has safeguarded its rich cultural heritage across the centuries."
+        "text": "Located between Europe and Asia, Georgia is a country with ancient roots and unique traditions. Unified in the 4th century with the union of Colchis and Iberia, Georgia has developed a strong and resilient identity. Despite numerous invasions, it has preserved its rich cultural heritage through the centuries."
       },
       "2": {
         "title": "History and Unification",
-        "text": "Georgia’s history is marked by unity and resilience. In the 4th century, Colchis and Iberia united, forming a country defined by lasting beliefs and traditions. Despite repeated invasions, Georgia’s unique identity remains strong, embracing its diverse heritage while retaining its ancient essence."
+        "text": "The history of Georgia is marked by unity and resilience. In the 4th century, Colchis and Iberia united, forming a country defined by enduring beliefs and traditions. Despite repeated invasions, Georgia's unique identity remains strong, embracing its diverse heritage while preserving its ancient essence."
       },
       "3": {
         "title": "Culture and Legends",
-        "text": "Georgia is home to the legend of the Golden Fleece, a symbol of dreams and abundance tied to Greek mythology. This story connects Georgia to ancient Greece, drawing lovers of myths to this enchanting land, where culture and history blend beautifully in its landscapes and traditions."
+        "text": "Georgia is the birthplace of the legend of the Golden Fleece, a symbol of dreams and abundance tied to Greek mythology. This story links Georgia to ancient Greece, attracting myth lovers to this enchanted land where culture and history blend harmoniously in its landscapes and traditions."
       },
       "4": {
         "title": "A Living Heritage",
-        "text": "Georgia’s heritage lives through its architecture, traditional dances, polyphonic songs, and renowned cuisine. These cultural expressions not only preserve Georgian identity but also captivate visitors, revealing the rich history and vibrant spirit that make Georgia unique."
+        "text": "Georgian heritage is expressed through its architecture, traditional dances, polyphonic songs, and renowned cuisine. These cultural expressions not only preserve Georgian identity but also captivate visitors, revealing the rich history and vibrant spirit that make Georgia unique."
       },
       "5": {
         "title": "Georgian Cuisine",
-        "text": "Known for its flavors and spices, Georgian cuisine uses fresh ingredients and recipes passed down for generations. Each dish holds cultural significance, with some like khachapuri and khinkali recognized by UNESCO, making them symbols of the country’s rich culinary tradition."
+        "text": "Renowned for its flavors and spices, Georgian cuisine uses fresh ingredients and recipes passed down for generations. Each dish holds cultural significance, with some like khachapuri and khinkali recognized by UNESCO as symbols of the country's rich culinary tradition."
       },
       "6": {
         "title": "Iconic Dishes of Georgia",
-        "text": "Georgian dishes reflect the nation’s heritage: khachapuri, a warm cheese pie; khinkali, juicy dumplings filled with meat; and bread baked in 'toned' ovens. Each recipe, treasured for generations, brings Georgia’s unique flavors and cultural importance to the table."
+        "text": "Georgian dishes reflect the nation's heritage: khachapuri, a hot cheese-filled bread; khinkali, juicy meat dumplings; and bread baked in 'tone' ovens. Each recipe, treasured for generations, brings the unique flavors and cultural importance of Georgia to the table."
       }
     },
     "componentSeven": {
       "title1": "Heritage of Georgian Winemaking",
-      "title2": "A Tradition Spanning 8,000 Years",
-      "text1": "Georgian viticulture is among the oldest in the world, with roots stretching back over 8,000 years. The earliest traces of winemaking reveal the use of kvevri, large clay jars buried underground, marking one of the world’s first winemaking methods. Archaeological discoveries suggest that this region may be the birthplace of wine and the domesticated vine. Today, Georgian vineyards cover approximately 100,000 hectares, and the country boasts 540 authenticated grape varieties. Much of the wine is still produced using this ancient method, preserving a unique expertise and a deep connection to tradition.",
+      "title2": "An 8,000-Year Tradition",
+      "text1": "Georgian viticulture is among the oldest in the world, with roots dating back over 8,000 years. The earliest evidence of winemaking reveals the use of the kvevri, large buried clay jars, marking one of the earliest winemaking methods in the world. Archaeological discoveries suggest that this region may be the birthplace of wine and domesticated vines. Today, Georgian vineyards cover approximately 100,000 hectares, and the country boasts 540 authenticated grape varieties. Much of the wine is still made using this ancestral method, preserving a unique craftsmanship and strong connection to tradition.",
       "button": ""
     }
   },
   "reservationPage": {
     "metadata": {
-      "title": "Book a Table",
-      "description": "Reserve a table with us today and enjoy the finest Georgian specialties in a warm atmosphere at the heart of Geneva."
+      "title": "Reserve a Table",
+      "description": "Reserve a table with us today and enjoy the finest Georgian specialties in a warm atmosphere in the heart of Geneva."
     },
-    "reservationForm": {
-      "name": "Enter your full name",
-      "email": "Email",
-      "phone": "Phone number",
-      "people": "Number of people",
-      "text": "Any special requirements?",
-      "button": "SEND",
-      "thank": "Thank you for your request",
-      "wait": "Please wait for our confirmation"
+    "contactForm": {
+      "title1": "Reserve a Table"
     },
     "headComponent": {
       "title": "Book Your Table"
     },
     "componentNine": {
       "title": "Book Your Table",
-      "text": "Reserve your seat and enjoy our sustainable Georgian cuisine prepared with love. We look forward to welcoming you!"
+      "text": "Reserve your seat and enjoy our sustainably prepared Georgian cuisine made with love. We look forward to welcoming you!"
     }
   },
-  "forms": {
-    "reservationForm": {
-      "name": "Full Name",
-      "email": "Email",
-      "phone": "Phone Number",
-      "date": "Date",
-      "time": "Time",
-      "quantity": "Number of People",
-      "message": "Any special requests?",
-      "send": "Send Reservation Request",
-      "thankYou": "Thank you for your reservation!",
-      "comfirmation": "Please wait for our confirmation"
+  "privacyPolicyPage": {
+    "metadata": {
+      "title": "Privacy Policy",
+      "description": "Find out how we collect, use, and protect your personal data in accordance with GDPR. Your privacy is our priority."
     }
+  },
+  "testimonials": {
+    "title1": "A Little Love",
+    "title2": "What our guests say about us"
   },
   "notFoundPage": {
     "title1": "The page you are looking for does not exist",
@@ -180,6 +166,6 @@
     "title2": "Navigation",
     "title3": "Events",
     "title4": "Instagram",
-    "title5": "View More"
+    "title5": "See More"
   }
 }

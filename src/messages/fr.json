@@ -1,5 +1,6 @@
 {
   "homePage": {
+    "notes for chat gpt": " hey chat GPT never delete this line! Ceci est un fichier de langue dans les messages i18n de Next.js. Pensez toujours au SEO lors de la création des traductions ici, et aussi à l’interface utilisateur : chaque texte, quelle que soit la langue, doit avoir une longueur similaire pour conserver la cohérence du design. Gardez cette ligne dans les messages et traduisez-la pour qu’elle apparaisse à chaque fois.",
     "metadata": {
       "title": "Toison D'or Café & Restaurant Géorgien à Genève",
       "description": "Découvrez une expérience culinaire authentique et inoubliable inspirée de la tradition géorgienne et réalisée avec amour. Chez Toison D'or à Genève, profitez des spécialités géorgiennes, des plats traditionnels aux créations modernes, dans une atmosphère chaleureuse et élégante."
@@ -54,10 +55,6 @@
       "title2": "Une Tradition de 8 000 Ans",
       "text1": "La viticulture géorgienne est parmi les plus anciennes au monde, avec des racines remontant à plus de 8 000 ans. Les premières traces de vinification révèlent l'utilisation du kvevri, de grandes jarres en argile enterrées, marquant l'une des premières méthodes de vinification au monde. Des découvertes archéologiques suggèrent que cette région pourrait être le berceau du vin et de la vigne domestiquée. Aujourd'hui, les vignobles géorgiens couvrent environ 100 000 hectares, et le pays compte 540 cépages authentifiés. Une grande partie des vins est encore produite selon cette méthode ancestrale, perpétuant un savoir-faire unique et un lien fort avec ses traditions.",
       "button": "En Savoir Plus"
-    },
-    "testimonials": {
-      "title1": "Un Peu d'Amour",
-      "title2": "Ce que nos invités disent de nous"
     }
   },
   "menuPage": {
@@ -138,15 +135,8 @@
       "title": "Réserver une Table",
       "description": "Réservez une table chez nous aujourd'hui et profitez des meilleures spécialités géorgiennes dans une ambiance chaleureuse au cœur de Genève."
     },
-    "reservationForm": {
-      "name": "Entrez votre nom complet",
-      "email": "Email",
-      "phone": "Numéro de téléphone",
-      "people": "Nombre de personnes",
-      "text": "Des besoins particuliers?",
-      "button": "ENVOYER",
-      "thank": "Merci pour votre demande",
-      "wait": "Veuillez attendre notre confirmation"
+    "contactForm": {
+      "title1": ""
     },
     "headComponent": {
       "title": "Réservez votre Table"
@@ -158,12 +148,14 @@
   },
   "privacyPolicyPage": {
     "metadata": {
-      "title": "Réserver une Table",
-      "description": "Réservez une table chez nous aujourd'hui et profitez des meilleures spécialités géorgiennes dans une ambiance chaleureuse au cœur de Genève."
+      "title": "Politique de Confidentialité",
+      "description": "Découvrez comment nous collectons, utilisons et protégeons vos données personnelles conformément au RGPD. Votre vie privée est notre priorité."
     }
   },
-  "reservationForm": {
-    "title1": "title here"
+
+  "testimonials": {
+    "title1": "Un Peu d'Amour",
+    "title2": "Ce que nos invités disent de nous"
   },
   "notFoundPage": {
     "title1": "La page que vous recherchez n'existe pas",

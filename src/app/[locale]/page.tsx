@@ -11,38 +11,38 @@ import ComponentSeven from "@/src/components/components/Seven/ComponentSeven";
 import { getTranslations } from "next-intl/server";
 
 export default async function Home() {
-  const t = await getTranslations("homePage");
+  const t = await getTranslations("");
 
   return (
     <div className="fadeOut">
       <Hero />
       <ComponentOne image={chefImage} />
       <ComponentSeven
-        title1={t("componentSeven.title1")}
-        title2={t("componentSeven.title2")}
-        text1={t("componentSeven.text1")}
-        button={t("componentSeven.button")}
+        title1={t("homePage.componentSeven.title1")}
+        title2={t("homePage.componentSeven.title2")}
+        text1={t("homePage.componentSeven.text1")}
+        button={t("homePage.componentSeven.button")}
       />
 
       <ComponentFour
         icon={dishIcon}
         image={khachapuri1}
-        title={t("componentFour.2.title")}
-        text={t("componentFour.2.text")}
+        title={t("homePage.componentFour.2.title")}
+        text={t("homePage.componentFour.2.text")}
         reverse
       />
       <ComponentFour
         icon={dishIcon}
         image={dumplings}
-        title={t("componentFour.1.title")}
-        text={t("componentFour.1.text")}
+        title={t("homePage.componentFour.1.title")}
+        text={t("homePage.componentFour.1.text")}
       />
       <ComponentTwo
-        title1={t("componentTwo.title1")}
-        title2={t("componentTwo.title2")}
-        text1={t("componentTwo.text1")}
-        text2={t("componentTwo.text2")}
-        button={t("componentTwo.button")}
+        title1={t("homePage.componentTwo.title1")}
+        title2={t("homePage.componentTwo.title2")}
+        text1={t("homePage.componentTwo.text1")}
+        text2={t("homePage.componentTwo.text2")}
+        button={t("homePage.componentTwo.button")}
       />
 
       <ComponentFive />

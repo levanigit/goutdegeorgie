@@ -15,7 +15,7 @@ export default function GlobalError({
     <html>
       <body
         style={{
-          backgroundColor: "var(--color4)", // Apply dark blue background
+          backgroundColor: "black", // Apply dark blue background
           color: "var(--color2)", // Apply yellow text color
           display: "flex",
           flexDirection: "column",
