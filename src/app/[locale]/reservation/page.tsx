@@ -23,7 +23,7 @@ export default async function StoryPage() {
       />
 
       <ContactForm
-        title1={t("reservationForm.title1")}
+        title1={t("reservationPage.contactForm.title1")}
         time
         date
         quantity
@@ -32,8 +32,8 @@ export default async function StoryPage() {
       />
 
       <Testimonials
-        title1={t("homePage.testimonials.title1")}
-        title2={t("homePage.testimonials.title1")}
+        title1={t("testimonials.title1")}
+        title2={t("testimonials.title1")}
       />
     </div>
   );
