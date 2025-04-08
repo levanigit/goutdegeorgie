@@ -1,16 +1,16 @@
-import "@/src/app/globals.css";
+import "@/src/app/css/globals.css";
 import { Analytics } from "@vercel/analytics/react";
 
 // SEO Metadata
-import { getTranslations } from "next-intl/server";
-import { companyDomain } from "@/Manager/info";
+import { getMessages, getTranslations } from "next-intl/server";
+import { companyDomain } from "@/src/manager/info";
 
 export async function generateMetadata({
   params,
 }: {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
-  const { locale } = params;
+  const { locale } = await params;
   const t = await getTranslations("homePage.metadata");
   const canonicalUrl = `${companyDomain}/${locale}`;
 
@@ -38,7 +38,6 @@ export async function generateMetadata({
     },
   };
 }
-import image from "@/public/images/openGraph/mainOpenGraph.jpg";
 
 //fonts
 import {
@@ -74,124 +73,44 @@ const dancingScript = Dancing_Script({
 
 //components
 
-import Header from "@/src/components/Header/Header";
-import Footer from "@/src/components/Footer/Footer";
-import LowerFoot from "@/src/components/LowerFooter/LowerFoot";
+import Header from "@/src/components/packages/Header3/Header";
+import Footer from "@/src/components/components/Footer/Footer";
+import LowerFoot from "@/src/components/packages/LowerFooter/LowerFoot";
 import { redirect } from "next/navigation";
-import { defaultLocale, supportedLocales } from "@/Manager/navigation"; // Import supported locales
+import { defaultLocale } from "@/src/manager/navigation"; // Import supported locales
+import { NextIntlClientProvider } from "next-intl";
+import { routing, SupportedLocale } from "@/src/i18n/routing";
 
-interface RootLayoutProps {
-  children: React.ReactNode;
-  params: { locale: string };
-}
-
-export default function LangLayout({
+export default async function LocaleLayout({
   children,
-  params: { locale },
-}: RootLayoutProps) {
-  if (!supportedLocales.includes(locale)) {
-    return redirect(`/${defaultLocale}`);
+  params,
+}: {
+  children: React.ReactNode;
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+
+  if (!routing.locales.includes(locale as SupportedLocale)) {
+    redirect(`/${defaultLocale}`);
   }
+
+  const messages = await getMessages();
 
   return (
     <html lang={locale || defaultLocale}>
       <body
         className={` ${inter.className} ${oswald.variable}  ${dancingScript.variable} ${gabriola.variable}   `}
       >
-        <div className="flex flex-col min-h-screen max-w-4xl mx-auto">
-          <Header />
-          {children}
-          <Analytics />
-          <Footer />
-          <LowerFoot />
-        </div>
+        <NextIntlClientProvider locale={locale} messages={messages}>
+          <div className="flex flex-col min-h-screen max-w-4xl mx-auto">
+            <Header />
+            {children}
+            <Analytics />
+            <Footer />
+            <LowerFoot />
+          </div>
+        </NextIntlClientProvider>
       </body>
     </html>
   );
 }
-
-// import "@/src/app/globals.css";
-// import { getTranslations } from "next-intl/server";
-// import { Analytics } from "@vercel/analytics/react";
-
-// // SEO Metadata
-// import { companyDomain, companyName } from "@/Manager/info";
-// export async function generateMetadata() {
-//   const t = await getTranslations("homePage.metadata");
-//   return {
-//     metadataBase: new URL(companyDomain),
-//     title: {
-//       default: t("title"),
-//       template: `%s | ${t("title")}`,
-//     },
-//     description: t("description"),
-//     openGraph: {
-//       title: companyName,
-//       description: t("description"),
-//       url: companyDomain,
-//     },
-//     twitter: {
-//       card: "summary_large_image",
-//       site: companyDomain, // Same as above
-//     },
-//   };
-// }
-
-// //fonts
-// import { Oswald, Gabriela, Great_Vibes, Inter } from "next/font/google";
-
-// const inter = Inter({
-//   subsets: ["latin"],
-//   weight: ["100", "200", "300", "400", "500", "600", "700"],
-// });
-// const oswald = Oswald({
-//   subsets: ["latin"],
-//   weight: ["200", "300", "400", "500", "600", "700"],
-//   variable: "--font1",
-// });
-
-// const gabriola = Gabriela({
-//   subsets: ["latin"],
-//   weight: ["400"],
-//   variable: "--font2",
-// });
-
-// const greatVibes = Great_Vibes({
-//   subsets: ["latin"],
-//   weight: ["400"],
-//   variable: "--font3",
-// });
-
-// //components
-
-// import Header from "@/src/components/Header/Header";
-// import Footer from "@/src/components/Footer/Footer";
-// import LowerFoot from "@/src/components/LowerFooter/LowerFoot";
-
-// interface RootLayoutProps {
-//   children: React.ReactNode;
-//   params: {
-//     locale: string;
-//   };
-// }
-
-// export default function LangLayout({
-//   children,
-//   params: { locale },
-// }: Readonly<RootLayoutProps>) {
-//   return (
-//     <html lang={locale}>
-//       <body
-//         className={` ${inter.className} ${oswald.variable}  ${greatVibes.variable} ${gabriola.variable}   `}
-//       >
-//         <div className="flex flex-col min-h-screen max-w-4xl mx-auto">
-//           <Header />
-//           {children}
-//           <Analytics />
-//           <Footer />
-//           <LowerFoot />
-//         </div>
-//       </body>
-//     </html>
-//   );
-// }

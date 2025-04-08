@@ -1,6 +1,6 @@
-import Testimonials from "@/src/components/Testimonials/Testimonials";
+import Testimonials from "@/src/components/packages/Testimonials/Testimonials";
 import { getTranslations } from "next-intl/server";
-import PageHeadImage from "@/src/components/PageHeadImage/PageHeadImage";
+import PageHeadImage from "@/src/components/components/PageHeadImage/PageHeadImage";
 import {
   badrijani,
   dishIcon,
@@ -12,9 +12,9 @@ import {
   womanChef,
 } from "@/public/image";
 import ComponentTwo from "@/src/components/Two/ComponentTwo";
-import ComponentThree from "@/src/components/Three/ComponentThree";
-import ComponentFour from "@/src/components/Four/ComponentFour";
-import ComponentSeven from "@/src/components/Seven/ComponentSeven";
+import ComponentThree from "@/src/components/components/Three/ComponentThree";
+import ComponentFour from "@/src/components/components/Four/ComponentFour";
+import ComponentSeven from "@/src/components/components/Seven/ComponentSeven";
 
 export async function generateMetadata() {
   const t = await getTranslations("storyPage.metadata");

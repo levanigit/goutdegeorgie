@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import "./globals.css";
+import "./css/globals.css";
 
 export default function NotFoundPage() {
   return (

@@ -1,0 +1,83 @@
+.contactWrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.input,
+.textArea {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 2px solid var(--gray3);
+  border-radius: 6px;
+  background-color: var(--white);
+  color: var(--gray7);
+  transition: border 0.3s;
+}
+
+.input:focus,
+.textArea:focus {
+  border-color: var(--color5);
+  outline: none;
+}
+
+.inputRed {
+  border-color: red !important;
+}
+
+.textArea {
+  height: 160px;
+  resize: vertical;
+}
+
+.buttonSend {
+  margin-top: 20px;
+  align-self: center;
+  width: 100%;
+}
+
+.formSent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  padding: 60px 0;
+  border: 2px dashed var(--color5);
+  border-radius: var(--border3);
+  color: var(--gray9);
+  width: 100%;
+  max-width: 70vw;
+}
+
+.none {
+  display: none;
+}
+
+.hide {
+  display: none;
+}
+.inputGroup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.inputGroup .input {
+  flex: 1 1 45%; /* Adjust as needed */
+  min-width: 200px;
+}
+
+@media (max-width: 992px) {
+  .contactWrapper {
+    max-width: 100%;
+    width: 100%;
+  }
+}

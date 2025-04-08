@@ -1,0 +1,39 @@
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.wrapper > h2 {
+  padding-bottom: 20px;
+}
+.wrapper > h3 {
+  padding-bottom: 50px;
+}
+.collectionWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.cardWrapper h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.cardWrapper p {
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.head h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.head p {
+  font-size: 18px;
+  font-weight: 500;
+}
+.head {
+  margin-left: -40px;
+}

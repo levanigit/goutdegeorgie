@@ -1,0 +1,174 @@
+{
+  "homePage": {
+    "metadata": {
+      "title": "Toison D'or Café & Restaurant Géorgien à Genève",
+      "description": "Découvrez une expérience culinaire authentique et inoubliable inspirée de la tradition géorgienne et réalisée avec amour. Chez Toison D'or à Genève, profitez des spécialités géorgiennes, des plats traditionnels aux créations modernes, dans une atmosphère chaleureuse et élégante."
+    },
+    "hero": {
+      "title1": "Bienvenue chez",
+      "title2": "Café & Restaurant Géorgien",
+      "text": "Plongez dans un monde culinaire géorgien unique où chaque plat est préparé avec soin à partir des meilleurs ingrédients, apportant les saveurs de la Géorgie à Genève.",
+      "button1": "Voir le Menu",
+      "button2": "Réserver une Table"
+    },
+    "componentOne": {
+      "title1": "Mot du Chef",
+      "title2": "Préparé avec Cœur",
+      "text": "Rencontrez notre Chef, qui apporte la chaleur des saveurs géorgiennes faites maison à chaque plat. Chaque recette, préparée avec soin et une touche de nostalgie, a le goût d'un repas fait par une grand-mère aimante. Sa dévotion pour la fraîcheur et l'authenticité rend chaque repas réconfortant et inoubliable."
+    },
+    "componentTwo": {
+      "title1": "Un Espace Privé à Votre Disposition",
+      "title2": "Flexibilité pour Vos Événements",
+      "text1": "Toison D'or vous propose de louer une partie du restaurant avec une entrée indépendante. Nous offrons une grande flexibilité : vous pouvez opter pour nos spécialités géorgiennes pour régaler vos invités ou bien apporter vos propres plats et profiter de l’espace dans une ambiance chaleureuse.",
+      "text2": "Pour vos événements privés, nous mettons à disposition un espace dédié dans notre restaurant. Que vous souhaitiez un service complet avec nos plats géorgiens ou que vous préfériez utiliser vos propres préparations, nous vous garantissons une expérience unique et accueillante.",
+      "button": ""
+    },
+    "componentFour": {
+      "1": {
+        "title": "Voyage Gastronomique en Géorgie",
+        "text": "La cuisine géorgienne est un voyage vibrant et coloré qui repose sur des recettes transmises de génération en génération. Chaque plat combine des ingrédients frais, des épices et des traditions pour créer une expérience unique où la nourriture est plus qu'un simple repas, c'est une expression culturelle."
+      },
+      "2": {
+        "title": "Découvrez la Géorgie chez Toison D'or",
+        "text": "Chez Toison D'or, nous vous invitons à savourer l'héritage géorgien avec nos plats authentiques et une ambiance conviviale. Chaque bouchée est un pas dans l'âme de la Géorgie, où tradition et modernité se mêlent pour célébrer les saveurs et les histoires de ce pays magique."
+      }
+    },
+    "componentFive": {
+      "title4": "Contactez-nous"
+    },
+    "componentSix": {
+      "title1": "Bienvenue",
+      "title2": "Heures d'Ouverture",
+      "monday": "Lundi",
+      "tusday": "Mardi",
+      "wednsday": "Mercredi",
+      "thursday": "Jeudi",
+      "friday": "Vendredi",
+      "saturday": "Samedi",
+      "sunday": "Dimanche",
+      "closed": "Fermé",
+      "button": "Réserver une Table"
+    },
+    "componentSeven": {
+      "title1": "Héritage de la Vinification Géorgienne",
+      "title2": "Une Tradition de 8 000 Ans",
+      "text1": "La viticulture géorgienne est parmi les plus anciennes au monde, avec des racines remontant à plus de 8 000 ans. Les premières traces de vinification révèlent l'utilisation du kvevri, de grandes jarres en argile enterrées, marquant l'une des premières méthodes de vinification au monde. Des découvertes archéologiques suggèrent que cette région pourrait être le berceau du vin et de la vigne domestiquée. Aujourd'hui, les vignobles géorgiens couvrent environ 100 000 hectares, et le pays compte 540 cépages authentifiés. Une grande partie des vins est encore produite selon cette méthode ancestrale, perpétuant un savoir-faire unique et un lien fort avec ses traditions.",
+      "button": "En Savoir Plus"
+    },
+    "testimonials": {
+      "title1": "Un Peu d'Amour",
+      "title2": "Ce que nos invités disent de nous"
+    }
+  },
+  "menuPage": {
+    "metadata": {
+      "title": "Découvrez Notre Menu",
+      "description": "Parcourez notre menu et savourez le meilleur de nos créations géorgiennes, élaborées avec des ingrédients frais et une touche de saveurs traditionnelles."
+    },
+    "headComponent": {
+      "title": "Notre Menu"
+    },
+    "menu": {
+      "underCategory": "menu"
+    }
+  },
+  "storyPage": {
+    "metadata": {
+      "title": "Notre Histoire",
+      "description": "Découvrez les racines de notre passion pour la cuisine géorgienne et comment nous sommes devenus un restaurant emblématique à Genève, alliant tradition et innovation."
+    },
+    "headComponent": {
+      "title": "Notre Histoire"
+    },
+    "componentTwo": {
+      "title1": "Apporter la Géorgie au cœur de Genève",
+      "title2": "Un voyage de saveurs et de patrimoine",
+      "text1": "La culture et la cuisine géorgiennes sont mes véritables passions, et les partager est un rêve réalisé. Ici à Genève, je suis ravi d’apporter un goût de mon pays natal, offrant à chaque invité une expérience authentique imprégnée de chaleur, de tradition et des saveurs uniques de la Géorgie.",
+      "text2": "Avec des années d’expérience en tant que chef, j’ai eu l’honneur de représenter la gastronomie géorgienne lors de nombreux événements. Aujourd’hui, je vous invite à explorer le riche patrimoine culinaire de la Géorgie chez Toison D'or, où chaque plat est conçu pour raconter une histoire et offrir une expérience inoubliable.",
+      "button": ""
+    },
+    "componentThree": {
+      "title1": "Nous Sommes Experts en",
+      "title2": "Ce Que Nous Aimons Faire",
+      "caption": "En savoir plus",
+      "services": {
+        "ser1": "Spécialités du Chef",
+        "ser2": "Notre Histoire",
+        "ser3": "Menu",
+        "ser4": "Réservations",
+        "ser5": "Services de Traiteur",
+        "ser6": "Contactez-nous"
+      }
+    },
+    "componentFour": {
+      "1": {
+        "title": "Géorgie: Terre de Culture et de Gastronomie",
+        "text": "Située entre l'Europe et l'Asie, la Géorgie est un pays aux racines anciennes et aux traditions uniques. Unifiée au 4e siècle avec l'union de Colchis et d'Iberia, la Géorgie a développé une identité forte et résiliente. Malgré de nombreuses invasions, elle a su préserver son riche patrimoine culturel à travers les siècles."
+      },
+      "2": {
+        "title": "Histoire et Unification",
+        "text": "L'histoire de la Géorgie est marquée par l'unité et la résilience. Au 4e siècle, Colchis et Iberia se sont unies, formant un pays défini par des croyances et des traditions durables. Malgré les invasions répétées, l'identité unique de la Géorgie reste forte, embrassant son héritage diversifié tout en conservant son essence ancienne."
+      },
+      "3": {
+        "title": "Culture et Légendes",
+        "text": "La Géorgie est le berceau de la légende de la Toison d'or, un symbole de rêves et d'abondance lié à la mythologie grecque. Cette histoire relie la Géorgie à la Grèce antique, attirant les amateurs de mythes dans cette terre enchantée, où culture et histoire se mêlent harmonieusement dans ses paysages et ses traditions."
+      },
+      "4": {
+        "title": "Un Patrimoine Vivant",
+        "text": "Le patrimoine géorgien s'exprime à travers son architecture, ses danses traditionnelles, ses chants polyphoniques et sa cuisine renommée. Ces expressions culturelles préservent non seulement l'identité géorgienne, mais captivent également les visiteurs, révélant la riche histoire et l'esprit vibrant qui rendent la Géorgie unique."
+      },
+      "5": {
+        "title": "Cuisine Géorgienne",
+        "text": "Réputée pour ses saveurs et ses épices, la cuisine géorgienne utilise des ingrédients frais et des recettes transmises depuis des générations. Chaque plat a une signification culturelle, certains comme le khachapuri et le khinkali étant reconnus par l'UNESCO, en tant que symboles de la riche tradition culinaire du pays."
+      },
+      "6": {
+        "title": "Plats Iconiques de la Géorgie",
+        "text": "Les plats géorgiens reflètent le patrimoine de la nation : khachapuri, une tarte chaude au fromage; khinkali, raviolis juteux farcis de viande; et pain cuit dans des fours « tonés ». Chaque recette, précieuse depuis des générations, apporte à table les saveurs uniques et l'importance culturelle de la Géorgie."
+      }
+    },
+    "componentSeven": {
+      "title1": "Héritage de la Vinification Géorgienne",
+      "title2": "Une Tradition de 8 000 Ans",
+      "text1": "La viticulture géorgienne est parmi les plus anciennes au monde, avec des racines remontant à plus de 8 000 ans. Les premières traces de vinification révèlent l'utilisation du kvevri, de grandes jarres en argile enterrées, marquant l'une des premières méthodes de vinification au monde. Des découvertes archéologiques suggèrent que cette région pourrait être le berceau du vin et de la vigne domestiquée. Aujourd'hui, les vignobles géorgiens couvrent environ 100 000 hectares, et le pays compte 540 cépages authentifiés. Une grande partie des vins est encore produite selon cette méthode ancestrale, perpétuant un savoir-faire unique et un lien fort avec ses traditions.",
+      "button": ""
+    }
+  },
+  "reservationPage": {
+    "metadata": {
+      "title": "Réserver une Table",
+      "description": "Réservez une table chez nous aujourd'hui et profitez des meilleures spécialités géorgiennes dans une ambiance chaleureuse au cœur de Genève."
+    },
+    "reservationForm": {
+      "name": "Entrez votre nom complet",
+      "email": "Email",
+      "phone": "Numéro de téléphone",
+      "people": "Nombre de personnes",
+      "text": "Des besoins particuliers?",
+      "button": "ENVOYER",
+      "thank": "Merci pour votre demande",
+      "wait": "Veuillez attendre notre confirmation"
+    },
+    "headComponent": {
+      "title": "Réservez votre Table"
+    },
+    "componentNine": {
+      "title": "Réservez votre Table",
+      "text": "Réservez votre place et profitez de notre cuisine géorgienne durable préparée avec amour. Nous sommes impatients de vous accueillir!"
+    }
+  },
+  "reservationForm": {
+    "title1": "title here"
+  },
+  "notFoundPage": {
+    "title1": "La page que vous recherchez n'existe pas",
+    "title2": "La page que vous recherchez n'existe pas",
+    "button": "Page d'accueil"
+  },
+  "footer": {
+    "title1": "Informations de Contact",
+    "title2": "Navigation",
+    "title3": "Événements",
+    "title4": "Instagram",
+    "title5": "Voir Plus"
+  }
+}

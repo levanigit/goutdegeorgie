@@ -1,0 +1,122 @@
+/* ============================== */
+/* Modern Two-Layer Shadow Variables */
+/* ============================== */
+:root {
+  --shadow1-hard: rgba(0, 0, 0, 0.15); /* Close hard shadow */
+  --shadow1-soft: rgba(0, 0, 0, 0.08); /* Widened soft shadow */
+
+  --shadow2-hard: rgba(0, 0, 0, 0.25);
+  --shadow2-soft: rgba(0, 0, 0, 0.15);
+
+  --shadow3-hard: rgba(0, 0, 0, 0.35);
+  --shadow3-soft: rgba(0, 0, 0, 0.2);
+
+  --shadow4-hard: rgba(0, 0, 0, 0.45);
+  --shadow4-soft: rgba(0, 0, 0, 0.25);
+
+  --shadow5-hard: rgba(0, 0, 0, 0.55);
+  --shadow5-soft: rgba(0, 0, 0, 0.35);
+}
+
+/* ============================== */
+/* Base Lift Effect (Smoother & More Elegant) */
+/* ============================== */
+.lift {
+  transition: all 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.lift:hover {
+  transform: translateY(-5px);
+}
+
+/* ============================== */
+/* Modern, Deep Two-Layer Shadows with Enhanced Hover */
+/* ============================== */
+
+/* Small Shadow (Increased Width) */
+.shadow1 {
+  box-shadow: -3px 5px 10px var(--shadow1-hard),
+    -6px 10px 20px var(--shadow1-soft);
+  filter: drop-shadow(0 10px 7px rgba(0, 0, 0, 0.08));
+}
+.shadow1:hover {
+  box-shadow: -10px 12px 20px var(--shadow2-soft),
+    -8px 12px 25px var(--shadow2-soft);
+  filter: drop-shadow(0 12px 9px rgba(0, 0, 0, 0.1));
+}
+
+/* Medium Shadow (Increased Width) */
+.shadow2 {
+  box-shadow: -5px 8px 15px var(--shadow2-hard),
+    -8px 12px 28px var(--shadow2-soft);
+  filter: drop-shadow(0 12px 9px rgba(0, 0, 0, 0.1));
+}
+.shadow2:hover {
+  box-shadow: -12px 15px 23px var(--shadow3-soft),
+    -10px 15px 32px var(--shadow3-soft);
+  filter: drop-shadow(0 15px 12px rgba(0, 0, 0, 0.12));
+}
+
+/* Large Shadow (Kept Same) */
+.shadow3 {
+  box-shadow: -6px 10px 18px var(--shadow3-hard),
+    -10px 15px 32px var(--shadow3-soft);
+  filter: drop-shadow(0 15px 12px rgba(0, 0, 0, 0.12));
+}
+.shadow3:hover {
+  box-shadow: -12px 16px 26px var(--shadow4-soft),
+    -12px 18px 38px var(--shadow4-soft);
+  filter: drop-shadow(0 18px 15px rgba(0, 0, 0, 0.15));
+}
+
+/* Extra Large Shadow (Kept Same) */
+.shadow4 {
+  box-shadow: -8px 12px 20px var(--shadow4-hard),
+    -12px 18px 38px var(--shadow4-soft);
+  filter: drop-shadow(0 18px 15px rgba(0, 0, 0, 0.15));
+}
+.shadow4:hover {
+  box-shadow: -14px 20px 30px var(--shadow5-soft),
+    -14px 22px 45px var(--shadow5-soft);
+  filter: drop-shadow(0 22px 18px rgba(0, 0, 0, 0.18));
+}
+
+/* Ultra Large Shadow (Kept Same) */
+.shadow5 {
+  box-shadow: -10px 14px 24px var(--shadow5-hard),
+    -14px 22px 45px var(--shadow5-soft);
+  filter: drop-shadow(0 22px 18px rgba(0, 0, 0, 0.18));
+}
+.shadow5:hover {
+  box-shadow: -15px 20px 35px var(--shadow5-soft),
+    -16px 26px 50px var(--shadow5-soft);
+  filter: drop-shadow(0 25px 20px rgba(0, 0, 0, 0.22));
+}
+
+/* ============================== */
+/* Keep Shadows Soft on Smaller Screens */
+/* ============================== */
+@media (max-width: 772px) {
+  .lift:hover {
+    transform: none !important; /* Prevents movement */
+  }
+  .shadow1:hover {
+    box-shadow: -3px 5px 10px var(--shadow1-hard),
+      -6px 10px 20px var(--shadow1-soft);
+  }
+  .shadow2:hover {
+    box-shadow: -5px 8px 15px var(--shadow2-hard),
+      -8px 12px 28px var(--shadow2-soft);
+  }
+  .shadow3:hover {
+    box-shadow: -6px 10px 18px var(--shadow3-hard),
+      -10px 15px 32px var(--shadow3-soft);
+  }
+  .shadow4:hover {
+    box-shadow: -8px 12px 20px var(--shadow4-hard),
+      -12px 18px 38px var(--shadow4-soft);
+  }
+  .shadow5:hover {
+    box-shadow: -10px 14px 24px var(--shadow5-hard),
+      -14px 22px 45px var(--shadow5-soft);
+  }
+}

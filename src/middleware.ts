@@ -1,13 +1,11 @@
 import createMiddleware from "next-intl/middleware";
-import { supportedLocales, defaultLocale } from "@/Manager/navigation";
+import { routing } from "@/src/i18n/routing"; // your routing config
 
-export default createMiddleware({
-  locales: supportedLocales,
-  defaultLocale: defaultLocale,
-});
+export default createMiddleware(routing);
 
 export const config = {
-  matcher: ["/", "/(de|en|fr|it)/:path*"],
+  matcher: [
+    // Match all routes except API or static files:
+    "/((?!api|trpc|_next|_vercel|.*\\..*).*)",
+  ],
 };
-
-//must fix

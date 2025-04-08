@@ -1,92 +1,86 @@
-import MenuDetails from "./eachItemPage/MenuDetails";
-import { fetchMenuItem } from "../fetchingData";
 import { Metadata } from "next";
-import { defaultLocale, dynamicPageRoute } from "@/Manager/navigation";
-import { companyDomain } from "@/Manager/info";
+import { fetchCollectionIfUpdated } from "@/src/lib/firebase/getFirebaseData";
+import {
+  collectionRoute1,
+  companyRoute,
+  companyDomain,
+} from "@/src/manager/info";
+import { defaultLocale } from "@/src/manager/navigation";
+import { extractCollectionFields } from "@/src/lib/firebase/types";
+import ItemJsx from "./Item/Item";
+import { pageRoute } from "../page";
 
-type Props = {
-  params: {
-    lang: string;
-    itemId: string;
-  };
-};
-
-export const generateMetadata = async ({
+// ✅ SEO Metadata
+export async function generateMetadata({
   params,
-}: Props): Promise<Metadata> => {
-  try {
-    const data = await fetchMenuItem(params.itemId); // Use fetchMenuItem to fetch the data
+}: {
+  params: Promise<{ itemId: string; locale: string }>;
+}): Promise<Metadata> {
+  const { itemId, locale } = await params;
 
-    if (!data) {
-      return {
-        title: "Not Found",
-        description: "The page you are looking for does not exist",
-      };
-    }
+  const collection = await fetchCollectionIfUpdated(
+    companyRoute,
+    collectionRoute1
+  );
 
-    // Use params.lang instead of `useLocale` hook
-    const itemName = data.names?.[params.lang] || data.names?.[defaultLocale];
-    const itemDescription =
-      data.descriptions?.[params.lang] || data.descriptions?.[defaultLocale];
-    const openGraphImage =
-      data.image || `${companyDomain}/images/openGraph/mainOpenGraph.jpg`;
-    // Fallback image path
+  const item = collection?.items?.[itemId];
 
-    return {
-      title: itemName,
-      description: itemDescription,
-      alternates: {
-        canonical: `/${params.lang}/menu/${params.itemId}`,
-      },
-      openGraph: {
-        title: itemName,
-        description: itemDescription,
-        url: `${companyDomain}/${params.lang}/${dynamicPageRoute}/${params.itemId}`,
-        images: [
-          {
-            url: openGraphImage,
-            width: 500, // Standard Open Graph image width
-            height: 300, // Standard Open Graph image height
-            alt: itemName,
-          },
-        ],
-      },
-    };
-  } catch (error) {
+  if (!item) {
     return {
       title: "Not Found",
-      description: "The page you are looking for does not exist",
+      description: "The project you are looking for does not exist",
     };
   }
-};
 
-interface MenuDetailsPageProps {
-  params: {
-    itemId: string;
+  const extracted = extractCollectionFields(item, locale);
+
+  return {
+    title: extracted.transOption1 || defaultLocale,
+    description: extracted.transOption2 || defaultLocale,
+    alternates: {
+      canonical: `/${locale}/${pageRoute}/${itemId}`,
+    },
+    openGraph: {
+      title: extracted.transOption1,
+      description: extracted.transOption2,
+      url: `${companyDomain}/${locale}/${pageRoute}/${itemId}`,
+      images: [
+        {
+          url:
+            extracted.images?.[0] ||
+            `${companyDomain}/images/openGraph/mainOpenGraph.jpg`,
+          width: 500,
+          height: 300,
+          alt: extracted.transOption1,
+        },
+      ],
+    },
   };
 }
 
-export default async function MenuDetailsPage({
+// ✅ Page Component
+export default async function Page({
   params,
-}: MenuDetailsPageProps) {
-  const { itemId } = params;
+}: {
+  params: Promise<{ itemId: string; locale: string }>;
+}) {
+  const { itemId, locale } = await params;
+  const collection = await fetchCollectionIfUpdated(
+    companyRoute,
+    collectionRoute1
+  );
 
-  const item = await fetchMenuItem(itemId);
+  const raw = collection?.items?.[itemId];
 
-  if (!item) {
-    return null;
-    // <div>Item not found</div>;
+  if (!raw) {
+    return <div>Project not found</div>;
   }
-  const safeItem = {
-    ...item,
-    names: item.names || {}, // Provide empty object if undefined
-    descriptions: item.descriptions || {}, // Provide empty object if undefined
-  };
 
-  // Pass the item to MenuDetails component
+  const item = extractCollectionFields(raw, locale);
+
   return (
-    <div className="fadeOut bg-color4">
-      <MenuDetails item={safeItem} />
-    </div>
+    <>
+      <ItemJsx item={item} />
+    </>
   );
 }

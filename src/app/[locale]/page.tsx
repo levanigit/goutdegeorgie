@@ -1,5 +1,5 @@
-import ComponentFive from "@/src/components/Five/ComponentFive";
-import Hero from "@/src/components/Hero/Hero";
+import ComponentFive from "@/src/components/components/Five/ComponentFive";
+import Hero from "@/src/components/components/Hero/Hero";
 import {
   instagram1,
   chefImage,
@@ -7,14 +7,14 @@ import {
   dishIcon,
   dumplings,
 } from "@/public/image";
-import Testimonials from "@/src/components/Testimonials/Testimonials";
+import Testimonials from "@/src/components/packages/Testimonials/Testimonials";
 import { useTranslations } from "next-intl";
-import ComponentFour from "@/src/components/Four/ComponentFour";
-import ComponentTwo from "@/src/components/Two/ComponentTwo";
-import ComponentSix from "@/src/components/Six/ComponentSix";
+import ComponentFour from "@/src/components/components/Four/ComponentFour";
+import ComponentTwo from "@/src/components/components/Two/ComponentTwo";
+import ComponentSix from "@/src/components/components/Six/ComponentSix";
 
-import ComponentOne from "@/src/components/One/ComponentOne";
-import ComponentSeven from "@/src/components/Seven/ComponentSeven";
+import ComponentOne from "@/src/components/components/One/ComponentOne";
+import ComponentSeven from "@/src/components/components/Seven/ComponentSeven";
 
 export default function Home() {
   const t = useTranslations("homePage");
@@ -53,10 +53,10 @@ export default function Home() {
 
       <ComponentFive />
 
-      {/* <Testimonials
+      <Testimonials
         title1={t("testimonials.title1")}
         title2={t("testimonials.title2")}
-      /> */}
+      />
       <ComponentSix />
     </div>
   );

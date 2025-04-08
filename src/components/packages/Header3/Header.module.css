@@ -1,0 +1,59 @@
+.headWrapper {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  position: absolute;
+  z-index: 10;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.navigationWrapper {
+  width: 100%;
+  display: flex;
+}
+
+.logoWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+.logoWrapper img {
+  max-width: 200px;
+  max-height: 100px;
+  object-fit: contain;
+  position: absolute;
+  /* top: 20px; */
+  margin-top: -15px;
+}
+
+.languageSwitcher {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.languageDropdown {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.languageSwitcher:hover .languageDropdown {
+  display: block;
+}
+
+.languageDropdown button {
+  background: none;
+  border: none;
+  padding: 10px;
+  text-align: left;
+  cursor: pointer;
+  border-radius: var(--radius4);
+
+  margin-left: -10px;
+}
+
+.languageDropdown button:hover {
+  background-color: var(--color4-40);
+}
