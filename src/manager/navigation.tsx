@@ -33,21 +33,20 @@ export const navItems: { [key: string]: NavItemProps[] } = {
     { title: "Chi siamo", url: "/story" },
     { title: "Prenotazione", url: "/reservation", button: true },
   ],
+  //  en: [
+  //     { title: "Home", url: "/" },
+  //     {
+  //       title: "Services",
+  //       url: "/services",
+  //       dropdown: [
+  //         { title: "Renovation", url: "/renovation" },
+  //         { title: "Flooring", url: "/flooring" },
+  //         { title: "Furniture Assembling", url: "/furniture-assembly" },
+  //         { title: "Gardening", url: "/gardening" },
+  //       ],
+  //     },
+  //     { title: "Projects", url: "/projects" },
+  //     { title: "About Us", url: "/about" },
+  //     { title: "Contact", url: "/contact", button: true },
+  //   ],
 };
-
-//  en: [
-//     { title: "Home", url: "/" },
-//     {
-//       title: "Services",
-//       url: "/services",
-//       dropdown: [
-//         { title: "Renovation", url: "/renovation" },
-//         { title: "Flooring", url: "/flooring" },
-//         { title: "Furniture Assembling", url: "/furniture-assembly" },
-//         { title: "Gardening", url: "/gardening" },
-//       ],
-//     },
-//     { title: "Projects", url: "/projects" },
-//     { title: "About Us", url: "/about" },
-//     { title: "Contact", url: "/contact", button: true },
-//   ],

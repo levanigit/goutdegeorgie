@@ -4,12 +4,12 @@ export const phoneNumber: string = "+41 79 566 69 88";
 export const phoneNumber2: string = "+41 79 913 70 88";
 export const instagramUrl: string =
   "https://www.instagram.com/levanidze_geneva";
-export const facebookUrl: string = "";
-export const foodUrl: string = "";
-export const linkedinUrl: string = "";
-export const googleUrl: string = "";
+export const facebookUrl: string = "https://levanidze.com";
+export const foodUrl: string = "https://levanidze.com";
+export const linkedinUrl: string = "https://levanidze.com";
+export const googleUrl: string = "https://levanidze.com";
 export const address: string = "Square des Nénuphars 1, 1219 Vernier";
-export const email: string = "toisondor.mari@gmail.com";
+export const email: string = "toisondo@gmail.com";
 
 export const companyRoute = "restaurant-examoles";
 export const testimonialRoute = "testimonials-restaurant-01";
