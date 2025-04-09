@@ -1,3 +1,4 @@
+// Collections.tsx
 import { fetchCollectionIfUpdated } from "@/src/lib/firebase/getFirebaseData";
 import ServerCard from "./card/ServerCard";
 import { collectionRoute1, companyRoute } from "@/src/manager/info";
@@ -23,15 +24,15 @@ export default async function Collections() {
 
   const extractedItems = items
     .map((item) => extractCollectionFields(item, locale))
-    .filter((item) => !item.itemActive);
+    .filter((item) => !item.itemActive); // ✅ Filter inactive items
 
   return (
     <div className={styles.cardWrapper}>
       <section className="section section-medium">
         <div className={`container ${styles.container}`}>
           {categories
-            .sort((a, b) => a.order - b.order)
-            .filter((category) => category.id !== "cat-all")
+            .sort((a, b) => a.order - b.order) // ✅ Sort categories by their order
+            .filter((category) => category.id !== "cat-all") // ✅ Skip "cat-all"
             .map((category) => {
               const itemsInCategory = extractedItems
                 .filter((item) => item.full.itemCategories?.[category.id])
