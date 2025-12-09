@@ -51,6 +51,7 @@ export default async function Home() {
         title1={t("testimonials.title1")}
         title2={t("testimonials.title2")}
       />
+      {/*  */}
       <ComponentSix />
     </div>
   );
