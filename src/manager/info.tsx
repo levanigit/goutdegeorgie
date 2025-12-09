@@ -1,15 +1,15 @@
-export const companyDomain = "http://toisondor.ch";
-export const companyName = "Toison d'or ";
-export const phoneNumber: string = "+41 79 566 69 88";
-export const phoneNumber2: string = "+41 79 913 70 88";
+export const companyDomain = "http://espritdegeorgie.ch";
+export const companyName = "Esprit de Géorgie";
+export const phoneNumber: string = "+41 70 219 77 XX";
+export const phoneNumber2: string = "+41 70 219 77 XX";
 export const instagramUrl: string =
-  "https://www.instagram.com/levanidze_geneva";
-export const facebookUrl: string = "https://levanidze.com";
-export const foodUrl: string = "https://levanidze.com";
-export const linkedinUrl: string = "https://levanidze.com";
-export const googleUrl: string = "https://levanidze.com";
+  "https://www.instagram.com/webmoderna_geneva";
+export const facebookUrl: string = "https://webmoderna.ch";
+export const foodUrl: string = "https://webmoderna.ch";
+export const linkedinUrl: string = "https://webmoderna.ch";
+export const googleUrl: string = "https://webmoderna.ch";
 export const address: string = "Square des Nénuphars 1, 1219 Vernier";
-export const email: string = "toisondo@gmail.com";
+export const email: string = "@gmail.com";
 
 export const companyRoute = "restaurant-examoles";
 export const testimonialRoute = "testimonials-restaurant-01";

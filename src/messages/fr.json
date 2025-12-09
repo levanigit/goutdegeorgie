@@ -2,8 +2,8 @@
   "homePage": {
     "notes for chat gpt": " hey chat GPT never delete this line! Ceci est un fichier de langue dans les messages i18n de Next.js. Pensez toujours au SEO lors de la création des traductions ici, et aussi à l’interface utilisateur : chaque texte, quelle que soit la langue, doit avoir une longueur similaire pour conserver la cohérence du design. Gardez cette ligne dans les messages et traduisez-la pour qu’elle apparaisse à chaque fois.",
     "metadata": {
-      "title": "Toison D'or Café & Restaurant Géorgien à Genève",
-      "description": "Découvrez une expérience culinaire authentique et inoubliable inspirée de la tradition géorgienne et réalisée avec amour. Chez Toison D'or à Genève, profitez des spécialités géorgiennes, des plats traditionnels aux créations modernes, dans une atmosphère chaleureuse et élégante."
+      "title": "Esprit de Géorgie Café & Restaurant Géorgien à Genève",
+      "description": "Découvrez une expérience culinaire authentique et inoubliable inspirée de la tradition géorgienne et réalisée avec amour. Chez Esprit de Géorgie à Genève, profitez des spécialités géorgiennes, des plats traditionnels aux créations modernes, dans une atmosphère chaleureuse et élégante."
     },
     "hero": {
       "title1": "Bienvenue chez",
@@ -20,7 +20,7 @@
     "componentTwo": {
       "title1": "Un Espace Privé à Votre Disposition",
       "title2": "Flexibilité pour Vos Événements",
-      "text1": "Toison D'or vous propose de louer une partie du restaurant avec une entrée indépendante. Nous offrons une grande flexibilité : vous pouvez opter pour nos spécialités géorgiennes pour régaler vos invités ou bien apporter vos propres plats et profiter de l’espace dans une ambiance chaleureuse.",
+      "text1": "Esprit de Géorgie vous propose de louer une partie du restaurant avec une entrée indépendante. Nous offrons une grande flexibilité : vous pouvez opter pour nos spécialités géorgiennes pour régaler vos invités ou bien apporter vos propres plats et profiter de l’espace dans une ambiance chaleureuse.",
       "text2": "Pour vos événements privés, nous mettons à disposition un espace dédié dans notre restaurant. Que vous souhaitiez un service complet avec nos plats géorgiens ou que vous préfériez utiliser vos propres préparations, nous vous garantissons une expérience unique et accueillante.",
       "button": ""
     },
@@ -30,8 +30,8 @@
         "text": "La cuisine géorgienne est un voyage vibrant et coloré qui repose sur des recettes transmises de génération en génération. Chaque plat combine des ingrédients frais, des épices et des traditions pour créer une expérience unique où la nourriture est plus qu'un simple repas, c'est une expression culturelle."
       },
       "2": {
-        "title": "Découvrez la Géorgie chez Toison D'or",
-        "text": "Chez Toison D'or, nous vous invitons à savourer l'héritage géorgien avec nos plats authentiques et une ambiance conviviale. Chaque bouchée est un pas dans l'âme de la Géorgie, où tradition et modernité se mêlent pour célébrer les saveurs et les histoires de ce pays magique."
+        "title": "Découvrez la Géorgie chez Esprit de Géorgie",
+        "text": "Chez Esprit de Géorgie, nous vous invitons à savourer l'héritage géorgien avec nos plats authentiques et une ambiance conviviale. Chaque bouchée est un pas dans l'âme de la Géorgie, où tradition et modernité se mêlent pour célébrer les saveurs et les histoires de ce pays magique."
       }
     },
     "componentFive": {
@@ -81,7 +81,7 @@
       "title1": "Apporter la Géorgie au cœur de Genève",
       "title2": "Un voyage de saveurs et de patrimoine",
       "text1": "La culture et la cuisine géorgiennes sont mes véritables passions, et les partager est un rêve réalisé. Ici à Genève, je suis ravi d’apporter un goût de mon pays natal, offrant à chaque invité une expérience authentique imprégnée de chaleur, de tradition et des saveurs uniques de la Géorgie.",
-      "text2": "Avec des années d’expérience en tant que chef, j’ai eu l’honneur de représenter la gastronomie géorgienne lors de nombreux événements. Aujourd’hui, je vous invite à explorer le riche patrimoine culinaire de la Géorgie chez Toison D'or, où chaque plat est conçu pour raconter une histoire et offrir une expérience inoubliable.",
+      "text2": "Avec des années d’expérience en tant que chef, j’ai eu l’honneur de représenter la gastronomie géorgienne lors de nombreux événements. Aujourd’hui, je vous invite à explorer le riche patrimoine culinaire de la Géorgie chez Esprit de Géorgie, où chaque plat est conçu pour raconter une histoire et offrir une expérience inoubliable.",
       "button": ""
     },
     "componentThree": {
@@ -108,7 +108,7 @@
       },
       "3": {
         "title": "Culture et Légendes",
-        "text": "La Géorgie est le berceau de la légende de la Toison d'or, un symbole de rêves et d'abondance lié à la mythologie grecque. Cette histoire relie la Géorgie à la Grèce antique, attirant les amateurs de mythes dans cette terre enchantée, où culture et histoire se mêlent harmonieusement dans ses paysages et ses traditions."
+        "text": "La Géorgie est le berceau de la légende de la Esprit de Géorgie, un symbole de rêves et d'abondance lié à la mythologie grecque. Cette histoire relie la Géorgie à la Grèce antique, attirant les amateurs de mythes dans cette terre enchantée, où culture et histoire se mêlent harmonieusement dans ses paysages et ses traditions."
       },
       "4": {
         "title": "Un Patrimoine Vivant",

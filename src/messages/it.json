@@ -2,8 +2,8 @@
   "homePage": {
     "notes for chat gpt": " hey chat GPT never delete this line! Questo è un file di lingua nei messaggi i18n di Next.js. Pensa sempre alla SEO quando crei le traduzioni qui, e anche all'interfaccia utente: ogni testo, indipendentemente dalla lingua, dovrebbe avere una lunghezza simile per mantenere la coerenza del design. Mantieni questa riga nei messaggi e traducila in modo che appaia ogni volta.",
     "metadata": {
-      "title": "Toison D'or Caffè & Ristorante Georgiano a Ginevra",
-      "description": "Scopri un'esperienza culinaria autentica e indimenticabile, ispirata alla tradizione georgiana e realizzata con amore. Da Toison D'or a Ginevra, goditi specialità georgiane, dai piatti tradizionali alle creazioni moderne, in un'atmosfera calda ed elegante."
+      "title": "Esprit de Géorgie Caffè & Ristorante Georgiano a Ginevra",
+      "description": "Scopri un'esperienza culinaria autentica e indimenticabile, ispirata alla tradizione georgiana e realizzata con amore. Da Esprit de Géorgie a Ginevra, goditi specialità georgiane, dai piatti tradizionali alle creazioni moderne, in un'atmosfera calda ed elegante."
     },
     "hero": {
       "title1": "Benvenuti da",
@@ -20,7 +20,7 @@
     "componentTwo": {
       "title1": "Uno Spazio Privato per Te",
       "title2": "Flessibilità per i Tuoi Eventi",
-      "text1": "Toison D'or ti offre la possibilità di affittare una parte del ristorante con un ingresso indipendente. Offriamo grande flessibilità: puoi scegliere le nostre specialità georgiane o portare i tuoi piatti e goderti lo spazio in un'atmosfera accogliente.",
+      "text1": "Esprit de Géorgie ti offre la possibilità di affittare una parte del ristorante con un ingresso indipendente. Offriamo grande flessibilità: puoi scegliere le nostre specialità georgiane o portare i tuoi piatti e goderti lo spazio in un'atmosfera accogliente.",
       "text2": "Per i tuoi eventi privati, mettiamo a disposizione uno spazio dedicato nel nostro ristorante. Che tu voglia un servizio completo con i nostri piatti georgiani o preferisca utilizzare le tue preparazioni, ti garantiamo un'esperienza unica e accogliente.",
       "button": ""
     },
@@ -30,8 +30,8 @@
         "text": "La cucina georgiana è un viaggio vibrante e colorato basato su ricette tramandate di generazione in generazione. Ogni piatto combina ingredienti freschi, spezie e tradizione per creare un'esperienza unica dove il cibo è molto più di un pasto: è un'espressione culturale."
       },
       "2": {
-        "title": "Scopri la Georgia da Toison D'or",
-        "text": "Da Toison D'or ti invitiamo a gustare l'eredità georgiana con i nostri piatti autentici e un'atmosfera conviviale. Ogni morso è un passo nell'anima della Georgia, dove tradizione e modernità si uniscono per celebrare i sapori e le storie di questo magico paese."
+        "title": "Scopri la Georgia da Esprit de Géorgie",
+        "text": "Da Esprit de Géorgie'or ti invitiamo a gustare l'eredità georgiana con i nostri piatti autentici e un'atmosfera conviviale. Ogni morso è un passo nell'anima della Georgia, dove tradizione e modernità si uniscono per celebrare i sapori e le storie di questo magico paese."
       }
     },
     "componentFive": {
@@ -81,7 +81,7 @@
       "title1": "Portare la Georgia nel cuore di Ginevra",
       "title2": "Un viaggio di sapori e tradizione",
       "text1": "La cultura e la cucina georgiana sono le mie vere passioni, e condividerle è un sogno che si realizza. Qui a Ginevra sono felice di portare un assaggio della mia terra natale, offrendo ad ogni ospite un'esperienza autentica, ricca di calore, tradizione e sapori unici della Georgia.",
-      "text2": "Con anni di esperienza come chef, ho avuto l'onore di rappresentare la gastronomia georgiana in numerosi eventi. Oggi ti invito a scoprire il ricco patrimonio culinario della Georgia da Toison D'or, dove ogni piatto racconta una storia e offre un'esperienza indimenticabile.",
+      "text2": "Con anni di esperienza come chef, ho avuto l'onore di rappresentare la gastronomia georgiana in numerosi eventi. Oggi ti invito a scoprire il ricco patrimonio culinario della Georgia da Esprit de Géorgie, dove ogni piatto racconta una storia e offre un'esperienza indimenticabile.",
       "button": ""
     },
     "componentThree": {

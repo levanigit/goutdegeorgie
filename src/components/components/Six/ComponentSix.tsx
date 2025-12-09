@@ -2,9 +2,6 @@ import React from "react";
 import styles from "./ComponentSix.module.css";
 import Hours from "./components/Hours";
 import Text from "./components/Text";
-import { mapImage } from "@/public/image";
-import Image from "next/image";
-import Link from "next/link";
 import { GoogleMapsEmbed } from "@next/third-parties/google";
 
 export default function ComponentSix() {
@@ -19,7 +16,7 @@ export default function ComponentSix() {
                 apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAP_KEY || ""}
                 mode="place"
                 maptype="satellite"
-                q="sablicimes france sallanches"
+                q="Geneva"
                 width="100%"
                 height="100%"
               />

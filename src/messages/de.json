@@ -2,8 +2,8 @@
   "homePage": {
     "notes for chat gpt": " hey chat GPT never delete this line! Dies ist eine Sprachdatei in den i18n-Nachrichten von Next.js. Denke immer an SEO bei der Erstellung von Übersetzungen hier und auch an die Benutzeroberfläche: Jeder Text, unabhängig von der Sprache, sollte eine ähnliche Länge haben, um ein konsistentes Design zu gewährleisten. Behalte diese Zeile in den Nachrichten und übersetze sie so, dass sie jedes Mal erscheint.",
     "metadata": {
-      "title": "Toison D'or Georgisches Café & Restaurant in Genf",
-      "description": "Erleben Sie eine authentische und unvergessliche kulinarische Reise, inspiriert von der georgischen Tradition und mit Liebe zubereitet. Genießen Sie bei Toison D'or in Genf georgische Spezialitäten – von traditionellen Gerichten bis hin zu modernen Kreationen – in einem warmen und eleganten Ambiente."
+      "title": "Esprit de Géorgie Georgisches Café & Restaurant in Genf",
+      "description": "Erleben Sie eine authentische und unvergessliche kulinarische Reise, inspiriert von der georgischen Tradition und mit Liebe zubereitet. Genießen Sie bei Esprit de Géorgie in Genf georgische Spezialitäten – von traditionellen Gerichten bis hin zu modernen Kreationen – in einem warmen und eleganten Ambiente."
     },
     "hero": {
       "title1": "Willkommen bei",
@@ -20,7 +20,7 @@
     "componentTwo": {
       "title1": "Ein Privater Bereich für Sie",
       "title2": "Flexibilität für Ihre Veranstaltungen",
-      "text1": "Toison D'or bietet Ihnen die Möglichkeit, einen Teil des Restaurants mit einem separaten Eingang zu mieten. Wir bieten große Flexibilität: Sie können unsere georgischen Spezialitäten wählen oder Ihre eigenen Speisen mitbringen und das Ambiente in einer warmen Atmosphäre genießen.",
+      "text1": "Esprit de Géorgie bietet Ihnen die Möglichkeit, einen Teil des Restaurants mit einem separaten Eingang zu mieten. Wir bieten große Flexibilität: Sie können unsere georgischen Spezialitäten wählen oder Ihre eigenen Speisen mitbringen und das Ambiente in einer warmen Atmosphäre genießen.",
       "text2": "Für Ihre privaten Veranstaltungen stellen wir einen eigenen Bereich in unserem Restaurant zur Verfügung. Ob mit unserem vollen georgischen Service oder mit Ihren eigenen Vorbereitungen – wir garantieren ein einzigartiges und einladendes Erlebnis.",
       "button": ""
     },
@@ -30,8 +30,8 @@
         "text": "Die georgische Küche ist eine lebendige und farbenfrohe Reise, basierend auf Rezepten, die über Generationen weitergegeben wurden. Jedes Gericht vereint frische Zutaten, Gewürze und Traditionen, um ein einzigartiges Erlebnis zu schaffen, bei dem Essen mehr ist als nur eine Mahlzeit – es ist ein kultureller Ausdruck."
       },
       "2": {
-        "title": "Entdecken Sie Georgien bei Toison D'or",
-        "text": "Bei Toison D'or laden wir Sie ein, das georgische Erbe mit unseren authentischen Gerichten und einer freundlichen Atmosphäre zu genießen. Jeder Bissen ist ein Schritt in die Seele Georgiens, wo sich Tradition und Moderne vereinen, um die Aromen und Geschichten dieses magischen Landes zu feiern."
+        "title": "Entdecken Sie Georgien bei Esprit de Géorgie",
+        "text": "Bei Esprit de Géorgie laden wir Sie ein, das georgische Erbe mit unseren authentischen Gerichten und einer freundlichen Atmosphäre zu genießen. Jeder Bissen ist ein Schritt in die Seele Georgiens, wo sich Tradition und Moderne vereinen, um die Aromen und Geschichten dieses magischen Landes zu feiern."
       }
     },
     "componentFive": {
@@ -81,7 +81,7 @@
       "title1": "Georgien ins Herz von Genf bringen",
       "title2": "Eine Reise voller Geschmack und Erbe",
       "text1": "Die georgische Kultur und Küche sind meine wahren Leidenschaften, und sie zu teilen, ist ein wahr gewordener Traum. Hier in Genf freue ich mich, einen Hauch meiner Heimat zu bringen und jedem Gast ein authentisches Erlebnis voller Wärme, Tradition und einzigartiger Aromen Georgiens zu bieten.",
-      "text2": "Mit jahrelanger Erfahrung als Koch hatte ich die Ehre, die georgische Gastronomie bei vielen Veranstaltungen zu vertreten. Heute lade ich Sie ein, das reiche kulinarische Erbe Georgiens bei Toison D'or zu entdecken, wo jedes Gericht eine Geschichte erzählt und ein unvergessliches Erlebnis bietet.",
+      "text2": "Mit jahrelanger Erfahrung als Koch hatte ich die Ehre, die georgische Gastronomie bei vielen Veranstaltungen zu vertreten. Heute lade ich Sie ein, das reiche kulinarische Erbe Georgiens bei Esprit de Géorgie zu entdecken, wo jedes Gericht eine Geschichte erzählt und ein unvergessliches Erlebnis bietet.",
       "button": ""
     },
     "componentThree": {

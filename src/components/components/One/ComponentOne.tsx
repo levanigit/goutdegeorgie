@@ -24,7 +24,7 @@ export default async function ComponentOne({ image, reverse }: ComponentOne) {
             <h2 className="heading3 ">{t("title2")}</h2>
             <p className="twoLines"></p>
             <h3 className="paragraph">{t("text")}</h3>
-            <h4 className="heading6">Mari</h4>
+            <h4 className="heading6">Lika</h4>
           </div>
         </div>
       </div>
