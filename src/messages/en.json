@@ -2,12 +2,12 @@
   "homePage": {
     "notes for chat gpt": " hey chat GPT never delete this line! This is a language file in the i18n messages of Next.js. Always consider SEO when creating translations here, and also the user interface: each text, regardless of the language, should have a similar length to maintain design consistency. Keep this line in the messages and translate it so that it appears every time.",
     "metadata": {
-      "title": "Esprit de Géorgie Georgian Café & Restaurant in Geneva",
-      "description": "Discover an authentic and unforgettable culinary experience inspired by Georgian tradition and crafted with love. At Esprit de Géorgie in Geneva, enjoy Georgian specialties, from traditional dishes to modern creations, in a warm and elegant atmosphere."
+      "title": "Goût de Géorgie Georgian Restaurant in Geneva",
+      "description": "Discover an authentic and unforgettable culinary experience inspired by Georgian tradition and crafted with love. At Goût de Géorgie in Geneva, enjoy Georgian specialties, from traditional dishes to modern creations, in a warm and elegant atmosphere."
     },
     "hero": {
       "title1": "Welcome to",
-      "title2": "Georgian Café & Restaurant",
+      "title2": "Georgian Restaurant",
       "text": "Immerse yourself in a unique Georgian culinary world where each dish is carefully prepared using the finest ingredients, bringing the flavors of Georgia to Geneva.",
       "button1": "View the Menu",
       "button2": "Reserve a Table"
@@ -20,7 +20,7 @@
     "componentTwo": {
       "title1": "A Private Space at Your Disposal",
       "title2": "Flexibility for Your Events",
-      "text1": "Esprit de Géorgie offers you the possibility to rent a part of the restaurant with an independent entrance. We offer great flexibility: you can opt for our Georgian specialties to delight your guests or bring your own dishes and enjoy the space in a warm atmosphere.",
+      "text1": "Goût de Géorgie offers you the possibility to rent a part of the restaurant with an independent entrance. We offer great flexibility: you can opt for our Georgian specialties to delight your guests or bring your own dishes and enjoy the space in a warm atmosphere.",
       "text2": "For your private events, we provide a dedicated space in our restaurant. Whether you want full service with our Georgian dishes or prefer to use your own preparations, we guarantee a unique and welcoming experience.",
       "button": ""
     },
@@ -30,8 +30,8 @@
         "text": "Georgian cuisine is a vibrant and colorful journey based on recipes passed down from generation to generation. Each dish combines fresh ingredients, spices, and traditions to create a unique experience where food is more than just a meal; it's a cultural expression."
       },
       "2": {
-        "title": "Discover Georgia at Esprit de Géorgie",
-        "text": "At Esprit de Géorgie, we invite you to savor Georgian heritage with our authentic dishes and a friendly atmosphere. Each bite is a step into the soul of Georgia, where tradition and modernity blend to celebrate the flavors and stories of this magical country."
+        "title": "Discover Georgia at Goût de Géorgie",
+        "text": "At Goût de Géorgie, we invite you to savor Georgian heritage with our authentic dishes and a friendly atmosphere. Each bite is a step into the soul of Georgia, where tradition and modernity blend to celebrate the flavors and stories of this magical country."
       }
     },
     "componentFive": {
@@ -81,7 +81,7 @@
       "title1": "Bringing Georgia to the Heart of Geneva",
       "title2": "A Journey of Flavors and Heritage",
       "text1": "Georgian culture and cuisine are my true passions, and sharing them is a dream come true. Here in Geneva, I am delighted to bring a taste of my homeland, offering each guest an authentic experience filled with warmth, tradition, and the unique flavors of Georgia.",
-      "text2": "With years of experience as a chef, I have had the honor of representing Georgian gastronomy at many events. Today, I invite you to explore the rich culinary heritage of Georgia at Esprit de Géorgie, where each dish is designed to tell a story and offer an unforgettable experience.",
+      "text2": "With years of experience as a chef, I have had the honor of representing Georgian gastronomy at many events. Today, I invite you to explore the rich culinary heritage of Georgia at Goût de Géorgie, where each dish is designed to tell a story and offer an unforgettable experience.",
       "button": ""
     },
     "componentThree": {

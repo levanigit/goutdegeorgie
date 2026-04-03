@@ -27,7 +27,7 @@ import instagram4 from "@/public/images/heros/heroStory.jpg";
 import womanChef from "@/public/images/womanChef.webp";
 import chefImage from "@/public/images/componentOne.jpg";
 import chroisant2 from "@/public/images/heros/heroReservation.jpg";
-import logo from "@/public/images/logo.svg";
+import logo from "@/public/images/logo.png";
 import logoDark from "@/public/assets/svg/Puki-dark.svg";
 import dumplings from "@/public/images/ComponentFourImages/esprit-dumplings.jpg";
 import khachapuri2 from "@/public/images/ComponentFourImages/khachapuri2.jpg";
