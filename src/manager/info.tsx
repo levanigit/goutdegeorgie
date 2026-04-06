@@ -20,5 +20,5 @@ export const route1 = "menu"; // name the root of local rout which isb passed to
 export const collectionRoute2 = ""; //collection route from admin panel
 export const route2 = ""; //name the root of local rout which isb passed to the dynamic route
 
-export const googleAnaliticId = "G-WLD539E4DT"; // levanydze https://analytics.google.com/analytics/web/?authuser=1#/a329766923p480909701/admin/streams/table/
+export const googleAnaliticId = "G-TH7WR08WQ4"; // levanydze https://analytics.google.com/analytics/web/?authuser=1#/a329766923p480909701/admin/streams/table/
 export const cookiesId = ""; //hhhCEG9ci-4jDk levanydze https://admin.usercentrics.eu/#/v3/implementation/script-tag?settingsId=91B5hGIps1EnBH
