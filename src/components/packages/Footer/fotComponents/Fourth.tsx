@@ -40,7 +40,7 @@ export default function Fourth({ title, subTitle }: props) {
         ))}
       </div>
 
-      <Link
+      {/* <Link
         href={instagramUrl}
         passHref
         target="_blank"
@@ -48,7 +48,7 @@ export default function Fourth({ title, subTitle }: props) {
         className="caption"
       >
         <p>{subTitle}</p>
-      </Link>
+      </Link> */}
     </section>
   );
 }

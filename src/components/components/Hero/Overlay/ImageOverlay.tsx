@@ -34,16 +34,14 @@ export default async function ImageOverlay() {
           <div className="section no-padding-y">
             <div className="container ">
               <div className={styles.bottom}>
-                <Link
+                {/* <Link
                   className={`paragraph font1 ${styles.number}`}
                   href={`tel:${phoneNumber}`}
                 >
                   <FiPhone className={`${styles.phoneIcon}`} />
                   {phoneNumber}
-                </Link>
-                <div className={styles.icons}>
-                  <SocialMedia />
-                </div>
+                </Link> */}
+                <div className={styles.icons}>{/* <SocialMedia /> */}</div>
               </div>
             </div>
           </div>

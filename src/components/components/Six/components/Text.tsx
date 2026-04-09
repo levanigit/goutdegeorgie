@@ -15,15 +15,15 @@ export default function Text() {
         <p className={`font1 title1 ${styles.addres}`}>{address}</p>
       </Link>
       <p className={`font1 title1 ${styles.email}`}>
-        <Link href={`mailto:${email}`} className={styles.email}>
+        {/* <Link href={`mailto:${email}`} className={styles.email}>
           {email}
-        </Link>
+        </Link> */}
       </p>
 
       <p className={`font1 ${styles.number}`}>
-        <Link className="caption pargrapht-bold" href={`tel:${phoneNumber}`}>
+        {/* <Link className="caption pargrapht-bold" href={`tel:${phoneNumber}`}>
           {phoneNumber}
-        </Link>
+        </Link> */}
       </p>
     </div>
   );

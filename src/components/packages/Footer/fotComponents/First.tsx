@@ -15,17 +15,17 @@ export default function First({ title }: props) {
         <Link target="_blank" href="" className="paragraph ">
           {address}
         </Link>
-        <Link href={`mailto:${email}`} className={styles.email}>
+        {/* <Link href={`mailto:${email}`} className={styles.email}>
           {email}
-        </Link>
-        <Link className="caption pargrapht-bold" href={`tel:${phoneNumber}`}>
+        </Link> */}
+        {/* <Link className="caption pargrapht-bold" href={`tel:${phoneNumber}`}>
           {phoneNumber}
         </Link>
         <Link className="caption pargrapht-bold" href={`tel:${phoneNumber2}`}>
           {phoneNumber2}
-        </Link>
+        </Link> */}
       </address>
-      <SocialMedia />
+      {/* <SocialMedia /> */}
     </section>
   );
 }

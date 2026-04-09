@@ -114,7 +114,7 @@ const Contact: React.FC<ContactFormProps> = ({
             name="user_name"
             placeholder={t.name}
             value={nameValue}
-            onChange={(e) => setNameValue(e.target.value)}
+            // onChange={(e) => setNameValue(e.target.value)}
           />
 
           {phone && (
@@ -124,7 +124,7 @@ const Contact: React.FC<ContactFormProps> = ({
               name="user_phone"
               placeholder={t.phone}
               value={phoneValue}
-              onChange={(e) => setPhoneValue(e.target.value)}
+              // onChange={(e) => setPhoneValue(e.target.value)}
             />
           )}
 
@@ -135,7 +135,7 @@ const Contact: React.FC<ContactFormProps> = ({
               name="user_date"
               placeholder={t.date}
               value={dateValue}
-              onChange={(e) => setDateValue(e.target.value)}
+              // onChange={(e) => setDateValue(e.target.value)}
             />
           )}
 
@@ -146,7 +146,7 @@ const Contact: React.FC<ContactFormProps> = ({
               name="user_time"
               placeholder={t.time}
               value={timeValue}
-              onChange={(e) => setTimeValue(e.target.value)}
+              // onChange={(e) => setTimeValue(e.target.value)}
             />
           )}
 
@@ -157,7 +157,7 @@ const Contact: React.FC<ContactFormProps> = ({
               name="user_quantity"
               placeholder={t.quantity}
               value={quantityValue}
-              onChange={(e) => setQuantityValue(e.target.value)}
+              // onChange={(e) => setQuantityValue(e.target.value)}
             />
           )}
 
@@ -167,7 +167,7 @@ const Contact: React.FC<ContactFormProps> = ({
             name="user_email"
             placeholder={t.email}
             value={emailValue}
-            onChange={(e) => setEmailValue(e.target.value)}
+            // onChange={(e) => setEmailValue(e.target.value)}
           />
         </div>
 
@@ -179,7 +179,7 @@ const Contact: React.FC<ContactFormProps> = ({
             name="message"
             placeholder={t.message}
             value={messageValue}
-            onChange={(e) => setMessageValue(e.target.value)}
+            // onChange={(e) => setMessageValue(e.target.value)}
           />
         )}
 
@@ -192,11 +192,11 @@ const Contact: React.FC<ContactFormProps> = ({
           className={`button ${styles.buttonSend} ${
             !buttonDisable ? "button" : "buttonDisabled"
           }`}
-          onClick={
-            !nameValue || !messageValue || !emailValue.includes("@")
-              ? handleErrors
-              : () => setButtonDisable(true)
-          }
+          // onClick={
+          //   !nameValue || !messageValue || !emailValue.includes("@")
+          //     ? handleErrors
+          //     : () => setButtonDisable(true)
+          // }
         >
           {t.button}
         </button>
