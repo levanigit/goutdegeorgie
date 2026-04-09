@@ -1,4 +1,4 @@
-export const companyDomain = "http://goutdegeorgie.ch/";
+export const companyDomain = "http://Goutdegeorgie.ch/";
 export const companyName = "Goût de Géorgie";
 export const phoneNumber: string = "+41 77 216 77 XX";
 export const phoneNumber2: string = "+41 77 219 77 XX";
