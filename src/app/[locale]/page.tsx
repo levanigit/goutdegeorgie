@@ -45,7 +45,7 @@ export default async function Home() {
         button={t("homePage.componentTwo.button")}
       />
 
-      <ComponentFive />
+      {/* <ComponentFive /> */}
 
       <Testimonials
         title1={t("testimonials.title1")}
